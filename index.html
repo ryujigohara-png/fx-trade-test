@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>FX Trade Test</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#007bff">
+    <!-- Plotly.js CDN -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            overflow: hidden;
+        }
+        header {
+            background: #212529;
+            color: white;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 16px;
+            margin: 0;
+        }
+        .controls {
+            background: #ffffff;
+            padding: 8px 15px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .controls select, .controls button {
+            padding: 6px 10px;
+            font-size: 13px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            background: #fff;
+        }
+        .controls button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .controls button:active {
+            background: #0056b3;
+        }
+        .zoom-group {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        .zoom-group button {
+            padding: 6px 12px;
+            font-weight: bold;
+        }
+        #chart {
+            width: 100vw;
+            height: calc(100vh - 98px);
+            touch-action: pan-x pan-y;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 15px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FX Trade Test (PWA)</h1>
+        <span id="status" style="font-size: 12px; color: #adb5bd;">準備完了</span>
+    </header>
+
+    <div class="controls">
+        <div>
+            <span style="font-weight: bold; margin-right: 8px; font-size: 14px; color: #007bff;">AUD/JPY</span>
+            <label style="font-weight: bold; margin-right: 4px;">年月:</label>
+            <select id="yearSelect" onchange="loadMonthlyData()"></select>
+            <select id="monthSelect" onchange="loadMonthlyData()"></select>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <div class="zoom-group">
+                <button onclick="zoomChart(0.7)" title="拡大（表示本数を減らす）">＋ 拡大</button>
+                <button onclick="zoomChart(1.4)" title="縮小（表示本数を増やす）">－ 縮小</button>
+            </div>
+            <button onclick="resetView()">直近へジャンプ</button>
+        </div>
+    </div>
+
+    <div id="loading">データをロード中...</div>
+    <div id="chart"></div>
+
+    <script>
+        // --- CONFIG 領域 ---
+        const APP_CONFIG = {
+            fontSizeScale: 1.0 // 全体的な文字サイズを調整する係数
+        };
+
+        let fullData = null;
+        const DEFAULT_BARS = 200;
+        let currentBarCount = DEFAULT_BARS;
+
+        function initSelectors() {
+            const yearSelect = document.getElementById('yearSelect');
+            const monthSelect = document.getElementById('monthSelect');
+            if (!yearSelect || !monthSelect) return;
+
+            yearSelect.innerHTML = '';
+            monthSelect.innerHTML = '';
+            
+            const currentYear = new Date().getFullYear();
+            for (let y = 2001; y <= currentYear; y++) {
+                let opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y + '年';
+                if (y === 2025) opt.selected = true;
+                yearSelect.appendChild(opt);
+            }
+            
+            for (let m = 1; m <= 12; m++) {
+                let opt = document.createElement('option');
+                let mStr = String(m).padStart(2, '0');
+                opt.value = mStr;
+                opt.textContent = m + '月';
+                if (m === 2) opt.selected = true;
+                monthSelect.appendChild(opt);
+            }
+        }
+
+        async function loadMonthlyData() {
+            const year = document.getElementById('yearSelect').value;
+            const month = document.getElementById('monthSelect').value;
+            if (!year || !month) return;
+            
+            const jsonPath = `json/${year}_${month}.json`;
+            document.getElementById('loading').style.display = 'block';
+
+            try {
+                let response = await fetch(jsonPath);
+                if (!response.ok) throw new Error("データなし");
+                fullData = await response.json();
+                currentBarCount = DEFAULT_BARS;
+                renderChart(`${year}年${month}月`);
+            } catch (error) {
+                console.warn(`データが見つかりません: ${jsonPath}`);
+                document.getElementById('chart').innerHTML = `<div style="text-align:center; padding:50px; color:#6c757d;">${year}年${month}月のデータがありません</div>`;
+                fullData = null;
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function renderChart(titleStr) {
+            if (!fullData) return;
+
+            const times = fullData.times;
+            const timeToIdx = {};
+            times.forEach((t, i) => timeToIdx[t] = i);
+
+            let win_x = [], win_y = [];
+            let lose_x = [], lose_y = [];
+            let buy_x = [], buy_y = [];
+            let sell_x = [], sell_y = [];
+            let entry_circle_x = [], entry_circle_y = [];
+            let exit_x = [], exit_y = [];
+
+            if (fullData.trades && fullData.trades.length > 0) {
+                fullData.trades.forEach(row => {
+                    let isWin = row.result === 'TP' || row.result.startsWith('TP');
+                    let eStr = row.entry_time;
+                    let exStr = row.exit_time;
+
+                    let eIdx = timeToIdx[eStr] !== undefined ? timeToIdx[eStr] : findClosestTimeIdx(times, eStr);
+                    let exIdx = timeToIdx[exStr] !== undefined ? timeToIdx[exStr] : findClosestTimeIdx(times, exStr);
+
+                    if (eIdx !== undefined && exIdx !== undefined) {
+                        let eTime = times[eIdx];
+                        let exTime = times[exIdx];
+
+                        if (isWin) {
+                            win_x.push(eTime, exTime, null);
+                            win_y.push(row.entry_price, row.exit_price, null);
+                        } else {
+                            lose_x.push(eTime, exTime, null);
+                            lose_y.push(row.entry_price, row.exit_price, null);
+                        }
+
+                        let lowVal = fullData.lows[eIdx];
+                        let highVal = fullData.highs[eIdx];
+                        let priceRange = (highVal - lowVal) > 0 ? (highVal - lowVal) : 0.05;
+
+                        if (row.type === 'BUY') {
+                            buy_x.push(eTime);
+                            buy_y.push(lowVal - (priceRange * 2.2) - 0.03);
+                        } else {
+                            sell_x.push(eTime);
+                            sell_y.push(highVal + (priceRange * 2.2) + 0.03);
+                        }
+
+                        entry_circle_x.push(eTime);
+                        entry_circle_y.push(row.entry_price);
+
+                        exit_x.push(exTime);
+                        exit_y.push(row.exit_price);
+                    }
+                });
+            }
+
+            function findClosestTimeIdx(arr, targetStr) {
+                let targetTime = new Date(targetStr).getTime();
+                let closestIdx = 0;
+                let minDiff = Infinity;
+                for (let i = 0; i < arr.length; i++) {
+                    let diff = Math.abs(new Date(arr[i]).getTime() - targetTime);
+                    if (diff < minDiff) {
+                        minDiff = diff;
+                        closestIdx = i;
+                    }
+                }
+                return closestIdx;
+            }
+
+            const traceCandle = {
+                x: times, open: fullData.opens, high: fullData.highs, low: fullData.lows, close: fullData.closes,
+                type: 'candlestick', name: 'Candles',
+                increasing: {line: {color: '#ff5722'}, fillcolor: '#ff5722'},
+                decreasing: {line: {color: '#00bcd4'}, fillcolor: '#00bcd4'},
+                showlegend: false
+            };
+            const traceSMA9 = { x: times, y: fullData.sma9, mode: 'lines', name: 'SMA 9', line: {color: '#00897b', width: 1.2} };
+            const traceSMA36 = { x: times, y: fullData.sma36, mode: 'lines', name: 'SMA 36', line: {color: '#2962ff', width: 1.5} };
+            const traceSMA144 = { x: times, y: fullData.sma144, mode: 'lines', name: 'SMA 144', line: {color: '#ff9800', width: 2.0} };
+            const traceBB1 = { x: times, y: fullData.bb1, mode: 'lines', name: '36BB +1σ', line: {color: '#e91e63', width: 1, dash: 'dash'} };
+            const traceBB2 = { x: times, y: fullData.bb2, mode: 'lines', name: '36BB +2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
+
+            const traces = [traceCandle, traceSMA9, traceSMA36, traceSMA144, traceBB1, traceBB2];
+
+            if (win_x.length > 0) traces.push({ x: win_x, y: win_y, mode: 'lines', name: 'Win Line', line: {color: '#0052cc', width: 2.5}, opacity: 0.85 });
+            if (lose_x.length > 0) traces.push({ x: lose_x, y: lose_y, mode: 'lines', name: 'Lose Line', line: {color: '#d93838', width: 2.5}, opacity: 0.85 });
+            
+            if (buy_x.length > 0) traces.push({ x: buy_x, y: buy_y, mode: 'markers', name: 'BUY', marker: {symbol: 'triangle-up', size: 16, color: '#e53935'} });
+            if (sell_x.length > 0) traces.push({ x: sell_x, y: sell_y, mode: 'markers', name: 'SELL', marker: {symbol: 'triangle-down', size: 16, color: '#1e88e5'} });
+            if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#000000', line: {width: 2}} });
+            if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#333333'} });
+
+            let total = times.length;
+            let endIdx = total - 1;
+            let startIdx = Math.max(0, total - currentBarCount);
+
+            const layout = {
+                title: false,
+                dragmode: 'pan',
+                xaxis: { 
+                    type: 'category', 
+                    range: [startIdx, endIdx], 
+                    nticks: 8, 
+                    tickangle: -30, 
+                    rangeslider: { visible: false },
+                    fixedrange: false,
+                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale) }
+                },
+                yaxis: { 
+                    title: 'Price (JPY)',
+                    fixedrange: false,
+                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale) },
+                    titlefont: { size: Math.round(12 * APP_CONFIG.fontSizeScale) }
+                },
+                margin: { l: 45, r: 20, t: 25, b: 55 },
+                legend: { 
+                    orientation: 'h', 
+                    x: 0, 
+                    y: 1.12, 
+                    font: { size: Math.round(11 * APP_CONFIG.fontSizeScale) }
+                },
+                template: 'plotly_white'
+            };
+
+            const config = {
+                responsive: true,
+                displayModeBar: false,
+                scrollZoom: true
+            };
+
+            Plotly.newPlot('chart', traces, layout, config).then(gd => {
+                autoScaleY(gd);
+                gd.on('plotly_relayout', function(eventData) {
+                    if (eventData['xaxis.range[0]'] || eventData['xaxis.range'] || eventData['xaxis.autorange']) {
+                        let xrange = gd._fullLayout.xaxis.range;
+                        if (xrange) {
+                            currentBarCount = Math.max(10, Math.round(xrange[1] - xrange[0]));
+                        }
+                        autoScaleY(gd);
+                    }
+                });
+            });
+        }
+
+        function zoomChart(factor) {
+            var gd = document.getElementById('chart');
+            if (!gd || !gd._fullLayout || !gd._fullLayout.xaxis) return;
+            let xrange = gd._fullLayout.xaxis.range;
+            if (!xrange) return;
+
+            let center = (xrange[0] + xrange[1]) / 2;
+            let span = (xrange[1] - xrange[0]) * factor;
+            let total = fullData ? fullData.times.length : 1000;
+
+            let newSpan = Math.max(10, Math.min(total, span));
+            let newStart = Math.max(0, center - newSpan / 2);
+            let newEnd = Math.min(total - 1, center + newSpan / 2);
+
+            currentBarCount = Math.round(newEnd - newStart);
+
+            Plotly.relayout(gd, {
+                'xaxis.range': [newStart, newEnd]
+            }).then(() => autoScaleY(gd));
+        }
+
+        function autoScaleY(gd) {
+            if (!fullData || !gd._fullLayout || !gd._fullLayout.xaxis) return;
+            let xrange = gd._fullLayout.xaxis.range;
+            if (!xrange) return;
+
+            let xMinIdx = Math.max(0, Math.floor(xrange[0]));
+            let xMaxIdx = Math.min(fullData.times.length - 1, Math.ceil(xrange[1]));
+
+            let yMin = Infinity, yMax = -Infinity;
+            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2'];
+            
+            // 1. 現在の表示範囲内にあるインジケータ価格をスキャン
+            keys.forEach(k => {
+                let arr = fullData[k];
+                if (!arr) return;
+                for (let i = xMinIdx; i <= xMaxIdx && i < arr.length; i++) {
+                    let val = arr[i];
+                    if (val !== null && !isNaN(val)) {
+                        if (val < yMin) yMin = val;
+                        if (val > yMax) yMax = val;
+                    }
+                }
+            });
+
+            // 2. 現在の表示範囲内（xMinIdx 〜 xMaxIdx）に重なっているトレードの価格要素のみをY軸計算に含める
+            if (fullData.trades && fullData.trades.length > 0) {
+                const timeToIdx = {};
+                fullData.times.forEach((t, i) => timeToIdx[t] = i);
+
+                fullData.trades.forEach(row => {
+                    let eIdx = timeToIdx[row.entry_time] !== undefined ? timeToIdx[row.entry_time] : findClosestTimeIdx(fullData.times, row.entry_time);
+                    let exIdx = timeToIdx[row.exit_time] !== undefined ? timeToIdx[row.exit_time] : findClosestTimeIdx(fullData.times, row.exit_time);
+
+                    let tMin = Math.min(eIdx, exIdx);
+                    let tMax = Math.max(eIdx, exIdx);
+
+                    // 表示範囲 [xMinIdx, xMaxIdx] とトレード範囲 [tMin, tMax] が交差している場合のみ対象にする
+                    if (!(tMax < xMinIdx || tMin > xMaxIdx)) {
+                        let prices = [row.entry_price, row.exit_price];
+                        
+                        // マーカー位置の計算値も考慮
+                        let lowVal = fullData.lows[eIdx];
+                        let highVal = fullData.highs[eIdx];
+                        let priceRange = (highVal - lowVal) > 0 ? (highVal - lowVal) : 0.05;
+
+                        if (row.type === 'BUY') {
+                            prices.push(lowVal - (priceRange * 2.2) - 0.03);
+                        } else {
+                            prices.push(highVal + (priceRange * 2.2) + 0.03);
+                        }
+
+                        prices.forEach(val => {
+                            if (val !== null && !isNaN(val)) {
+                                if (val < yMin) yMin = val;
+                                if (val > yMax) yMax = val;
+                            }
+                        });
+                    }
+                });
+            }
+
+            function findClosestTimeIdx(arr, targetStr) {
+                let targetTime = new Date(targetStr).getTime();
+                let closestIdx = 0;
+                let minDiff = Infinity;
+                for (let i = 0; i < arr.length; i++) {
+                    let diff = Math.abs(new Date(arr[i]).getTime() - targetTime);
+                    if (diff < minDiff) {
+                        minDiff = diff;
+                        closestIdx = i;
+                    }
+                }
+                return closestIdx;
+            }
+
+            if (yMin !== Infinity && yMax !== -Infinity) {
+                let margin = (yMax - yMin) * 0.03;
+                if (margin === 0) margin = 0.5;
+                Plotly.relayout(gd, {
+                    'yaxis.range': [yMin - margin, yMax + margin]
+                });
+            }
+        }
+
+        function resetView() {
+            if (!fullData) return;
+            currentBarCount = DEFAULT_BARS;
+            let total = fullData.times.length;
+            let endIdx = total - 1;
+            let startIdx = Math.max(0, total - DEFAULT_BARS);
+
+            var gd = document.getElementById('chart');
+            if (gd) {
+                Plotly.relayout(gd, {
+                    'xaxis.range': [startIdx, endIdx]
+                }).then(() => autoScaleY(gd));
+            }
+        }
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW failed: ', err));
+        }
+
+        window.onload = () => {
+            initSelectors();
+            loadMonthlyData();
+        };
+    </script>
+</body>
+</html>
