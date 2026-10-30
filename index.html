@@ -101,8 +101,8 @@
         <div style="display: flex; gap: 8px; align-items: center;">
             <div class="nav-group">
                 <button onclick="jumpToOldest()" title="最古へジャンプ">◀◀</button>
-                <button onclick="zoomChart(0.7)" title="拡大">＋</button>
-                <button onclick="zoomChart(1.4)" title="縮小">ー</button>
+                <button onclick="zoomChart(0.7)" title="拡大">大</button>
+                <button onclick="zoomChart(1.4)" title="縮小">小</button>
                 <button onclick="resetView()" title="直近へジャンプ">▶▶</button>
             </div>
         </div>
@@ -248,11 +248,14 @@
                 decreasing: {line: {color: '#00bcd4'}, fillcolor: '#00bcd4'},
                 showlegend: false
             };
-            const traceSMA9 = { x: times, y: fullData.sma9, mode: 'lines', name: 'SMA 9', line: {color: '#00897b', width: 1.2} };
-            const traceSMA36 = { x: times, y: fullData.sma36, mode: 'lines', name: 'SMA 36', line: {color: '#2962ff', width: 1.5} };
-            const traceSMA144 = { x: times, y: fullData.sma144, mode: 'lines', name: 'SMA 144', line: {color: '#ff9800', width: 2.0} };
-            const traceBB1 = { x: times, y: fullData.bb1, mode: 'lines', name: '36BB +1σ', line: {color: '#e91e63', width: 1, dash: 'dash'} };
-            const traceBB2 = { x: times, y: fullData.bb2, mode: 'lines', name: '36BB +2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
+            
+            // SMAおよびインジケータの色（HEXコード指定によりVS Code上でカラープレビュー・カラーピッカーが表示されます）
+            const traceSMA9  = { x: times, y: fullData.sma9,  mode: 'lines', name: 'SMA 9',  line: {color: '#8b4513', width: 1.5} }; // 茶色
+            const traceSMA36 = { x: times, y: fullData.sma36, mode: 'lines', name: 'SMA 36', line: {color: '#adff2f', width: 1.5} }; // 黄緑（黄味が強い色）
+            const traceSMA144= { x: times, y: fullData.sma144,mode: 'lines', name: 'SMA 144',line: {color: '#00bfff', width: 1.5} }; // 水色
+            
+            const traceBB1   = { x: times, y: fullData.bb1,   mode: 'lines', name: '36BB +1σ', line: {color: '#e91e63', width: 1, dash: 'dash'} };
+            const traceBB2   = { x: times, y: fullData.bb2,   mode: 'lines', name: '36BB +2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
 
             const traces = [traceCandle, traceSMA9, traceSMA36, traceSMA144, traceBB1, traceBB2];
 
@@ -348,7 +351,6 @@
             let yMin = Infinity, yMax = -Infinity;
             let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2'];
             
-            // 1. 現在の表示範囲内にあるインジケータ価格をスキャン
             keys.forEach(k => {
                 let arr = fullData[k];
                 if (!arr) return;
@@ -361,7 +363,6 @@
                 }
             });
 
-            // 2. 現在の表示範囲内にあるトレードの価格要素のみをY軸計算に含める
             if (fullData.trades && fullData.trades.length > 0) {
                 const timeToIdx = {};
                 fullData.times.forEach((t, i) => timeToIdx[t] = i);
