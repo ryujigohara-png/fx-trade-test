@@ -55,13 +55,13 @@
         .controls button:active {
             background: #0056b3;
         }
-        .zoom-group {
+        .nav-group {
             display: flex;
-            gap: 5px;
+            gap: 4px;
             align-items: center;
         }
-        .zoom-group button {
-            padding: 6px 12px;
+        .nav-group button {
+            padding: 6px 10px;
             font-weight: bold;
         }
         #chart {
@@ -98,12 +98,13 @@
             <select id="yearSelect" onchange="loadMonthlyData()"></select>
             <select id="monthSelect" onchange="loadMonthlyData()"></select>
         </div>
-        <div style="display: flex; gap: 10px; align-items: center;">
-            <div class="zoom-group">
-                <button onclick="zoomChart(0.7)" title="拡大（表示本数を減らす）">＋ 拡大</button>
-                <button onclick="zoomChart(1.4)" title="縮小（表示本数を増やす）">－ 縮小</button>
+        <div style="display: flex; gap: 8px; align-items: center;">
+            <div class="nav-group">
+                <button onclick="jumpToOldest()" title="最古へジャンプ">◀◀</button>
+                <button onclick="zoomChart(0.7)" title="拡大">＋</button>
+                <button onclick="zoomChart(1.4)" title="縮小">ー</button>
+                <button onclick="resetView()" title="直近へジャンプ">▶▶</button>
             </div>
-            <button onclick="resetView()">直近へジャンプ</button>
         </div>
     </div>
 
@@ -113,7 +114,7 @@
     <script>
         // --- CONFIG 領域 ---
         const APP_CONFIG = {
-            fontSizeScale: 1.0 // 全体的な文字サイズを調整する係数
+            fontSizeScale: 1.0
         };
 
         let fullData = null;
@@ -360,7 +361,7 @@
                 }
             });
 
-            // 2. 現在の表示範囲内（xMinIdx 〜 xMaxIdx）に重なっているトレードの価格要素のみをY軸計算に含める
+            // 2. 現在の表示範囲内にあるトレードの価格要素のみをY軸計算に含める
             if (fullData.trades && fullData.trades.length > 0) {
                 const timeToIdx = {};
                 fullData.times.forEach((t, i) => timeToIdx[t] = i);
@@ -372,11 +373,9 @@
                     let tMin = Math.min(eIdx, exIdx);
                     let tMax = Math.max(eIdx, exIdx);
 
-                    // 表示範囲 [xMinIdx, xMaxIdx] とトレード範囲 [tMin, tMax] が交差している場合のみ対象にする
                     if (!(tMax < xMinIdx || tMin > xMaxIdx)) {
                         let prices = [row.entry_price, row.exit_price];
                         
-                        // マーカー位置の計算値も考慮
                         let lowVal = fullData.lows[eIdx];
                         let highVal = fullData.highs[eIdx];
                         let priceRange = (highVal - lowVal) > 0 ? (highVal - lowVal) : 0.05;
@@ -426,6 +425,20 @@
             let total = fullData.times.length;
             let endIdx = total - 1;
             let startIdx = Math.max(0, total - DEFAULT_BARS);
+
+            var gd = document.getElementById('chart');
+            if (gd) {
+                Plotly.relayout(gd, {
+                    'xaxis.range': [startIdx, endIdx]
+                }).then(() => autoScaleY(gd));
+            }
+        }
+
+        function jumpToOldest() {
+            if (!fullData) return;
+            let span = currentBarCount;
+            let startIdx = 0;
+            let endIdx = Math.min(fullData.times.length - 1, startIdx + span);
 
             var gd = document.getElementById('chart');
             if (gd) {
