@@ -76,7 +76,7 @@
             z-index: 1000;
             border: 1px solid #444;
         }
-        /* カスタムツールチップのスタイル（背景に透かし効果を追加） */
+        /* カスタムツールチップのスタイル（背景透かし・縦1列高密度） */
         #custom-tooltip {
             position: absolute;
             display: none;
@@ -102,6 +102,15 @@
             padding-bottom: 2px;
             color: #4dabf7;
             font-size: 10.5px;
+        }
+        .tip-price-row {
+            background: rgba(0, 123, 255, 0.25);
+            padding: 2px 4px;
+            border-radius: 3px;
+            margin-bottom: 3px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
         }
         .tip-sec {
             color: #aaa;
@@ -253,9 +262,26 @@
             return typeof val === 'number' ? val.toFixed(3) : val;
         }
 
-        function showTooltip(idx, event) {
+        function showTooltip(idx, clientX, clientY) {
             const tip = document.getElementById('custom-tooltip');
             if (!fullData || idx < 0 || idx >= fullData.times.length) return;
+            
+            const gd = document.getElementById('chart');
+            let cursorPriceStr = '-';
+            
+            if (gd && gd._fullLayout && gd._fullLayout.yaxis) {
+                let yaxis = gd._fullLayout.yaxis;
+                let rect = gd.getBoundingClientRect();
+                let topMargin = gd._fullLayout.margin.t;
+                let bottomMargin = gd._fullLayout.margin.b;
+                let plotHeight = gd.clientHeight - topMargin - bottomMargin;
+                let relY = clientY - (rect.top + topMargin);
+                let yRange = yaxis.range; // [min, max]
+                
+                // Y座標から価格を算出
+                let calculatedPrice = yRange[0] + (yRange[1] - yRange[0]) * (1 - (relY / plotHeight));
+                cursorPriceStr = fmt(calculatedPrice);
+            }
             
             let t = fullData.times[idx];
             let o = fmt(fullData.opens[idx]);
@@ -280,6 +306,7 @@
 
             tip.innerHTML = `
                 <div class="tip-title">${t}</div>
+                <div class="tip-price-row"><span>十字価格</span><span class="tip-val">${cursorPriceStr}</span></div>
                 <div class="tip-row"><span>始値</span><span class="tip-val">${o}</span></div>
                 <div class="tip-row"><span>高値</span><span class="tip-val">${h}</span></div>
                 <div class="tip-row"><span>安値</span><span class="tip-val">${l}</span></div>
@@ -305,15 +332,15 @@
             `;
             tip.style.display = 'block';
             
-            if (event && event.clientX) {
-                let x = event.clientX + 10;
-                let y = event.clientY + 10;
+            if (clientX && clientY) {
+                let x = clientX + 10;
+                let y = clientY + 10;
                 
-                let tipWidth = tip.offsetWidth || 150;
-                let tipHeight = tip.offsetHeight || 300;
+                let tipWidth = tip.offsetWidth || 155;
+                let tipHeight = tip.offsetHeight || 320;
                 
                 if (x + tipWidth > window.innerWidth - 5) {
-                    x = event.clientX - tipWidth - 10;
+                    x = clientX - tipWidth - 10;
                 }
                 if (y + tipHeight > window.innerHeight - 5) {
                     y = window.innerHeight - tipHeight - 5;
@@ -469,7 +496,7 @@
                     linecolor: '#444444',
                     showspikes: true,
                     spikemode: 'across',
-                    spikesnap: 'cursor',
+                    spikesnap: 'data',
                     spikecolor: '#aaaaaa',
                     spikethickness: 1,
                     spikedash: 'dot',
@@ -514,19 +541,33 @@
                 gd.on('plotly_hover', function(data) {
                     for(let point of data.points) {
                         if(point.curveNumber === 0) {
-                            showTooltip(point.pointIndex, data.event);
+                            showTooltip(point.pointIndex, data.event.clientX, data.event.clientY);
                             break;
                         }
                     }
                 });
 
                 gd.on('plotly_click', function(data) {
-                    for(let point of data.points) {
-                        if(point.curveNumber === 0) {
-                            showTooltip(point.pointIndex, data.event);
-                            break;
-                        }
-                    }
+                    let clientX = data.event.clientX;
+                    let clientY = data.event.clientY;
+                    
+                    let xaxis = gd._fullLayout.xaxis;
+                    let dbx = gd._boundingbox;
+                    if (!dbx) dbx = gd.getBoundingClientRect();
+                    
+                    let offsetX = clientX - (dbx.left + gd._fullLayout.margin.l);
+                    let plotWidth = gd._fullLayout.width || gd.clientWidth - gd._fullLayout.margin.l - gd._fullLayout.margin.r;
+                    
+                    let xrange = xaxis.range;
+                    let span = xrange[1] - xrange[0];
+                    
+                    let clickedRatio = Math.max(0, Math.min(1, offsetX / plotWidth));
+                    let exactIdx = xrange[0] + (span * clickedRatio);
+                    let nearestIdx = Math.round(exactIdx);
+                    
+                    nearestIdx = Math.max(0, Math.min(times.length - 1, nearestIdx));
+
+                    showTooltip(nearestIdx, clientX, clientY);
                 });
 
                 gd.on('plotly_unhover', function() {
