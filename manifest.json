@@ -1,10 +1,10 @@
 {
   "name": "FX Trade Test",
-  "short_name": "FX Test",
-  "start_url": "index.html",
+  "short_name": "FX Trade",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#007bff",
+  "background_color": "#121212",
+  "theme_color": "#212529",
   "icons": [
     {
       "src": "icon.png",

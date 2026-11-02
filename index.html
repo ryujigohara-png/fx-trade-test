@@ -17,7 +17,6 @@
             color: #e0e0e0;
             overflow: hidden;
         }
-        /* ヘルパー部分（タイトル行を含む）を非表示化 */
         header {
             display: none;
         }
@@ -59,7 +58,6 @@
         }
         #chart {
             width: 100vw;
-            /* ヘルパー非表示に伴い、チャートの高さを調整 */
             height: calc(100vh - 51px);
             touch-action: pan-x pan-y;
             background-color: #000000;
@@ -77,6 +75,49 @@
             display: none;
             z-index: 1000;
             border: 1px solid #444;
+        }
+        /* カスタムツールチップのスタイル（背景に透かし効果を追加） */
+        #custom-tooltip {
+            position: absolute;
+            display: none;
+            pointer-events: none;
+            background: rgba(15, 15, 15, 0.40);
+            border: 1px solid #555;
+            color: #ffffff;
+            padding: 6px 10px;
+            font-size: 10px;
+            z-index: 10000;
+            border-radius: 4px;
+            line-height: 1.35;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+            width: 120px;
+            box-sizing: border-box;
+            white-space: nowrap;
+            backdrop-filter: blur(2px);
+        }
+        .tip-title {
+            font-weight: bold;
+            border-bottom: 1px solid #555;
+            margin-bottom: 3px;
+            padding-bottom: 2px;
+            color: #4dabf7;
+            font-size: 10.5px;
+        }
+        .tip-sec {
+            color: #aaa;
+            font-weight: bold;
+            margin-top: 3px;
+            font-size: 9.5px;
+            border-top: 1px dashed #444;
+            padding-top: 2px;
+        }
+        .tip-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .tip-val {
+            color: #fff;
+            font-family: monospace;
         }
     </style>
 </head>
@@ -103,6 +144,9 @@
             </div>
         </div>
     </div>
+
+    <!-- カスタムツールチップ表示用コンテナ -->
+    <div id="custom-tooltip"></div>
 
     <div id="loading">データをロード中...</div>
     <div id="chart"></div>
@@ -204,6 +248,89 @@
             }
         }
 
+        function fmt(val) {
+            if (val === undefined || val === null || isNaN(val)) return '-';
+            return typeof val === 'number' ? val.toFixed(3) : val;
+        }
+
+        function showTooltip(idx, event) {
+            const tip = document.getElementById('custom-tooltip');
+            if (!fullData || idx < 0 || idx >= fullData.times.length) return;
+            
+            let t = fullData.times[idx];
+            let o = fmt(fullData.opens[idx]);
+            let h = fmt(fullData.highs[idx]);
+            let l = fmt(fullData.lows[idx]);
+            let c = fmt(fullData.closes[idx]);
+            
+            let s9 = fmt(fullData.sma9 ? fullData.sma9[idx] : null);
+            let s36 = fmt(fullData.sma36 ? fullData.sma36[idx] : null);
+            let s144 = fmt(fullData.sma144 ? fullData.sma144[idx] : null);
+            
+            let bb1 = fmt(fullData.bb1 ? fullData.bb1[idx] : null);
+            let bb2 = fmt(fullData.bb2 ? fullData.bb2[idx] : null);
+            let bbl1 = fmt(fullData.bb_l1 ? fullData.bb_l1[idx] : null);
+            let bbl2 = fmt(fullData.bb_l2 ? fullData.bb_l2[idx] : null);
+            
+            let b144m = fmt(fullData.bb144_mid ? fullData.bb144_mid[idx] : null);
+            let b144u1 = fmt(fullData.bb144_u1 ? fullData.bb144_u1[idx] : null);
+            let b144l1 = fmt(fullData.bb144_l1 ? fullData.bb144_l1[idx] : null);
+            let b144u2 = fmt(fullData.bb144_u2 ? fullData.bb144_u2[idx] : null);
+            let b144l2 = fmt(fullData.bb144_l2 ? fullData.bb144_l2[idx] : null);
+
+            tip.innerHTML = `
+                <div class="tip-title">${t}</div>
+                <div class="tip-row"><span>始値</span><span class="tip-val">${o}</span></div>
+                <div class="tip-row"><span>高値</span><span class="tip-val">${h}</span></div>
+                <div class="tip-row"><span>安値</span><span class="tip-val">${l}</span></div>
+                <div class="tip-row"><span>終値</span><span class="tip-val">${c}</span></div>
+                
+                <div class="tip-sec">SMA</div>
+                <div class="tip-row"><span>SMA 9</span><span class="tip-val">${s9}</span></div>
+                <div class="tip-row"><span>SMA 36</span><span class="tip-val">${s36}</span></div>
+                <div class="tip-row"><span>SMA 144</span><span class="tip-val">${s144}</span></div>
+                
+                <div class="tip-sec">36BB</div>
+                <div class="tip-row"><span>+2σ</span><span class="tip-val">${bb2}</span></div>
+                <div class="tip-row"><span>+1σ</span><span class="tip-val">${bb1}</span></div>
+                <div class="tip-row"><span>-1σ</span><span class="tip-val">${bbl1}</span></div>
+                <div class="tip-row"><span>-2σ</span><span class="tip-val">${bbl2}</span></div>
+                
+                <div class="tip-sec">144BB</div>
+                <div class="tip-row"><span>Mid</span><span class="tip-val">${b144m}</span></div>
+                <div class="tip-row"><span>+2σ</span><span class="tip-val">${b144u2}</span></div>
+                <div class="tip-row"><span>+1σ</span><span class="tip-val">${b144u1}</span></div>
+                <div class="tip-row"><span>-1σ</span><span class="tip-val">${b144l1}</span></div>
+                <div class="tip-row"><span>-2σ</span><span class="tip-val">${b144l2}</span></div>
+            `;
+            tip.style.display = 'block';
+            
+            if (event && event.clientX) {
+                let x = event.clientX + 10;
+                let y = event.clientY + 10;
+                
+                let tipWidth = tip.offsetWidth || 150;
+                let tipHeight = tip.offsetHeight || 300;
+                
+                if (x + tipWidth > window.innerWidth - 5) {
+                    x = event.clientX - tipWidth - 10;
+                }
+                if (y + tipHeight > window.innerHeight - 5) {
+                    y = window.innerHeight - tipHeight - 5;
+                }
+                if (x < 5) x = 5;
+                if (y < 55) y = 55;
+
+                tip.style.left = x + 'px';
+                tip.style.top = y + 'px';
+            }
+        }
+
+        function hideTooltip() {
+            const tip = document.getElementById('custom-tooltip');
+            if (tip) tip.style.display = 'none';
+        }
+
         function renderChart(titleStr) {
             if (!fullData) return;
 
@@ -275,33 +402,36 @@
             }
 
             const traceCandle = {
-                x: times, open: fullData.opens, high: fullData.highs, low: fullData.lows, close: fullData.closes,
-                type: 'candlestick', name: 'Candles',
+                x: times, 
+                open: fullData.opens, 
+                high: fullData.highs, 
+                low: fullData.lows, 
+                close: fullData.closes,
+                type: 'candlestick', 
+                name: 'Candles',
                 increasing: {line: {color: '#ff5722'}, fillcolor: '#ff5722'},
                 decreasing: {line: {color: '#00bcd4'}, fillcolor: '#00bcd4'},
-                showlegend: false
+                showlegend: false,
+                hoverinfo: 'none'
             };
             
-            // --- インジケーター定義（±1σ・±2σともに点線[dot]に統一） ---
-            const traceSMA9     = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5} };
-            const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5} };
-            const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5} };
+            const traceSMA9     = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5}, hoverinfo: 'skip' };
             
-            // 36BB (±1σ, ±2σともに点線 'dot' に変更)
-            const traceBB1      = { x: times, y: fullData.bb1,      mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'} };
-            const traceBBL1     = { x: times, y: fullData.bb_l1,    mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, showlegend: false };
+            const traceBB1      = { x: times, y: fullData.bb1,      mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
+            const traceBBL1     = { x: times, y: fullData.bb_l1,    mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
             
-            const traceBB2      = { x: times, y: fullData.bb2,      mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
-            const traceBBL2     = { x: times, y: fullData.bb_l2,    mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, showlegend: false };
+            const traceBB2      = { x: times, y: fullData.bb2,      mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
+            const traceBBL2     = { x: times, y: fullData.bb_l2,    mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
 
-            // 144BB (±1σ, ±2σともに点線 'dot' に変更)
-            const traceBB144MID = { x: times, y: fullData.bb144_mid, mode: 'lines', name: '144BB Mid', line: {color: '#e67e22', width: 1} };
+            const traceBB144MID = { x: times, y: fullData.bb144_mid, mode: 'lines', name: '144BB Mid', line: {color: '#e67e22', width: 1}, hoverinfo: 'skip' };
             
-            const traceBB144U1  = { x: times, y: fullData.bb144_u1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'} };
-            const traceBB144L1  = { x: times, y: fullData.bb144_l1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, showlegend: false };
+            const traceBB144U1  = { x: times, y: fullData.bb144_u1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
+            const traceBB144L1  = { x: times, y: fullData.bb144_l1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
             
-            const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'} };
-            const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, showlegend: false };
+            const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
+            const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
 
             const traces = [
                 traceCandle, 
@@ -310,13 +440,13 @@
                 traceBB144MID, traceBB144U1, traceBB144L1, traceBB144U2, traceBB144L2
             ];
 
-            if (win_x.length > 0) traces.push({ x: win_x, y: win_y, mode: 'lines', name: 'Win Line', line: {color: '#0052cc', width: 2.5}, opacity: 0.85 });
-            if (lose_x.length > 0) traces.push({ x: lose_x, y: lose_y, mode: 'lines', name: 'Lose Line', line: {color: '#d93838', width: 2.5}, opacity: 0.85 });
+            if (win_x.length > 0) traces.push({ x: win_x, y: win_y, mode: 'lines', name: 'Win Line', line: {color: '#0052cc', width: 2.5}, opacity: 0.85, hoverinfo: 'skip' });
+            if (lose_x.length > 0) traces.push({ x: lose_x, y: lose_y, mode: 'lines', name: 'Lose Line', line: {color: '#d93838', width: 2.5}, opacity: 0.85, hoverinfo: 'skip' });
             
-            if (buy_x.length > 0) traces.push({ x: buy_x, y: buy_y, mode: 'markers', name: 'BUY', marker: {symbol: 'triangle-up', size: 16, color: '#e53935'} });
-            if (sell_x.length > 0) traces.push({ x: sell_x, y: sell_y, mode: 'markers', name: 'SELL', marker: {symbol: 'triangle-down', size: 16, color: '#1e88e5'} });
-            if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#ffffff', line: {width: 2}} });
-            if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#cccccc'} });
+            if (buy_x.length > 0) traces.push({ x: buy_x, y: buy_y, mode: 'markers', name: 'BUY', marker: {symbol: 'triangle-up', size: 16, color: '#e53935'}, hoverinfo: 'skip' });
+            if (sell_x.length > 0) traces.push({ x: sell_x, y: sell_y, mode: 'markers', name: 'SELL', marker: {symbol: 'triangle-down', size: 16, color: '#1e88e5'}, hoverinfo: 'skip' });
+            if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#ffffff', line: {width: 2}}, hoverinfo: 'skip' });
+            if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#cccccc'}, hoverinfo: 'skip' });
 
             let total = times.length;
             let endIdx = total - 1;
@@ -325,6 +455,7 @@
             const layout = {
                 title: false,
                 dragmode: 'pan',
+                hovermode: 'x',
                 plot_bgcolor: '#000000',
                 paper_bgcolor: '#121212',
                 xaxis: { 
@@ -336,6 +467,12 @@
                     fixedrange: false,
                     gridcolor: '#222222',
                     linecolor: '#444444',
+                    showspikes: true,
+                    spikemode: 'across',
+                    spikesnap: 'cursor',
+                    spikecolor: '#aaaaaa',
+                    spikethickness: 1,
+                    spikedash: 'dot',
                     tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' }
                 },
                 yaxis: { 
@@ -343,6 +480,12 @@
                     fixedrange: false,
                     gridcolor: '#222222',
                     linecolor: '#444444',
+                    showspikes: true,
+                    spikemode: 'across',
+                    spikesnap: 'cursor',
+                    spikecolor: '#aaaaaa',
+                    spikethickness: 1,
+                    spikedash: 'dot',
                     tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' },
                     titlefont: { size: Math.round(12 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' }
                 },
@@ -367,6 +510,35 @@
 
             Plotly.newPlot('chart', traces, layout, config).then(gd => {
                 autoScaleY(gd);
+
+                gd.on('plotly_hover', function(data) {
+                    for(let point of data.points) {
+                        if(point.curveNumber === 0) {
+                            showTooltip(point.pointIndex, data.event);
+                            break;
+                        }
+                    }
+                });
+
+                gd.on('plotly_click', function(data) {
+                    for(let point of data.points) {
+                        if(point.curveNumber === 0) {
+                            showTooltip(point.pointIndex, data.event);
+                            break;
+                        }
+                    }
+                });
+
+                gd.on('plotly_unhover', function() {
+                    hideTooltip();
+                });
+
+                gd.addEventListener('click', function(e) {
+                    if (e.target.tagName === 'rect' && e.target.getAttribute('class') === 'nsewdrag') {
+                        hideTooltip();
+                    }
+                });
+
                 gd.on('plotly_relayout', function(eventData) {
                     if (eventData['xaxis.range[0]'] || eventData['xaxis.range'] || eventData['xaxis.autorange']) {
                         let xrange = gd._fullLayout.xaxis.range;
