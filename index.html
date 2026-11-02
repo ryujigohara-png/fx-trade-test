@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>FX Trade Test</title>
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#007bff">
+    <meta name="theme-color" content="#212529">
     <!-- Plotly.js CDN -->
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <style>
@@ -13,26 +13,18 @@
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f6f9;
-            color: #333;
+            background-color: #121212;
+            color: #e0e0e0;
             overflow: hidden;
         }
+        /* ヘルパー部分（タイトル行を含む）を非表示化 */
         header {
-            background: #212529;
-            color: white;
-            padding: 10px 15px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header h1 {
-            font-size: 16px;
-            margin: 0;
+            display: none;
         }
         .controls {
-            background: #ffffff;
+            background: #1e1e1e;
             padding: 8px 15px;
-            border-bottom: 1px solid #dee2e6;
+            border-bottom: 1px solid #333;
             display: flex;
             gap: 15px;
             align-items: center;
@@ -42,9 +34,10 @@
         .controls select, .controls button {
             padding: 6px 10px;
             font-size: 13px;
-            border: 1px solid #ced4da;
+            border: 1px solid #444;
             border-radius: 4px;
-            background: #fff;
+            background: #2d2d2d;
+            color: #e0e0e0;
         }
         .controls button {
             background: #007bff;
@@ -66,21 +59,24 @@
         }
         #chart {
             width: 100vw;
-            height: calc(100vh - 98px);
+            /* ヘルパー非表示に伴い、チャートの高さを調整 */
+            height: calc(100vh - 51px);
             touch-action: pan-x pan-y;
+            background-color: #000000;
         }
         #loading {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: rgba(0,0,0,0.7);
+            background: rgba(0,0,0,0.85);
             color: white;
             padding: 15px 25px;
             border-radius: 8px;
             font-size: 15px;
             display: none;
             z-index: 1000;
+            border: 1px solid #444;
         }
     </style>
 </head>
@@ -88,12 +84,11 @@
 
     <header>
         <h1>FX Trade Test (PWA)</h1>
-        <span id="status" style="font-size: 12px; color: #adb5bd;">準備完了</span>
     </header>
 
     <div class="controls">
         <div>
-            <span style="font-weight: bold; margin-right: 8px; font-size: 14px; color: #007bff;">AUD/JPY</span>
+            <span style="font-weight: bold; margin-right: 8px; font-size: 14px; color: #4dabf7;">AUD/JPY</span>
             <label style="font-weight: bold; margin-right: 4px;">年月:</label>
             <select id="yearSelect" onchange="loadMonthlyData()"></select>
             <select id="monthSelect" onchange="loadMonthlyData()"></select>
@@ -104,6 +99,7 @@
                 <button onclick="zoomChart(0.7)" title="拡大">大</button>
                 <button onclick="zoomChart(1.4)" title="縮小">小</button>
                 <button onclick="resetView()" title="直近へジャンプ">▶▶</button>
+                <button onclick="toggleLegend()" title="凡例表示切替" id="legendBtn" style="background: #444;">凡例</button>
             </div>
         </div>
     </div>
@@ -120,6 +116,19 @@
         let fullData = null;
         const DEFAULT_BARS = 200;
         let currentBarCount = DEFAULT_BARS;
+        let showLegendState = false;
+
+        function getInitialBarCount() {
+            const isMobile = window.innerWidth < 768;
+            if (isMobile) {
+                let bars = DEFAULT_BARS;
+                for (let i = 0; i < 5; i++) {
+                    bars = Math.max(10, Math.round(bars * 0.7));
+                }
+                return bars;
+            }
+            return DEFAULT_BARS;
+        }
 
         function initSelectors() {
             const yearSelect = document.getElementById('yearSelect');
@@ -130,11 +139,16 @@
             monthSelect.innerHTML = '';
             
             const currentYear = new Date().getFullYear();
+            const savedYear = localStorage.getItem('fx_last_year');
+            const savedMonth = localStorage.getItem('fx_last_month');
+
             for (let y = 2001; y <= currentYear; y++) {
                 let opt = document.createElement('option');
                 opt.value = y;
                 opt.textContent = y + '年';
-                if (y === 2025) opt.selected = true;
+                if (savedYear ? (String(y) === savedYear) : (y === 2025)) {
+                    opt.selected = true;
+                }
                 yearSelect.appendChild(opt);
             }
             
@@ -143,7 +157,9 @@
                 let mStr = String(m).padStart(2, '0');
                 opt.value = mStr;
                 opt.textContent = m + '月';
-                if (m === 2) opt.selected = true;
+                if (savedMonth ? (mStr === savedMonth) : (m === 2)) {
+                    opt.selected = true;
+                }
                 monthSelect.appendChild(opt);
             }
         }
@@ -153,6 +169,9 @@
             const month = document.getElementById('monthSelect').value;
             if (!year || !month) return;
             
+            localStorage.setItem('fx_last_year', year);
+            localStorage.setItem('fx_last_month', month);
+
             const jsonPath = `json/${year}_${month}.json`;
             document.getElementById('loading').style.display = 'block';
 
@@ -160,14 +179,28 @@
                 let response = await fetch(jsonPath);
                 if (!response.ok) throw new Error("データなし");
                 fullData = await response.json();
-                currentBarCount = DEFAULT_BARS;
+                currentBarCount = getInitialBarCount();
                 renderChart(`${year}年${month}月`);
             } catch (error) {
                 console.warn(`データが見つかりません: ${jsonPath}`);
-                document.getElementById('chart').innerHTML = `<div style="text-align:center; padding:50px; color:#6c757d;">${year}年${month}月のデータがありません</div>`;
+                document.getElementById('chart').innerHTML = `<div style="text-align:center; padding:50px; color:#adb5bd;">${year}年${month}月のデータがありません</div>`;
                 fullData = null;
             } finally {
                 document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function toggleLegend() {
+            showLegendState = !showLegendState;
+            const btn = document.getElementById('legendBtn');
+            if (showLegendState) {
+                btn.style.background = '#007bff';
+            } else {
+                btn.style.background = '#444';
+            }
+            var gd = document.getElementById('chart');
+            if (gd && gd._fullLayout) {
+                Plotly.relayout(gd, { 'legend.visible': showLegendState });
             }
         }
 
@@ -249,23 +282,41 @@
                 showlegend: false
             };
             
-            // SMAおよびインジケータの色（HEXコード指定によりVS Code上でカラープレビュー・カラーピッカーが表示されます）
-            const traceSMA9  = { x: times, y: fullData.sma9,  mode: 'lines', name: 'SMA 9',  line: {color: '#8b4513', width: 1.5} }; // 茶色
-            const traceSMA36 = { x: times, y: fullData.sma36, mode: 'lines', name: 'SMA 36', line: {color: '#adff2f', width: 1.5} }; // 黄緑（黄味が強い色）
-            const traceSMA144= { x: times, y: fullData.sma144,mode: 'lines', name: 'SMA 144',line: {color: '#00bfff', width: 1.5} }; // 水色
+            // --- インジケーター定義（±1σ・±2σともに点線[dot]に統一） ---
+            const traceSMA9     = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5} };
+            const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5} };
+            const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5} };
             
-            const traceBB1   = { x: times, y: fullData.bb1,   mode: 'lines', name: '36BB +1σ', line: {color: '#e91e63', width: 1, dash: 'dash'} };
-            const traceBB2   = { x: times, y: fullData.bb2,   mode: 'lines', name: '36BB +2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
+            // 36BB (±1σ, ±2σともに点線 'dot' に変更)
+            const traceBB1      = { x: times, y: fullData.bb1,      mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'} };
+            const traceBBL1     = { x: times, y: fullData.bb_l1,    mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, showlegend: false };
+            
+            const traceBB2      = { x: times, y: fullData.bb2,      mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'} };
+            const traceBBL2     = { x: times, y: fullData.bb_l2,    mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, showlegend: false };
 
-            const traces = [traceCandle, traceSMA9, traceSMA36, traceSMA144, traceBB1, traceBB2];
+            // 144BB (±1σ, ±2σともに点線 'dot' に変更)
+            const traceBB144MID = { x: times, y: fullData.bb144_mid, mode: 'lines', name: '144BB Mid', line: {color: '#e67e22', width: 1} };
+            
+            const traceBB144U1  = { x: times, y: fullData.bb144_u1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'} };
+            const traceBB144L1  = { x: times, y: fullData.bb144_l1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, showlegend: false };
+            
+            const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'} };
+            const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, showlegend: false };
+
+            const traces = [
+                traceCandle, 
+                traceSMA9, traceSMA36, traceSMA144, 
+                traceBB1, traceBBL1, traceBB2, traceBBL2,
+                traceBB144MID, traceBB144U1, traceBB144L1, traceBB144U2, traceBB144L2
+            ];
 
             if (win_x.length > 0) traces.push({ x: win_x, y: win_y, mode: 'lines', name: 'Win Line', line: {color: '#0052cc', width: 2.5}, opacity: 0.85 });
             if (lose_x.length > 0) traces.push({ x: lose_x, y: lose_y, mode: 'lines', name: 'Lose Line', line: {color: '#d93838', width: 2.5}, opacity: 0.85 });
             
             if (buy_x.length > 0) traces.push({ x: buy_x, y: buy_y, mode: 'markers', name: 'BUY', marker: {symbol: 'triangle-up', size: 16, color: '#e53935'} });
             if (sell_x.length > 0) traces.push({ x: sell_x, y: sell_y, mode: 'markers', name: 'SELL', marker: {symbol: 'triangle-down', size: 16, color: '#1e88e5'} });
-            if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#000000', line: {width: 2}} });
-            if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#333333'} });
+            if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#ffffff', line: {width: 2}} });
+            if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#cccccc'} });
 
             let total = times.length;
             let endIdx = total - 1;
@@ -274,6 +325,8 @@
             const layout = {
                 title: false,
                 dragmode: 'pan',
+                plot_bgcolor: '#000000',
+                paper_bgcolor: '#121212',
                 xaxis: { 
                     type: 'category', 
                     range: [startIdx, endIdx], 
@@ -281,22 +334,29 @@
                     tickangle: -30, 
                     rangeslider: { visible: false },
                     fixedrange: false,
-                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale) }
+                    gridcolor: '#222222',
+                    linecolor: '#444444',
+                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' }
                 },
                 yaxis: { 
                     title: 'Price (JPY)',
                     fixedrange: false,
-                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale) },
-                    titlefont: { size: Math.round(12 * APP_CONFIG.fontSizeScale) }
+                    gridcolor: '#222222',
+                    linecolor: '#444444',
+                    tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' },
+                    titlefont: { size: Math.round(12 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' }
                 },
                 margin: { l: 45, r: 20, t: 25, b: 55 },
                 legend: { 
                     orientation: 'h', 
                     x: 0, 
                     y: 1.12, 
-                    font: { size: Math.round(11 * APP_CONFIG.fontSizeScale) }
-                },
-                template: 'plotly_white'
+                    visible: showLegendState,
+                    bgcolor: 'rgba(30,30,30,0.8)',
+                    bordercolor: '#444',
+                    borderwidth: 1,
+                    font: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#e0e0e0' }
+                }
             };
 
             const config = {
@@ -349,7 +409,7 @@
             let xMaxIdx = Math.min(fullData.times.length - 1, Math.ceil(xrange[1]));
 
             let yMin = Infinity, yMax = -Infinity;
-            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2'];
+            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2', 'bb_l1', 'bb_l2', 'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2'];
             
             keys.forEach(k => {
                 let arr = fullData[k];
