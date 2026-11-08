@@ -442,7 +442,7 @@
                 hoverinfo: 'none'
             };
             
-            const traceSMA9     = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA9    = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
             const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5}, hoverinfo: 'skip' };
             const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5}, hoverinfo: 'skip' };
             
@@ -547,27 +547,22 @@
                     }
                 });
 
+                // 方法A：Plotly標準の data.points から正確な pointIndex を直接取得してツールチップを表示
                 gd.on('plotly_click', function(data) {
                     let clientX = data.event.clientX;
                     let clientY = data.event.clientY;
                     
-                    let xaxis = gd._fullLayout.xaxis;
-                    let dbx = gd._boundingbox;
-                    if (!dbx) dbx = gd.getBoundingClientRect();
-                    
-                    let offsetX = clientX - (dbx.left + gd._fullLayout.margin.l);
-                    let plotWidth = gd._fullLayout.width || gd.clientWidth - gd._fullLayout.margin.l - gd._fullLayout.margin.r;
-                    
-                    let xrange = xaxis.range;
-                    let span = xrange[1] - xrange[0];
-                    
-                    let clickedRatio = Math.max(0, Math.min(1, offsetX / plotWidth));
-                    let exactIdx = xrange[0] + (span * clickedRatio);
-                    let nearestIdx = Math.round(exactIdx);
-                    
-                    nearestIdx = Math.max(0, Math.min(times.length - 1, nearestIdx));
+                    let targetIdx = null;
+                    for (let point of data.points) {
+                        if (point.pointIndex !== undefined) {
+                            targetIdx = point.pointIndex;
+                            break;
+                        }
+                    }
 
-                    showTooltip(nearestIdx, clientX, clientY);
+                    if (targetIdx !== null) {
+                        showTooltip(targetIdx, clientX, clientY);
+                    }
                 });
 
                 gd.on('plotly_unhover', function() {
