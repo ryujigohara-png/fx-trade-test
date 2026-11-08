@@ -35529,110 +35529,426 @@
     90.174,
     90.179
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2006-10-04 23:15",
-      "exit_time": "2006-10-05 05:51",
-      "type": "BUY",
-      "entry_price": 87.89,
-      "exit_price": 87.66,
-      "result": "SL"
+      "time": "2006-10-02 11:00",
+      "price": 88.14,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-05 23:30",
-      "exit_time": "2006-10-06 01:06",
-      "type": "SELL",
-      "entry_price": 87.77,
-      "exit_price": 87.89,
-      "result": "SL"
+      "time": "2006-10-04 06:30",
+      "price": 87.88,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-09 19:45",
-      "exit_time": "2006-10-09 22:59",
-      "type": "BUY",
-      "entry_price": 88.65,
-      "exit_price": 88.53,
-      "result": "SL"
+      "time": "2006-10-06 12:30",
+      "price": 88.0,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-09 23:15",
-      "exit_time": "2006-10-10 08:51",
-      "type": "BUY",
-      "entry_price": 88.66,
-      "exit_price": 88.96,
-      "result": "TP"
+      "time": "2006-10-10 06:30",
+      "price": 88.64,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2006-10-10 23:15",
-      "exit_time": "2006-10-11 05:12",
-      "type": "BUY",
-      "entry_price": 89.01,
-      "exit_price": 88.92,
-      "result": "SL"
+      "time": "2006-10-10 06:45",
+      "price": 88.63,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-12 17:45",
-      "exit_time": "2006-10-17 14:04",
-      "type": "BUY",
-      "entry_price": 89.69,
-      "exit_price": 89.36,
-      "result": "SL"
+      "time": "2006-10-10 07:30",
+      "price": 88.68,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-17 20:45",
-      "exit_time": "2006-10-18 12:42",
-      "type": "SELL",
-      "entry_price": 89.47,
-      "exit_price": 89.69,
-      "result": "SL"
+      "time": "2006-10-11 09:00",
+      "price": 88.78,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-18 19:45",
-      "exit_time": "2006-10-23 02:40",
-      "type": "BUY",
-      "entry_price": 89.71,
-      "exit_price": 90.27,
-      "result": "TP"
+      "time": "2006-10-11 23:30",
+      "price": 88.79,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-23 18:00",
-      "exit_time": "2006-10-23 18:48",
-      "type": "BUY",
-      "entry_price": 90.36,
-      "exit_price": 90.24,
-      "result": "SL"
+      "time": "2006-10-11 23:45",
+      "price": 88.84,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-23 20:30",
-      "exit_time": "2006-10-24 01:42",
-      "type": "BUY",
-      "entry_price": 90.27,
-      "exit_price": 90.37,
-      "result": "TP"
+      "time": "2006-10-12 00:00",
+      "price": 88.84,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-25 22:15",
-      "exit_time": "2006-10-26 13:00",
-      "type": "BUY",
-      "entry_price": 90.62,
-      "exit_price": 90.43,
-      "result": "SL"
+      "time": "2006-10-12 00:15",
+      "price": 88.84,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-26 20:45",
-      "exit_time": "2006-10-27 00:00",
-      "type": "SELL",
-      "entry_price": 90.46,
-      "exit_price": 90.58,
-      "result": "SL"
+      "time": "2006-10-12 00:30",
+      "price": 88.84,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-10-27 19:00",
-      "exit_time": "2006-11-03 14:34",
-      "type": "SELL",
-      "entry_price": 90.34,
-      "exit_price": 90.84,
-      "result": "SL"
+      "time": "2006-10-12 00:45",
+      "price": 88.86,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-12 01:00",
+      "price": 88.86,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-12 01:15",
+      "price": 88.81,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-12 06:15",
+      "price": 89.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-10-17 07:45",
+      "price": 89.75,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 08:00",
+      "price": 89.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 08:15",
+      "price": 89.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 19:15",
+      "price": 89.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 19:30",
+      "price": 89.64,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-10-17 19:45",
+      "price": 89.61,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 20:00",
+      "price": 89.61,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 20:15",
+      "price": 89.59,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 20:30",
+      "price": 89.6,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 20:45",
+      "price": 89.47,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-17 22:15",
+      "price": 89.16,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-18 12:00",
+      "price": 89.49,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-19 12:15",
+      "price": 89.83,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-10-19 12:30",
+      "price": 89.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-25 01:00",
+      "price": 90.42,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-25 06:00",
+      "price": 90.81,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-27 08:15",
+      "price": 90.36,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-27 11:00",
+      "price": 90.62,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-10-27 11:15",
+      "price": 90.62,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-10-27 11:30",
+      "price": 90.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-10-27 11:45",
+      "price": 90.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-10-27 12:00",
+      "price": 90.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-27 12:15",
+      "price": 90.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-10-27 12:30",
+      "price": 90.64,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-10-27 12:45",
+      "price": 90.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-10-31 14:30",
+      "price": 90.66,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     }
   ]
 }

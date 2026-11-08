@@ -37025,102 +37025,1166 @@
     74.193,
     74.188
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2019-10-01 18:00",
-      "exit_time": "2019-10-10 01:40",
-      "type": "SELL",
-      "entry_price": 72.12,
-      "exit_price": 72.66,
-      "result": "SL"
+      "time": "2019-10-01 02:30",
+      "price": 72.82,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-10 20:30",
-      "exit_time": "2019-10-11 11:49",
-      "type": "BUY",
-      "entry_price": 72.96,
-      "exit_price": 73.74,
-      "result": "TP"
+      "time": "2019-10-01 02:45",
+      "price": 72.85,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-11 18:30",
-      "exit_time": "2019-10-13 23:30",
-      "type": "BUY",
-      "entry_price": 73.72,
-      "exit_price": 73.49,
-      "result": "SL"
+      "time": "2019-10-01 03:00",
+      "price": 72.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-14 18:15",
-      "exit_time": "2019-10-14 22:32",
-      "type": "SELL",
-      "entry_price": 73.4,
-      "exit_price": 73.45,
-      "result": "SL"
+      "time": "2019-10-01 03:15",
+      "price": 72.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-15 19:30",
-      "exit_time": "2019-10-16 01:26",
-      "type": "BUY",
-      "entry_price": 73.51,
-      "exit_price": 73.06,
-      "result": "SL"
+      "time": "2019-10-01 03:30",
+      "price": 72.92,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-16 23:15",
-      "exit_time": "2019-10-16 23:31",
-      "type": "BUY",
-      "entry_price": 73.45,
-      "exit_price": 73.67,
-      "result": "TP"
+      "time": "2019-10-01 03:45",
+      "price": 72.93,
+      "up": true,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-10-17 17:30",
-      "exit_time": "2019-10-18 01:17",
-      "type": "BUY",
-      "entry_price": 74.07,
-      "exit_price": 74.27,
-      "result": "TP"
+      "time": "2019-10-01 04:00",
+      "price": 72.98,
+      "up": true,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-10-20 23:15",
-      "exit_time": "2019-10-21 08:15",
-      "type": "BUY",
-      "entry_price": 74.28,
-      "exit_price": 74.64,
-      "result": "TP"
+      "time": "2019-10-01 04:15",
+      "price": 73.05,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-10-21 18:15",
-      "exit_time": "2019-10-22 01:23",
-      "type": "BUY",
-      "entry_price": 74.54,
-      "exit_price": 74.76,
-      "result": "TP"
+      "time": "2019-10-01 04:30",
+      "price": 72.89,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-10-22 18:15",
-      "exit_time": "2019-10-23 01:55",
-      "type": "SELL",
-      "entry_price": 74.42,
-      "exit_price": 74.12,
-      "result": "TP"
+      "time": "2019-10-01 04:45",
+      "price": 72.85,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2019-10-24 20:00",
-      "exit_time": "2019-10-28 13:46",
-      "type": "SELL",
-      "entry_price": 74.04,
-      "exit_price": 74.32,
-      "result": "SL"
+      "time": "2019-10-01 12:00",
+      "price": 72.49,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2019-10-28 20:30",
-      "exit_time": "2019-10-31 02:03",
-      "type": "BUY",
-      "entry_price": 74.52,
-      "exit_price": 75.24,
-      "result": "TP"
+      "time": "2019-10-01 12:15",
+      "price": 72.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 12:30",
+      "price": 72.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 12:45",
+      "price": 72.46,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 13:00",
+      "price": 72.43,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 13:15",
+      "price": 72.35,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 13:30",
+      "price": 72.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-01 13:45",
+      "price": 72.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-02 05:15",
+      "price": 72.4,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 05:30",
+      "price": 72.38,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 05:45",
+      "price": 72.34,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-02 06:45",
+      "price": 72.23,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 07:00",
+      "price": 72.16,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 07:15",
+      "price": 72.09,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 07:30",
+      "price": 72.14,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 07:45",
+      "price": 72.15,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-02 08:00",
+      "price": 72.08,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-03 14:00",
+      "price": 71.75,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-04 12:00",
+      "price": 72.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-04 12:15",
+      "price": 72.12,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-08 08:45",
+      "price": 72.37,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-08 09:00",
+      "price": 72.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-08 09:15",
+      "price": 72.27,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-08 09:30",
+      "price": 72.26,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-08 09:45",
+      "price": 72.25,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 07:00",
+      "price": 72.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 20:00",
+      "price": 72.25,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 20:15",
+      "price": 72.24,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 20:30",
+      "price": 72.26,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 20:45",
+      "price": 72.24,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 21:00",
+      "price": 72.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 21:15",
+      "price": 72.24,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 21:30",
+      "price": 72.22,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 21:45",
+      "price": 72.22,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 23:15",
+      "price": 71.98,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-09 23:30",
+      "price": 72.0,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-09 23:45",
+      "price": 72.04,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 00:00",
+      "price": 72.15,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 00:15",
+      "price": 71.98,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 00:30",
+      "price": 72.0,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 00:45",
+      "price": 72.04,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 01:00",
+      "price": 72.03,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 01:15",
+      "price": 72.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 12:15",
+      "price": 72.64,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 13:00",
+      "price": 72.6,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 13:15",
+      "price": 72.67,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-10 13:30",
+      "price": 72.69,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-11 08:00",
+      "price": 73.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-11 08:15",
+      "price": 73.26,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-11 09:15",
+      "price": 73.33,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-11 09:30",
+      "price": 73.41,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-11 09:45",
+      "price": 73.41,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-13 22:45",
+      "price": 73.68,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 12:45",
+      "price": 73.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 13:00",
+      "price": 73.21,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 13:15",
+      "price": 73.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 13:30",
+      "price": 73.13,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 13:45",
+      "price": 73.11,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 14:00",
+      "price": 73.13,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 14:15",
+      "price": 73.27,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-15 14:30",
+      "price": 73.35,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-15 21:45",
+      "price": 73.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-15 23:00",
+      "price": 73.44,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 23:15",
+      "price": 73.41,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-15 23:30",
+      "price": 73.17,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 00:00",
+      "price": 73.44,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 00:15",
+      "price": 73.41,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 13:00",
+      "price": 73.07,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 13:15",
+      "price": 73.1,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 13:45",
+      "price": 73.1,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 21:30",
+      "price": 73.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 21:45",
+      "price": 73.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 22:00",
+      "price": 73.41,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 22:15",
+      "price": 73.44,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 22:30",
+      "price": 73.43,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 22:45",
+      "price": 73.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 23:00",
+      "price": 73.41,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 23:15",
+      "price": 73.45,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-16 23:30",
+      "price": 73.69,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2019-10-16 23:45",
+      "price": 73.74,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 00:00",
+      "price": 73.41,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 00:15",
+      "price": 73.45,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 06:30",
+      "price": 73.68,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 06:45",
+      "price": 73.69,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 07:15",
+      "price": 73.74,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 07:30",
+      "price": 73.83,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 07:45",
+      "price": 73.88,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 08:00",
+      "price": 73.89,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-17 08:15",
+      "price": 73.91,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 08:30",
+      "price": 74.0,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 08:45",
+      "price": 74.02,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-17 09:00",
+      "price": 74.01,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-23 00:45",
+      "price": 74.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-23 01:00",
+      "price": 74.3,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-24 12:45",
+      "price": 74.28,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 07:00",
+      "price": 75.19,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 07:15",
+      "price": 75.16,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 07:30",
+      "price": 75.13,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 07:45",
+      "price": 75.12,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 08:00",
+      "price": 75.07,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 08:15",
+      "price": 75.09,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 08:30",
+      "price": 75.08,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 08:45",
+      "price": 75.11,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-10-31 12:45",
+      "price": 74.75,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2019-10-31 13:00",
+      "price": 74.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-10-31 13:15",
+      "price": 74.82,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     }
   ]
 }

@@ -35393,30 +35393,4906 @@
     83.929,
     83.931
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2016-11-01 22:15",
-      "exit_time": "2016-11-07 19:02",
-      "type": "SELL",
-      "entry_price": 79.62,
-      "exit_price": 80.58,
-      "result": "SL"
+      "time": "2016-11-01 02:30",
+      "price": 79.67,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2016-11-09 23:15",
-      "exit_time": "2016-11-23 16:35",
-      "type": "BUY",
-      "entry_price": 80.91,
-      "exit_price": 83.33,
-      "result": "TP"
+      "time": "2016-11-01 02:45",
+      "price": 79.75,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2016-11-23 19:30",
-      "exit_time": "2016-12-01 00:41",
-      "type": "BUY",
-      "entry_price": 83.13,
-      "exit_price": 84.71,
-      "result": "TP"
+      "time": "2016-11-01 03:00",
+      "price": 79.8,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 03:15",
+      "price": 79.79,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 03:30",
+      "price": 79.82,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 03:45",
+      "price": 79.8,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 04:00",
+      "price": 79.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 04:15",
+      "price": 79.91,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 07:00",
+      "price": 80.19,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 07:15",
+      "price": 80.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 07:30",
+      "price": 80.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 07:45",
+      "price": 80.23,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 13:15",
+      "price": 80.48,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 13:30",
+      "price": 80.5,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 13:45",
+      "price": 80.51,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 14:00",
+      "price": 80.56,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 14:15",
+      "price": 80.52,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 14:30",
+      "price": 80.38,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 14:45",
+      "price": 80.38,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 15:00",
+      "price": 80.21,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 15:15",
+      "price": 80.06,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 15:45",
+      "price": 80.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 16:00",
+      "price": 80.05,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 16:15",
+      "price": 80.03,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 16:30",
+      "price": 80.02,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 16:45",
+      "price": 80.04,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 17:00",
+      "price": 79.91,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-01 17:15",
+      "price": 79.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-01 17:45",
+      "price": 79.73,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-02 00:30",
+      "price": 79.59,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 00:45",
+      "price": 79.54,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 01:00",
+      "price": 79.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 01:15",
+      "price": 79.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 01:30",
+      "price": 79.56,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 01:45",
+      "price": 79.56,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 02:00",
+      "price": 79.51,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-02 02:15",
+      "price": 79.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-02 02:30",
+      "price": 79.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-03 01:45",
+      "price": 79.1,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 02:00",
+      "price": 79.24,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 02:15",
+      "price": 79.2,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 02:30",
+      "price": 79.21,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 02:45",
+      "price": 79.2,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 03:00",
+      "price": 79.19,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 03:15",
+      "price": 79.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-03 03:30",
+      "price": 79.01,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-03 03:45",
+      "price": 78.8,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-03 09:30",
+      "price": 78.75,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 10:00",
+      "price": 78.8,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 10:15",
+      "price": 78.83,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-03 23:45",
+      "price": 79.02,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 13:15",
+      "price": 79.14,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 15:15",
+      "price": 78.87,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 19:00",
+      "price": 79.18,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-04 19:15",
+      "price": 79.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-04 19:30",
+      "price": 79.18,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-04 19:45",
+      "price": 79.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-04 20:00",
+      "price": 79.12,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 20:15",
+      "price": 79.11,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 20:30",
+      "price": 79.08,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-04 20:45",
+      "price": 79.1,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-06 23:00",
+      "price": 79.68,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-06 23:15",
+      "price": 79.61,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-06 23:30",
+      "price": 79.64,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-06 23:45",
+      "price": 79.62,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-07 13:15",
+      "price": 80.06,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-07 13:30",
+      "price": 80.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-07 13:45",
+      "price": 80.09,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-07 14:00",
+      "price": 80.12,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-07 14:15",
+      "price": 80.13,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-07 14:30",
+      "price": 80.2,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 00:30",
+      "price": 80.61,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 00:45",
+      "price": 80.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 01:00",
+      "price": 80.63,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 01:15",
+      "price": 80.6,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 15:15",
+      "price": 80.72,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 15:30",
+      "price": 80.73,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 15:45",
+      "price": 80.6,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 16:00",
+      "price": 80.62,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 16:15",
+      "price": 80.69,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 16:30",
+      "price": 80.74,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 16:45",
+      "price": 80.8,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 17:00",
+      "price": 80.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 17:15",
+      "price": 81.06,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 18:15",
+      "price": 81.3,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 18:30",
+      "price": 81.38,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 18:45",
+      "price": 81.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 19:00",
+      "price": 81.33,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 19:15",
+      "price": 81.35,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 19:30",
+      "price": 81.31,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-08 19:45",
+      "price": 81.39,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 20:00",
+      "price": 81.44,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 22:00",
+      "price": 81.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 22:15",
+      "price": 81.73,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 22:30",
+      "price": 81.63,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 22:45",
+      "price": 81.6,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 23:00",
+      "price": 81.57,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 23:15",
+      "price": 81.55,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 23:30",
+      "price": 81.54,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-08 23:45",
+      "price": 81.39,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 00:00",
+      "price": 81.44,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 00:15",
+      "price": 81.42,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 00:30",
+      "price": 81.38,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 00:45",
+      "price": 81.32,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 01:00",
+      "price": 81.13,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 01:15",
+      "price": 81.36,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 01:30",
+      "price": 80.72,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 01:45",
+      "price": 81.67,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 02:00",
+      "price": 81.44,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 02:15",
+      "price": 81.29,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 02:30",
+      "price": 81.12,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 02:45",
+      "price": 80.81,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 03:00",
+      "price": 79.52,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 03:15",
+      "price": 78.79,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 03:30",
+      "price": 78.49,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 03:45",
+      "price": 79.09,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 04:00",
+      "price": 77.84,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 04:15",
+      "price": 77.32,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 04:30",
+      "price": 77.92,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 04:45",
+      "price": 77.65,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 05:00",
+      "price": 77.64,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 05:15",
+      "price": 77.9,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 05:30",
+      "price": 77.44,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 05:45",
+      "price": 76.89,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 06:00",
+      "price": 76.88,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 06:15",
+      "price": 77.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 06:30",
+      "price": 77.28,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 06:45",
+      "price": 77.46,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 07:00",
+      "price": 78.0,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 07:15",
+      "price": 78.25,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 07:30",
+      "price": 77.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 07:45",
+      "price": 78.12,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 08:00",
+      "price": 78.29,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 08:15",
+      "price": 78.26,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 08:30",
+      "price": 78.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 08:45",
+      "price": 79.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 09:00",
+      "price": 79.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 09:15",
+      "price": 79.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 09:30",
+      "price": 79.14,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 09:45",
+      "price": 79.3,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 10:00",
+      "price": 79.35,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 10:30",
+      "price": 79.31,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 10:45",
+      "price": 79.28,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 11:15",
+      "price": 79.07,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 11:30",
+      "price": 79.07,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 11:45",
+      "price": 79.01,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 12:00",
+      "price": 79.09,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 12:15",
+      "price": 79.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 12:30",
+      "price": 79.15,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 12:45",
+      "price": 79.3,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 13:00",
+      "price": 79.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 13:15",
+      "price": 79.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 13:30",
+      "price": 79.59,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 13:45",
+      "price": 79.83,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 14:00",
+      "price": 79.87,
+      "up": true,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 14:15",
+      "price": 79.61,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 14:30",
+      "price": 79.67,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 14:45",
+      "price": 79.69,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 15:00",
+      "price": 79.78,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 15:15",
+      "price": 79.92,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 15:30",
+      "price": 79.94,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 15:45",
+      "price": 80.17,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 16:00",
+      "price": 80.03,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 16:15",
+      "price": 79.92,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 16:30",
+      "price": 80.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 16:45",
+      "price": 79.95,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 17:00",
+      "price": 79.95,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 17:15",
+      "price": 80.1,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 17:30",
+      "price": 80.25,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 17:45",
+      "price": 80.45,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 18:00",
+      "price": 80.73,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 18:15",
+      "price": 80.56,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 18:30",
+      "price": 80.62,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 18:45",
+      "price": 80.68,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 19:00",
+      "price": 80.66,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 19:15",
+      "price": 80.72,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 19:30",
+      "price": 80.78,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 20:00",
+      "price": 80.98,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 20:15",
+      "price": 81.08,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 20:30",
+      "price": 81.05,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 20:45",
+      "price": 81.06,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 21:00",
+      "price": 80.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 21:15",
+      "price": 80.98,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-09 21:45",
+      "price": 81.06,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 22:00",
+      "price": 80.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 22:15",
+      "price": 80.98,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-09 23:45",
+      "price": 80.72,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 01:00",
+      "price": 80.97,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 01:15",
+      "price": 80.8,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 01:30",
+      "price": 80.95,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 01:45",
+      "price": 80.92,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 02:00",
+      "price": 80.93,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 02:15",
+      "price": 80.88,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 02:30",
+      "price": 80.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 03:30",
+      "price": 80.47,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 03:45",
+      "price": 80.56,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 04:00",
+      "price": 80.66,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 04:15",
+      "price": 80.61,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 04:30",
+      "price": 80.59,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 04:45",
+      "price": 80.65,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 05:00",
+      "price": 80.7,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 06:00",
+      "price": 80.96,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 06:15",
+      "price": 80.99,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 06:45",
+      "price": 80.77,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 07:00",
+      "price": 80.72,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 07:15",
+      "price": 80.87,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 07:30",
+      "price": 80.86,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 07:45",
+      "price": 80.78,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 08:00",
+      "price": 80.84,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 08:15",
+      "price": 80.93,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 08:30",
+      "price": 81.09,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 08:45",
+      "price": 81.19,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 09:00",
+      "price": 81.28,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 09:15",
+      "price": 81.62,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 09:30",
+      "price": 81.68,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 09:45",
+      "price": 81.68,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 10:00",
+      "price": 81.58,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 10:15",
+      "price": 81.61,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 10:30",
+      "price": 81.75,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 10:45",
+      "price": 81.73,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 11:00",
+      "price": 81.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 11:15",
+      "price": 82.24,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 11:30",
+      "price": 82.36,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 11:45",
+      "price": 82.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 12:00",
+      "price": 82.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 12:15",
+      "price": 82.26,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 12:30",
+      "price": 82.05,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 12:45",
+      "price": 82.04,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 13:00",
+      "price": 82.0,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 13:15",
+      "price": 81.84,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 13:30",
+      "price": 81.84,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 13:45",
+      "price": 81.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 14:00",
+      "price": 81.47,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 14:15",
+      "price": 81.51,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 14:30",
+      "price": 81.29,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 14:45",
+      "price": 81.43,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 15:00",
+      "price": 81.47,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 15:15",
+      "price": 81.4,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 15:30",
+      "price": 81.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 15:45",
+      "price": 80.97,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-10 16:00",
+      "price": 81.02,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 16:15",
+      "price": 80.87,
+      "up": true,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 16:30",
+      "price": 80.84,
+      "up": true,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 16:45",
+      "price": 80.57,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 17:00",
+      "price": 80.77,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 17:15",
+      "price": 81.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 17:30",
+      "price": 81.03,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 17:45",
+      "price": 80.82,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 23:15",
+      "price": 81.08,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-10 23:45",
+      "price": 81.26,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 00:00",
+      "price": 81.29,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 00:15",
+      "price": 81.33,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 00:30",
+      "price": 81.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 00:45",
+      "price": 81.3,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 01:00",
+      "price": 81.25,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 01:15",
+      "price": 81.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 01:30",
+      "price": 81.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 01:45",
+      "price": 80.97,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 02:00",
+      "price": 80.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 02:15",
+      "price": 80.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 02:30",
+      "price": 81.02,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 02:45",
+      "price": 80.95,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 03:00",
+      "price": 80.62,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 03:15",
+      "price": 80.39,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 03:30",
+      "price": 80.57,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 03:45",
+      "price": 80.74,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 04:00",
+      "price": 80.75,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 04:15",
+      "price": 80.84,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 04:30",
+      "price": 80.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 04:45",
+      "price": 80.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 05:00",
+      "price": 80.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 07:30",
+      "price": 81.2,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 07:45",
+      "price": 81.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 08:00",
+      "price": 81.09,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 08:15",
+      "price": 81.07,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 08:30",
+      "price": 81.04,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 08:45",
+      "price": 81.01,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 09:00",
+      "price": 81.04,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 09:15",
+      "price": 81.02,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 09:30",
+      "price": 80.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 09:45",
+      "price": 80.78,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 10:15",
+      "price": 80.85,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 10:30",
+      "price": 80.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 10:45",
+      "price": 80.8,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 11:00",
+      "price": 80.68,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 11:30",
+      "price": 80.44,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 11:45",
+      "price": 80.59,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 12:00",
+      "price": 80.61,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 12:15",
+      "price": 80.53,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 12:30",
+      "price": 80.51,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 12:45",
+      "price": 80.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 13:45",
+      "price": 80.91,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 14:00",
+      "price": 80.85,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 14:15",
+      "price": 80.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 14:30",
+      "price": 80.85,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 14:45",
+      "price": 80.75,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 15:00",
+      "price": 80.75,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 15:15",
+      "price": 80.57,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 15:45",
+      "price": 80.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 16:00",
+      "price": 80.54,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 16:30",
+      "price": 80.38,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 16:45",
+      "price": 80.36,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 17:00",
+      "price": 80.34,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-11 17:15",
+      "price": 80.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 17:30",
+      "price": 80.38,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-11 19:30",
+      "price": 80.44,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 00:30",
+      "price": 80.73,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-14 00:45",
+      "price": 80.65,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 01:00",
+      "price": 80.59,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 01:15",
+      "price": 80.56,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 01:30",
+      "price": 80.75,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 01:45",
+      "price": 80.79,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-14 02:00",
+      "price": 80.87,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-14 08:00",
+      "price": 81.07,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-14 13:00",
+      "price": 81.32,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 13:15",
+      "price": 81.31,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 13:45",
+      "price": 81.33,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 14:00",
+      "price": 81.38,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 14:15",
+      "price": 81.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 14:30",
+      "price": 81.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 15:30",
+      "price": 81.51,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 18:00",
+      "price": 81.5,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 18:15",
+      "price": 81.52,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-14 23:45",
+      "price": 81.85,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 00:00",
+      "price": 81.86,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 00:15",
+      "price": 81.83,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 00:30",
+      "price": 81.85,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 00:45",
+      "price": 81.86,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 14:00",
+      "price": 81.8,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 14:15",
+      "price": 81.8,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 14:30",
+      "price": 81.85,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 14:45",
+      "price": 81.85,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 15:00",
+      "price": 81.78,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 15:15",
+      "price": 81.82,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 15:30",
+      "price": 81.82,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 15:45",
+      "price": 81.94,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-15 17:30",
+      "price": 82.06,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 17:45",
+      "price": 82.1,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 18:00",
+      "price": 82.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 18:15",
+      "price": 82.08,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 18:30",
+      "price": 82.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-15 18:45",
+      "price": 82.19,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 02:00",
+      "price": 82.26,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 02:15",
+      "price": 82.22,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 02:30",
+      "price": 82.19,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 05:15",
+      "price": 82.47,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 09:30",
+      "price": 82.37,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 09:45",
+      "price": 82.41,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 10:00",
+      "price": 82.42,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 10:15",
+      "price": 82.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 10:30",
+      "price": 82.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 10:45",
+      "price": 82.28,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 11:00",
+      "price": 82.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 11:30",
+      "price": 82.08,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 11:45",
+      "price": 82.11,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 12:00",
+      "price": 82.1,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 12:15",
+      "price": 82.06,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 12:30",
+      "price": 81.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 13:00",
+      "price": 81.97,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-16 19:00",
+      "price": 81.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-16 23:45",
+      "price": 81.55,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 00:00",
+      "price": 81.43,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 00:15",
+      "price": 81.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 00:30",
+      "price": 81.47,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 00:45",
+      "price": 81.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 01:00",
+      "price": 81.43,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 01:15",
+      "price": 81.51,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 01:30",
+      "price": 81.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 01:45",
+      "price": 81.2,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 02:00",
+      "price": 81.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 02:15",
+      "price": 81.29,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 05:30",
+      "price": 81.45,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 05:45",
+      "price": 81.48,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 06:15",
+      "price": 81.49,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 07:15",
+      "price": 81.7,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 07:30",
+      "price": 81.73,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 07:45",
+      "price": 81.64,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 08:00",
+      "price": 81.62,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 08:15",
+      "price": 81.62,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 12:30",
+      "price": 81.29,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 12:45",
+      "price": 81.35,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 13:00",
+      "price": 81.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 13:15",
+      "price": 81.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-17 16:45",
+      "price": 81.73,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 17:00",
+      "price": 81.67,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 17:15",
+      "price": 81.64,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 17:30",
+      "price": 81.69,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 17:45",
+      "price": 81.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-17 23:30",
+      "price": 81.67,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-18 00:00",
+      "price": 81.67,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-18 00:15",
+      "price": 81.7,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-18 01:15",
+      "price": 81.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-21 12:45",
+      "price": 81.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-21 20:00",
+      "price": 81.77,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-21 20:15",
+      "price": 81.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-21 20:30",
+      "price": 81.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-21 20:45",
+      "price": 81.74,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-22 01:15",
+      "price": 81.46,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-22 01:45",
+      "price": 81.5,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-22 02:00",
+      "price": 81.55,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-22 02:15",
+      "price": 81.6,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 00:30",
+      "price": 82.16,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 01:00",
+      "price": 82.16,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 12:30",
+      "price": 82.42,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 12:45",
+      "price": 82.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 13:00",
+      "price": 82.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 13:15",
+      "price": 82.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 13:30",
+      "price": 82.45,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 13:45",
+      "price": 82.49,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 14:00",
+      "price": 82.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 14:15",
+      "price": 82.59,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 14:30",
+      "price": 82.7,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 14:45",
+      "price": 82.75,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 15:00",
+      "price": 82.84,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 15:15",
+      "price": 82.89,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 15:30",
+      "price": 82.88,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 15:45",
+      "price": 83.02,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 16:00",
+      "price": 83.04,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 16:15",
+      "price": 83.12,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-23 16:30",
+      "price": 83.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-23 16:45",
+      "price": 83.4,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-24 06:30",
+      "price": 83.1,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-24 06:45",
+      "price": 83.08,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-24 07:00",
+      "price": 83.1,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-24 07:15",
+      "price": 83.15,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-24 07:30",
+      "price": 83.15,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 07:45",
+      "price": 83.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 08:00",
+      "price": 83.3,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 08:15",
+      "price": 83.31,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 23:15",
+      "price": 83.91,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 23:30",
+      "price": 83.91,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-24 23:45",
+      "price": 83.88,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 00:00",
+      "price": 83.87,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 00:15",
+      "price": 83.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 00:30",
+      "price": 83.88,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 00:45",
+      "price": 83.99,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 01:00",
+      "price": 84.12,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 01:15",
+      "price": 84.2,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 01:30",
+      "price": 84.24,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 02:00",
+      "price": 84.23,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 02:15",
+      "price": 84.24,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 06:30",
+      "price": 84.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 07:00",
+      "price": 84.46,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 07:15",
+      "price": 84.5,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 07:30",
+      "price": 84.42,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 07:45",
+      "price": 84.41,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 08:00",
+      "price": 84.28,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-25 10:00",
+      "price": 84.06,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 10:15",
+      "price": 84.16,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 10:30",
+      "price": 84.18,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-25 10:45",
+      "price": 84.16,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-27 23:45",
+      "price": 83.94,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 00:00",
+      "price": 83.97,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 00:15",
+      "price": 83.94,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 00:30",
+      "price": 83.92,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 00:45",
+      "price": 83.81,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 01:00",
+      "price": 83.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 01:15",
+      "price": 83.78,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 01:30",
+      "price": 83.69,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 01:45",
+      "price": 83.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 02:00",
+      "price": 83.51,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 02:15",
+      "price": 83.23,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 02:45",
+      "price": 83.27,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 03:00",
+      "price": 83.3,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 03:15",
+      "price": 83.29,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 03:30",
+      "price": 83.3,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 06:15",
+      "price": 83.54,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 09:30",
+      "price": 83.69,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-28 13:15",
+      "price": 83.78,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-28 16:00",
+      "price": 84.21,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-29 03:00",
+      "price": 83.88,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 07:30",
+      "price": 83.81,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 07:45",
+      "price": 83.77,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 08:00",
+      "price": 83.82,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 08:15",
+      "price": 83.86,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 08:30",
+      "price": 83.85,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 12:30",
+      "price": 83.92,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-29 12:45",
+      "price": 83.98,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-29 13:00",
+      "price": 84.01,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-30 04:00",
+      "price": 84.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 14:45",
+      "price": 84.36,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 15:00",
+      "price": 84.35,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 16:15",
+      "price": 84.15,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-30 16:30",
+      "price": 84.08,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-30 16:45",
+      "price": 84.12,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-30 22:30",
+      "price": 84.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2016-11-30 22:45",
+      "price": 84.47,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 23:00",
+      "price": 84.47,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 23:15",
+      "price": 84.45,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2016-11-30 23:30",
+      "price": 84.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
     }
   ]
 }

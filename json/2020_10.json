@@ -35393,110 +35393,1396 @@
     73.167,
     73.17
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2020-10-02 17:45",
-      "exit_time": "2020-10-04 21:01",
-      "type": "SELL",
-      "entry_price": 75.39,
-      "exit_price": 75.56,
-      "result": "SL"
+      "time": "2020-10-01 11:30",
+      "price": 76.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-05 21:00",
-      "exit_time": "2020-10-06 04:29",
-      "type": "BUY",
-      "entry_price": 75.93,
-      "exit_price": 75.77,
-      "result": "SL"
+      "time": "2020-10-02 02:00",
+      "price": 75.63,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-06 17:45",
-      "exit_time": "2020-10-07 12:33",
-      "type": "SELL",
-      "entry_price": 75.17,
-      "exit_price": 75.71,
-      "result": "SL"
+      "time": "2020-10-02 02:15",
+      "price": 75.6,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-07 17:45",
-      "exit_time": "2020-10-08 21:05",
-      "type": "BUY",
-      "entry_price": 75.66,
-      "exit_price": 76.0,
-      "result": "TP"
+      "time": "2020-10-02 02:30",
+      "price": 75.59,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-09 18:30",
-      "exit_time": "2020-10-12 08:40",
-      "type": "BUY",
-      "entry_price": 76.39,
-      "exit_price": 76.05,
-      "result": "SL"
+      "time": "2020-10-02 02:45",
+      "price": 75.6,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-12 18:30",
-      "exit_time": "2020-10-12 23:16",
-      "type": "SELL",
-      "entry_price": 75.94,
-      "exit_price": 75.64,
-      "result": "TP"
+      "time": "2020-10-02 03:00",
+      "price": 75.58,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-13 20:15",
-      "exit_time": "2020-10-15 05:41",
-      "type": "SELL",
-      "entry_price": 75.49,
-      "exit_price": 74.93,
-      "result": "TP"
+      "time": "2020-10-02 03:15",
+      "price": 75.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-15 18:45",
-      "exit_time": "2020-10-15 23:03",
-      "type": "SELL",
-      "entry_price": 74.76,
-      "exit_price": 74.6,
-      "result": "TP"
+      "time": "2020-10-02 03:30",
+      "price": 75.59,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-18 21:15",
-      "exit_time": "2020-10-19 17:54",
-      "type": "BUY",
-      "entry_price": 74.64,
-      "exit_price": 74.45,
-      "result": "SL"
+      "time": "2020-10-02 03:45",
+      "price": 75.37,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-19 20:30",
-      "exit_time": "2020-10-23 11:09",
-      "type": "SELL",
-      "entry_price": 74.44,
-      "exit_price": 74.87,
-      "result": "SL"
+      "time": "2020-10-02 04:00",
+      "price": 75.26,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2020-10-23 18:30",
-      "exit_time": "2020-10-27 20:01",
-      "type": "BUY",
-      "entry_price": 74.7,
-      "exit_price": 74.39,
-      "result": "SL"
+      "time": "2020-10-02 04:30",
+      "price": 75.08,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-27 23:30",
-      "exit_time": "2020-10-28 10:03",
-      "type": "SELL",
-      "entry_price": 74.31,
-      "exit_price": 73.71,
-      "result": "TP"
+      "time": "2020-10-02 04:45",
+      "price": 74.96,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2020-10-28 18:00",
-      "exit_time": "2020-10-30 12:11",
-      "type": "SELL",
-      "entry_price": 73.57,
-      "exit_price": 73.87,
-      "result": "SL"
+      "time": "2020-10-02 05:00",
+      "price": 75.01,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-02 11:30",
+      "price": 75.23,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-02 11:45",
+      "price": 75.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-02 12:00",
+      "price": 75.19,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-02 12:15",
+      "price": 75.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-04 21:00",
+      "price": 75.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-04 21:15",
+      "price": 75.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-04 21:30",
+      "price": 75.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 03:15",
+      "price": 75.95,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-06 03:30",
+      "price": 75.96,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-06 03:45",
+      "price": 75.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-06 15:45",
+      "price": 75.52,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 16:00",
+      "price": 75.51,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 16:15",
+      "price": 75.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 16:30",
+      "price": 75.45,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 16:45",
+      "price": 75.47,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-06 17:00",
+      "price": 75.46,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-06 17:15",
+      "price": 75.52,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-06 17:30",
+      "price": 75.55,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-07 04:45",
+      "price": 75.32,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-07 05:00",
+      "price": 75.33,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-09 10:00",
+      "price": 76.06,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 06:45",
+      "price": 76.29,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 07:00",
+      "price": 76.3,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 21:30",
+      "price": 75.89,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 21:45",
+      "price": 75.9,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 22:00",
+      "price": 75.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-12 22:15",
+      "price": 75.88,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-12 22:30",
+      "price": 75.9,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-12 22:45",
+      "price": 75.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-14 13:45",
+      "price": 75.47,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-14 19:30",
+      "price": 75.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-14 19:45",
+      "price": 75.29,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-14 20:00",
+      "price": 75.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-14 20:15",
+      "price": 75.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-14 20:30",
+      "price": 75.27,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-14 20:45",
+      "price": 75.29,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-14 21:00",
+      "price": 75.26,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-15 04:00",
+      "price": 75.07,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-15 04:15",
+      "price": 75.05,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 04:30",
+      "price": 75.05,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 04:45",
+      "price": 74.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 05:00",
+      "price": 75.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 05:15",
+      "price": 74.96,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 05:30",
+      "price": 74.93,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 05:45",
+      "price": 74.86,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 06:00",
+      "price": 74.77,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 06:15",
+      "price": 74.69,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 06:30",
+      "price": 74.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-15 06:45",
+      "price": 74.69,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-18 21:00",
+      "price": 74.56,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-21 05:15",
+      "price": 74.56,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-21 05:30",
+      "price": 74.56,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-21 05:45",
+      "price": 74.52,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 04:30",
+      "price": 74.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 04:45",
+      "price": 74.4,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 05:00",
+      "price": 74.39,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 05:15",
+      "price": 74.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 05:30",
+      "price": 74.42,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 10:45",
+      "price": 74.81,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 11:00",
+      "price": 74.88,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-23 11:15",
+      "price": 74.83,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 11:30",
+      "price": 74.81,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-23 11:45",
+      "price": 74.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-26 06:15",
+      "price": 74.5,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-26 06:30",
+      "price": 74.53,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-26 06:45",
+      "price": 74.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 05:15",
+      "price": 74.53,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 05:30",
+      "price": 74.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 06:30",
+      "price": 74.37,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 06:45",
+      "price": 74.35,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 07:00",
+      "price": 74.31,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 07:15",
+      "price": 74.21,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 07:30",
+      "price": 74.28,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 07:45",
+      "price": 74.28,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 08:00",
+      "price": 74.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 08:15",
+      "price": 74.17,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 08:30",
+      "price": 74.07,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 08:45",
+      "price": 74.05,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 09:00",
+      "price": 74.0,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 11:00",
+      "price": 73.81,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 11:15",
+      "price": 73.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-28 11:45",
+      "price": 73.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 12:00",
+      "price": 73.68,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 12:15",
+      "price": 73.68,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-28 12:30",
+      "price": 73.68,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 05:15",
+      "price": 73.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 05:30",
+      "price": 73.79,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 05:45",
+      "price": 73.74,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 06:00",
+      "price": 73.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 06:15",
+      "price": 73.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 06:30",
+      "price": 73.66,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 06:45",
+      "price": 73.6,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 07:00",
+      "price": 73.57,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 07:15",
+      "price": 73.52,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 08:00",
+      "price": 73.52,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-29 11:30",
+      "price": 73.29,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 12:00",
+      "price": 73.19,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 12:15",
+      "price": 73.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 12:30",
+      "price": 73.14,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-29 16:00",
+      "price": 73.31,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 02:15",
+      "price": 73.6,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 02:30",
+      "price": 73.59,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 02:45",
+      "price": 73.59,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 03:00",
+      "price": 73.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 03:15",
+      "price": 73.57,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 03:30",
+      "price": 73.58,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 03:45",
+      "price": 73.47,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 04:00",
+      "price": 73.42,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 09:45",
+      "price": 73.47,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-30 10:00",
+      "price": 73.54,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2020-10-30 10:15",
+      "price": 73.55,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 10:30",
+      "price": 73.52,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 10:45",
+      "price": 73.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 11:00",
+      "price": 73.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 11:15",
+      "price": 73.53,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 12:00",
+      "price": 73.88,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-30 12:15",
+      "price": 73.83,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 12:30",
+      "price": 73.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 12:45",
+      "price": 73.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 14:00",
+      "price": 73.67,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2020-10-30 19:30",
+      "price": 73.56,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 19:45",
+      "price": 73.54,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 20:00",
+      "price": 73.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 20:15",
+      "price": 73.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 20:30",
+      "price": 73.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2020-10-30 20:45",
+      "price": 73.49,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     }
   ]
 }

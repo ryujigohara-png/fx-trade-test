@@ -37093,134 +37093,1036 @@
     89.285,
     89.284
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2006-08-01 20:45",
-      "exit_time": "2006-08-03 07:44",
-      "type": "BUY",
-      "entry_price": 87.76,
-      "exit_price": 87.36,
-      "result": "SL"
+      "time": "2006-08-01 11:30",
+      "price": 87.29,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-03 17:30",
-      "exit_time": "2006-08-04 00:12",
-      "type": "SELL",
-      "entry_price": 87.53,
-      "exit_price": 87.66,
-      "result": "SL"
+      "time": "2006-08-01 11:45",
+      "price": 87.27,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-04 18:15",
-      "exit_time": "2006-08-07 13:24",
-      "type": "SELL",
-      "entry_price": 87.47,
-      "exit_price": 87.85,
-      "result": "SL"
+      "time": "2006-08-01 12:00",
+      "price": 87.36,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-07 23:00",
-      "exit_time": "2006-08-08 07:25",
-      "type": "BUY",
-      "entry_price": 87.81,
-      "exit_price": 87.54,
-      "result": "SL"
+      "time": "2006-08-01 12:15",
+      "price": 87.36,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2006-08-08 17:30",
-      "exit_time": "2006-08-08 18:10",
-      "type": "SELL",
-      "entry_price": 87.5,
-      "exit_price": 87.58,
-      "result": "SL"
+      "time": "2006-08-01 12:30",
+      "price": 87.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2006-08-08 21:15",
-      "exit_time": "2006-08-09 08:40",
-      "type": "SELL",
-      "entry_price": 87.57,
-      "exit_price": 87.83,
-      "result": "SL"
+      "time": "2006-08-01 13:15",
+      "price": 87.46,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-10 20:45",
-      "exit_time": "2006-08-11 06:19",
-      "type": "BUY",
-      "entry_price": 88.42,
-      "exit_price": 88.8,
-      "result": "TP"
+      "time": "2006-08-01 21:30",
+      "price": 87.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-11 18:15",
-      "exit_time": "2006-08-14 12:06",
-      "type": "BUY",
-      "entry_price": 89.08,
-      "exit_price": 88.85,
-      "result": "SL"
+      "time": "2006-08-01 21:45",
+      "price": 87.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-14 19:30",
-      "exit_time": "2006-08-16 13:24",
-      "type": "SELL",
-      "entry_price": 88.58,
-      "exit_price": 89.02,
-      "result": "SL"
+      "time": "2006-08-02 06:30",
+      "price": 87.82,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-16 18:15",
-      "exit_time": "2006-08-17 04:07",
-      "type": "BUY",
-      "entry_price": 88.99,
-      "exit_price": 88.61,
-      "result": "SL"
+      "time": "2006-08-02 06:45",
+      "price": 87.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-17 18:45",
-      "exit_time": "2006-08-18 12:55",
-      "type": "SELL",
-      "entry_price": 88.23,
-      "exit_price": 87.67,
-      "result": "TP"
+      "time": "2006-08-02 12:00",
+      "price": 87.85,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-18 18:45",
-      "exit_time": "2006-08-21 08:27",
-      "type": "SELL",
-      "entry_price": 87.81,
-      "exit_price": 88.06,
-      "result": "SL"
+      "time": "2006-08-02 12:15",
+      "price": 87.85,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-21 18:15",
-      "exit_time": "2006-08-23 12:54",
-      "type": "BUY",
-      "entry_price": 88.46,
-      "exit_price": 89.16,
-      "result": "TP"
+      "time": "2006-08-02 12:30",
+      "price": 87.83,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2006-08-24 21:15",
-      "exit_time": "2006-08-25 05:54",
-      "type": "SELL",
-      "entry_price": 88.69,
-      "exit_price": 88.89,
-      "result": "SL"
+      "time": "2006-08-02 12:45",
+      "price": 87.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-27 23:30",
-      "exit_time": "2006-08-28 03:29",
-      "type": "SELL",
-      "entry_price": 88.7,
-      "exit_price": 88.88,
-      "result": "SL"
+      "time": "2006-08-02 13:00",
+      "price": 87.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2006-08-29 18:15",
-      "exit_time": "2006-08-31 19:04",
-      "type": "BUY",
-      "entry_price": 89.08,
-      "exit_price": 89.6,
-      "result": "TP"
+      "time": "2006-08-03 05:45",
+      "price": 87.68,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-03 06:15",
+      "price": 87.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-03 06:30",
+      "price": 87.66,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-03 06:45",
+      "price": 87.65,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-04 07:30",
+      "price": 87.83,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-04 10:30",
+      "price": 87.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-04 10:45",
+      "price": 87.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-04 11:00",
+      "price": 87.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-04 11:15",
+      "price": 87.74,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-04 11:30",
+      "price": 87.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-04 11:45",
+      "price": 87.74,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-04 12:00",
+      "price": 87.8,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-04 12:15",
+      "price": 87.69,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-07 13:45",
+      "price": 87.86,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-07 14:45",
+      "price": 87.92,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 05:30",
+      "price": 87.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 05:45",
+      "price": 87.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 06:00",
+      "price": 87.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 06:15",
+      "price": 87.72,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-08 06:30",
+      "price": 87.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-08 06:45",
+      "price": 87.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-08 16:15",
+      "price": 87.48,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 16:30",
+      "price": 87.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-08 16:45",
+      "price": 87.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-08 17:15",
+      "price": 87.51,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 17:30",
+      "price": 87.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 17:45",
+      "price": 87.47,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-08 18:00",
+      "price": 87.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-09 05:45",
+      "price": 87.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-09 06:00",
+      "price": 87.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-09 06:30",
+      "price": 87.51,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-09 06:45",
+      "price": 87.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-09 07:00",
+      "price": 87.47,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-09 07:15",
+      "price": 87.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 00:15",
+      "price": 88.29,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-10 00:45",
+      "price": 88.33,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-10 01:00",
+      "price": 88.32,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-10 01:15",
+      "price": 88.24,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-10 05:45",
+      "price": 88.69,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 06:00",
+      "price": 88.65,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 06:15",
+      "price": 88.65,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 06:30",
+      "price": 88.65,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 06:45",
+      "price": 88.66,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 12:45",
+      "price": 88.26,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 21:45",
+      "price": 88.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 22:00",
+      "price": 88.39,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 22:15",
+      "price": 88.44,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 22:30",
+      "price": 88.47,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-10 22:45",
+      "price": 88.48,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 08:30",
+      "price": 89.29,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 10:00",
+      "price": 89.15,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 10:45",
+      "price": 89.02,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 11:00",
+      "price": 89.0,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 11:15",
+      "price": 88.97,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 11:30",
+      "price": 88.97,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-14 11:45",
+      "price": 88.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-16 10:30",
+      "price": 88.66,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-16 11:00",
+      "price": 88.7,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-16 11:15",
+      "price": 88.7,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-17 05:30",
+      "price": 88.73,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-17 05:45",
+      "price": 88.68,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-17 13:15",
+      "price": 88.34,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 08:00",
+      "price": 88.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 08:15",
+      "price": 88.1,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 08:30",
+      "price": 88.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 08:45",
+      "price": 88.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 09:00",
+      "price": 88.12,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 10:45",
+      "price": 88.0,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 11:00",
+      "price": 87.99,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-18 11:15",
+      "price": 88.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-21 07:00",
+      "price": 87.87,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-21 07:15",
+      "price": 87.87,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-21 07:30",
+      "price": 87.89,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-21 07:45",
+      "price": 87.92,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-21 08:00",
+      "price": 87.89,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-23 06:00",
+      "price": 88.74,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2006-08-23 06:15",
+      "price": 88.74,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-23 13:15",
+      "price": 89.15,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-23 13:30",
+      "price": 89.14,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-23 13:45",
+      "price": 89.11,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-23 14:00",
+      "price": 89.08,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-23 14:15",
+      "price": 89.06,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2006-08-25 11:45",
+      "price": 89.1,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2006-08-25 12:00",
+      "price": 89.09,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-25 12:15",
+      "price": 89.03,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-25 12:30",
+      "price": 89.03,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-25 13:00",
+      "price": 88.94,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2006-08-29 13:15",
+      "price": 89.15,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     }
   ]
 }

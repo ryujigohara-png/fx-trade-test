@@ -37093,102 +37093,226 @@
     74.418,
     74.417
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2019-07-01 17:30",
-      "exit_time": "2019-07-03 14:35",
-      "type": "SELL",
-      "entry_price": 75.43,
-      "exit_price": 75.77,
-      "result": "SL"
+      "time": "2019-07-01 00:00",
+      "price": 75.99,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-07-03 19:15",
-      "exit_time": "2019-07-09 08:10",
-      "type": "BUY",
-      "entry_price": 75.85,
-      "exit_price": 75.49,
-      "result": "SL"
+      "time": "2019-07-01 00:15",
+      "price": 75.92,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-07-09 17:30",
-      "exit_time": "2019-07-10 12:35",
-      "type": "SELL",
-      "entry_price": 75.32,
-      "exit_price": 75.51,
-      "result": "SL"
+      "time": "2019-07-01 12:45",
+      "price": 75.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-10 18:15",
-      "exit_time": "2019-07-10 23:38",
-      "type": "BUY",
-      "entry_price": 75.49,
-      "exit_price": 75.3,
-      "result": "SL"
+      "time": "2019-07-01 13:00",
+      "price": 75.71,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-12 18:15",
-      "exit_time": "2019-07-17 23:58",
-      "type": "BUY",
-      "entry_price": 75.71,
-      "exit_price": 75.49,
-      "result": "SL"
+      "time": "2019-07-03 07:00",
+      "price": 75.22,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-07-18 18:15",
-      "exit_time": "2019-07-23 14:20",
-      "type": "BUY",
-      "entry_price": 75.88,
-      "exit_price": 75.68,
-      "result": "SL"
+      "time": "2019-07-03 07:15",
+      "price": 75.24,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-23 20:00",
-      "exit_time": "2019-07-25 07:42",
-      "type": "SELL",
-      "entry_price": 75.75,
-      "exit_price": 75.25,
-      "result": "TP"
+      "time": "2019-07-03 07:30",
+      "price": 75.25,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-25 19:30",
-      "exit_time": "2019-07-26 12:25",
-      "type": "BUY",
-      "entry_price": 75.5,
-      "exit_price": 75.22,
-      "result": "SL"
+      "time": "2019-07-05 12:45",
+      "price": 75.84,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-26 19:45",
-      "exit_time": "2019-07-30 13:47",
-      "type": "SELL",
-      "entry_price": 75.06,
-      "exit_price": 74.58,
-      "result": "TP"
+      "time": "2019-07-15 00:30",
+      "price": 75.66,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-30 18:45",
-      "exit_time": "2019-07-31 03:27",
-      "type": "SELL",
-      "entry_price": 74.62,
-      "exit_price": 74.77,
-      "result": "SL"
+      "time": "2019-07-15 00:45",
+      "price": 75.66,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2019-07-31 17:30",
-      "exit_time": "2019-07-31 18:04",
-      "type": "BUY",
-      "entry_price": 74.76,
-      "exit_price": 74.65,
-      "result": "SL"
+      "time": "2019-07-15 01:00",
+      "price": 75.65,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2019-07-31 21:00",
-      "exit_time": "2019-08-01 17:53",
-      "type": "SELL",
-      "entry_price": 74.4,
-      "exit_price": 73.5,
-      "result": "TP"
+      "time": "2019-07-15 01:15",
+      "price": 75.64,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-07-15 01:30",
+      "price": 75.62,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-07-23 12:30",
+      "price": 75.96,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 16:45",
+      "price": 74.69,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 17:00",
+      "price": 74.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 17:15",
+      "price": 74.71,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 17:30",
+      "price": 74.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 17:45",
+      "price": 74.74,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2019-07-31 18:00",
+      "price": 74.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-07-31 18:15",
+      "price": 74.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2019-07-31 23:00",
+      "price": 74.42,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     }
   ]
 }

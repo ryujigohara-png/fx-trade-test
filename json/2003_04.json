@@ -35410,166 +35410,1076 @@
     74.34,
     74.342
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2003-04-06 22:00",
-      "exit_time": "2003-04-07 05:53",
-      "type": "BUY",
-      "entry_price": 72.15,
-      "exit_price": 71.97,
-      "result": "SL"
+      "time": "2003-04-03 13:15",
+      "price": 71.32,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-07 17:30",
-      "exit_time": "2003-04-07 19:06",
-      "type": "SELL",
-      "entry_price": 71.89,
-      "exit_price": 71.71,
-      "result": "TP"
+      "time": "2003-04-03 13:30",
+      "price": 71.36,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-07 22:30",
-      "exit_time": "2003-04-08 11:36",
-      "type": "SELL",
-      "entry_price": 71.68,
-      "exit_price": 71.98,
-      "result": "SL"
+      "time": "2003-04-03 13:45",
+      "price": 71.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-08 17:45",
-      "exit_time": "2003-04-09 15:07",
-      "type": "BUY",
-      "entry_price": 71.99,
-      "exit_price": 72.67,
-      "result": "TP"
+      "time": "2003-04-07 01:00",
+      "price": 72.39,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-09 22:30",
-      "exit_time": "2003-04-10 12:07",
-      "type": "BUY",
-      "entry_price": 72.7,
-      "exit_price": 72.38,
-      "result": "SL"
+      "time": "2003-04-07 01:15",
+      "price": 72.35,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-10 18:15",
-      "exit_time": "2003-04-10 21:22",
-      "type": "SELL",
-      "entry_price": 72.38,
-      "exit_price": 72.57,
-      "result": "SL"
+      "time": "2003-04-07 05:00",
+      "price": 72.05,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-10 22:30",
-      "exit_time": "2003-04-11 02:41",
-      "type": "SELL",
-      "entry_price": 72.51,
-      "exit_price": 72.63,
-      "result": "SL"
+      "time": "2003-04-07 05:15",
+      "price": 72.04,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-13 22:00",
-      "exit_time": "2003-04-14 14:36",
-      "type": "BUY",
-      "entry_price": 72.93,
-      "exit_price": 72.57,
-      "result": "SL"
+      "time": "2003-04-07 05:30",
+      "price": 72.0,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-14 18:00",
-      "exit_time": "2003-04-14 20:35",
-      "type": "SELL",
-      "entry_price": 72.59,
-      "exit_price": 72.84,
-      "result": "SL"
+      "time": "2003-04-07 05:45",
+      "price": 71.96,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-14 21:00",
-      "exit_time": "2003-04-15 01:50",
-      "type": "SELL",
-      "entry_price": 72.75,
-      "exit_price": 72.47,
-      "result": "TP"
+      "time": "2003-04-07 18:30",
+      "price": 71.92,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-15 21:15",
-      "exit_time": "2003-04-16 10:22",
-      "type": "BUY",
-      "entry_price": 72.93,
-      "exit_price": 73.47,
-      "result": "TP"
+      "time": "2003-04-08 08:45",
+      "price": 71.56,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-16 19:30",
-      "exit_time": "2003-04-17 16:29",
-      "type": "BUY",
-      "entry_price": 73.18,
-      "exit_price": 73.54,
-      "result": "TP"
+      "time": "2003-04-08 09:00",
+      "price": 71.59,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-17 17:30",
-      "exit_time": "2003-04-22 06:49",
-      "type": "BUY",
-      "entry_price": 73.44,
-      "exit_price": 74.24,
-      "result": "TP"
+      "time": "2003-04-08 09:15",
+      "price": 71.62,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-23 18:00",
-      "exit_time": "2003-04-23 21:19",
-      "type": "BUY",
-      "entry_price": 74.44,
-      "exit_price": 74.21,
-      "result": "SL"
+      "time": "2003-04-08 09:30",
+      "price": 71.65,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-24 18:30",
-      "exit_time": "2003-04-24 20:00",
-      "type": "SELL",
-      "entry_price": 74.32,
-      "exit_price": 74.04,
-      "result": "TP"
+      "time": "2003-04-09 13:00",
+      "price": 72.31,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-24 21:00",
-      "exit_time": "2003-04-25 06:22",
-      "type": "SELL",
-      "entry_price": 74.08,
-      "exit_price": 74.46,
-      "result": "SL"
+      "time": "2003-04-09 13:15",
+      "price": 72.25,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-25 19:30",
-      "exit_time": "2003-04-28 07:13",
-      "type": "SELL",
-      "entry_price": 74.08,
-      "exit_price": 74.55,
-      "result": "SL"
+      "time": "2003-04-09 13:30",
+      "price": 72.35,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2003-04-28 19:45",
-      "exit_time": "2003-04-29 05:01",
-      "type": "BUY",
-      "entry_price": 74.48,
-      "exit_price": 74.32,
-      "result": "SL"
+      "time": "2003-04-09 13:45",
+      "price": 72.33,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-29 17:45",
-      "exit_time": "2003-04-29 21:31",
-      "type": "SELL",
-      "entry_price": 74.45,
-      "exit_price": 74.61,
-      "result": "SL"
+      "time": "2003-04-09 14:30",
+      "price": 72.42,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2003-04-30 23:15",
-      "exit_time": "2003-05-01 15:23",
-      "type": "SELL",
-      "entry_price": 74.38,
-      "exit_price": 74.79,
-      "result": "SL"
+      "time": "2003-04-09 22:30",
+      "price": 72.7,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-09 22:45",
+      "price": 72.7,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-10 00:00",
+      "price": 72.82,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-10 00:15",
+      "price": 72.94,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-10 00:30",
+      "price": 72.98,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-10 00:45",
+      "price": 72.82,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2003-04-10 01:00",
+      "price": 72.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2003-04-10 01:15",
+      "price": 72.8,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2003-04-11 01:00",
+      "price": 72.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-11 02:00",
+      "price": 72.51,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-11 02:15",
+      "price": 72.52,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-11 10:45",
+      "price": 72.56,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-11 11:00",
+      "price": 72.51,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-14 23:45",
+      "price": 72.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-15 00:00",
+      "price": 72.76,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-15 00:15",
+      "price": 72.78,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-15 12:30",
+      "price": 72.65,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-15 20:45",
+      "price": 72.91,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-15 21:00",
+      "price": 72.89,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 08:45",
+      "price": 73.21,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 09:00",
+      "price": 73.27,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 09:15",
+      "price": 73.28,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 09:30",
+      "price": 73.26,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 09:45",
+      "price": 73.32,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 15:30",
+      "price": 73.39,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-16 15:45",
+      "price": 73.42,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 16:00",
+      "price": 73.45,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 16:15",
+      "price": 73.44,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 16:30",
+      "price": 73.41,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-16 16:45",
+      "price": 73.44,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2003-04-16 17:00",
+      "price": 73.38,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2003-04-17 10:30",
+      "price": 73.14,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-17 10:45",
+      "price": 73.16,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-17 11:00",
+      "price": 73.12,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-17 11:15",
+      "price": 73.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-17 11:30",
+      "price": 73.11,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-17 12:15",
+      "price": 73.2,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-22 05:00",
+      "price": 74.07,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-22 08:45",
+      "price": 74.45,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 12:30",
+      "price": 74.68,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-23 19:15",
+      "price": 74.52,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 19:30",
+      "price": 74.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 19:45",
+      "price": 74.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 20:00",
+      "price": 74.43,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 20:30",
+      "price": 74.43,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-23 20:45",
+      "price": 74.44,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-23 21:45",
+      "price": 74.13,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 22:00",
+      "price": 74.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 22:15",
+      "price": 74.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-23 22:30",
+      "price": 74.27,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 06:45",
+      "price": 74.37,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 07:00",
+      "price": 74.36,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 07:15",
+      "price": 74.37,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 07:30",
+      "price": 74.33,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 07:45",
+      "price": 74.37,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 18:00",
+      "price": 74.32,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 18:15",
+      "price": 74.35,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-24 18:30",
+      "price": 74.32,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 06:30",
+      "price": 74.55,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 06:45",
+      "price": 74.54,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 07:00",
+      "price": 74.52,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 07:15",
+      "price": 74.5,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 07:30",
+      "price": 74.53,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 07:45",
+      "price": 74.41,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 08:00",
+      "price": 74.21,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 08:30",
+      "price": 74.18,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 12:45",
+      "price": 74.48,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 13:00",
+      "price": 74.4,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-25 13:45",
+      "price": 74.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 14:00",
+      "price": 74.36,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-25 14:30",
+      "price": 74.24,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 00:30",
+      "price": 73.93,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2003-04-28 04:45",
+      "price": 74.16,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 05:00",
+      "price": 74.18,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 05:15",
+      "price": 74.18,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 05:30",
+      "price": 74.18,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 05:45",
+      "price": 74.14,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-28 06:00",
+      "price": 74.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-29 03:00",
+      "price": 74.53,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-29 04:00",
+      "price": 74.49,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 15:45",
+      "price": 74.54,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 16:00",
+      "price": 74.61,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 16:15",
+      "price": 74.57,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 16:30",
+      "price": 74.63,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 16:45",
+      "price": 74.65,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 17:00",
+      "price": 74.67,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 17:15",
+      "price": 74.64,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2003-04-30 17:30",
+      "price": 74.57,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     }
   ]
 }

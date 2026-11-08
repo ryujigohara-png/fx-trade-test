@@ -33897,126 +33897,416 @@
     95.208,
     95.208
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2014-06-02 23:30",
-      "exit_time": "2014-06-03 01:58",
-      "type": "BUY",
-      "entry_price": 94.62,
-      "exit_price": 94.51,
-      "result": "SL"
+      "time": "2014-06-02 00:30",
+      "price": 94.82,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-03 18:45",
-      "exit_time": "2014-06-04 01:31",
-      "type": "BUY",
-      "entry_price": 94.84,
-      "exit_price": 95.16,
-      "result": "TP"
+      "time": "2014-06-02 01:00",
+      "price": 94.79,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-09 18:30",
-      "exit_time": "2014-06-10 01:30",
-      "type": "BUY",
-      "entry_price": 95.82,
-      "exit_price": 95.7,
-      "result": "SL"
+      "time": "2014-06-02 01:15",
+      "price": 94.81,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-10 17:30",
-      "exit_time": "2014-06-11 14:26",
-      "type": "BUY",
-      "entry_price": 95.84,
-      "exit_price": 95.69,
-      "result": "SL"
+      "time": "2014-06-03 23:30",
+      "price": 94.95,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-11 17:45",
-      "exit_time": "2014-06-11 21:04",
-      "type": "SELL",
-      "entry_price": 95.68,
-      "exit_price": 95.9,
-      "result": "SL"
+      "time": "2014-06-03 23:45",
+      "price": 94.94,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-06-11 23:45",
-      "exit_time": "2014-06-12 07:16",
-      "type": "SELL",
-      "entry_price": 95.65,
-      "exit_price": 95.97,
-      "result": "SL"
+      "time": "2014-06-04 00:00",
+      "price": 94.93,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-06-12 22:15",
-      "exit_time": "2014-06-13 10:11",
-      "type": "BUY",
-      "entry_price": 95.84,
-      "exit_price": 95.68,
-      "result": "SL"
+      "time": "2014-06-04 00:15",
+      "price": 94.9,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-06-13 17:45",
-      "exit_time": "2014-06-15 22:00",
-      "type": "SELL",
-      "entry_price": 95.82,
-      "exit_price": 95.89,
-      "result": "SL"
+      "time": "2014-06-04 00:30",
+      "price": 94.94,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-06-15 22:45",
-      "exit_time": "2014-06-16 01:49",
-      "type": "SELL",
-      "entry_price": 95.81,
-      "exit_price": 95.61,
-      "result": "TP"
+      "time": "2014-06-04 00:45",
+      "price": 94.96,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-06-16 17:45",
-      "exit_time": "2014-06-17 02:50",
-      "type": "SELL",
-      "entry_price": 95.66,
-      "exit_price": 95.46,
-      "result": "TP"
+      "time": "2014-06-05 10:45",
+      "price": 95.21,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-17 19:45",
-      "exit_time": "2014-06-18 07:35",
-      "type": "SELL",
-      "entry_price": 95.32,
-      "exit_price": 95.5,
-      "result": "SL"
+      "time": "2014-06-05 11:00",
+      "price": 95.22,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-18 17:45",
-      "exit_time": "2014-06-18 18:34",
-      "type": "BUY",
-      "entry_price": 95.41,
-      "exit_price": 95.61,
-      "result": "TP"
+      "time": "2014-06-05 11:15",
+      "price": 95.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-18 23:30",
-      "exit_time": "2014-06-25 01:15",
-      "type": "BUY",
-      "entry_price": 95.77,
-      "exit_price": 95.3,
-      "result": "SL"
+      "time": "2014-06-05 11:30",
+      "price": 95.26,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-25 23:30",
-      "exit_time": "2014-06-26 13:48",
-      "type": "BUY",
-      "entry_price": 95.73,
-      "exit_price": 95.52,
-      "result": "SL"
+      "time": "2014-06-05 11:45",
+      "price": 95.23,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-06-29 22:30",
-      "exit_time": "2014-06-30 02:26",
-      "type": "SELL",
-      "entry_price": 95.51,
-      "exit_price": 95.31,
-      "result": "TP"
+      "time": "2014-06-05 12:00",
+      "price": 95.26,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-12 16:15",
+      "price": 96.04,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-13 06:00",
+      "price": 96.1,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-18 17:15",
+      "price": 95.43,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-18 17:30",
+      "price": 95.37,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-18 17:45",
+      "price": 95.41,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-18 18:00",
+      "price": 95.49,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-18 18:15",
+      "price": 95.51,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-18 18:30",
+      "price": 95.59,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-18 18:45",
+      "price": 95.58,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-22 23:45",
+      "price": 95.78,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 00:00",
+      "price": 95.84,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-23 00:15",
+      "price": 95.84,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 00:30",
+      "price": 95.81,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 00:45",
+      "price": 95.81,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 01:00",
+      "price": 95.77,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 01:15",
+      "price": 95.83,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-23 01:30",
+      "price": 95.86,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-26 12:00",
+      "price": 95.73,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-26 12:15",
+      "price": 95.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-06-26 12:30",
+      "price": 95.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-26 12:45",
+      "price": 95.68,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-26 13:00",
+      "price": 95.7,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-26 13:15",
+      "price": 95.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-06-30 13:00",
+      "price": 95.17,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2014-06-30 13:15",
+      "price": 95.22,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2014-06-30 13:30",
+      "price": 95.25,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
     }
   ]
 }

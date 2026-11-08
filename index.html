@@ -56,9 +56,26 @@
             padding: 6px 10px;
             font-weight: bold;
         }
+        /* プライスアクション用トグルコントロールのスタイル */
+        .pa-controls {
+            background: #181818;
+            padding: 6px 15px;
+            border-bottom: 1px solid #2a2a2a;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+            font-size: 12px;
+        }
+        .pa-controls label {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
         #chart {
             width: 100vw;
-            height: calc(100vh - 51px);
+            height: calc(100vh - 87px);
             touch-action: pan-x pan-y;
             background-color: #000000;
         }
@@ -152,6 +169,16 @@
                 <button onclick="toggleLegend()" title="凡例表示切替" id="legendBtn" style="background: #444;">凡例</button>
             </div>
         </div>
+    </div>
+
+    <!-- プライスアクション表示切替用コントロールバー（初期表示は起点のみチェックON） -->
+    <div class="pa-controls">
+        <span style="font-weight: bold; color: #aaa;">PA表示:</span>
+        <label><input type="checkbox" id="chk-start" checked onchange="togglePATrace('start', this.checked)"> 🟡 起点(30pips)</label>
+        <label><input type="checkbox" id="chk-inside" onchange="togglePATrace('inside', this.checked)"> ⬜ インサイドバー</label>
+        <label><input type="checkbox" id="chk-pin" onchange="togglePATrace('pin', this.checked)"> 🔺 ピンバー</label>
+        <label><input type="checkbox" id="chk-eng" onchange="togglePATrace('eng', this.checked)"> ◎ 包み足</label>
+        <label><input type="checkbox" id="chk-star" onchange="togglePATrace('star', this.checked)"> ⭐ 明星</label>
     </div>
 
     <!-- カスタムツールチップ表示用コンテナ -->
@@ -257,6 +284,33 @@
             }
         }
 
+        // プライスアクション用トレースの非同期トグル切り替え関数
+        function togglePATrace(type, isChecked) {
+            var gd = document.getElementById('chart');
+            if (!gd || !gd.data) return;
+            
+            let traceNameMap = {
+                'start': '起点 (30pips)',
+                'inside': 'インサイドバー',
+                'pin': 'ピンバー',
+                'eng': '包み足 (◎)',
+                'star': '明星'
+            };
+            
+            let targetName = traceNameMap[type];
+            let traceIndices = [];
+            
+            gd.data.forEach((trace, idx) => {
+                if (trace.name === targetName) {
+                    traceIndices.push(idx);
+                }
+            });
+            
+            if (traceIndices.length > 0) {
+                Plotly.restyle(gd, { visible: isChecked ? true : false }, traceIndices);
+            }
+        }
+
         function fmt(val) {
             if (val === undefined || val === null || isNaN(val)) return '-';
             return typeof val === 'number' ? val.toFixed(3) : val;
@@ -278,7 +332,6 @@
                 let relY = clientY - (rect.top + topMargin);
                 let yRange = yaxis.range; // [min, max]
                 
-                // Y座標から価格を算出
                 let calculatedPrice = yRange[0] + (yRange[1] - yRange[0]) * (1 - (relY / plotHeight));
                 cursorPriceStr = fmt(calculatedPrice);
             }
@@ -346,7 +399,7 @@
                     y = window.innerHeight - tipHeight - 5;
                 }
                 if (x < 5) x = 5;
-                if (y < 55) y = 55;
+                if (y < 87) y = 87;
 
                 tip.style.left = x + 'px';
                 tip.style.top = y + 'px';
@@ -414,6 +467,48 @@
                 });
             }
 
+            // プライスアクション・起点イベントデータの抽出配列
+            let start_x = [], start_y = [];
+            let inside_x = [], inside_y = [];
+            let pin_x = [], pin_y = [];
+            let eng_x = [], eng_y = [];
+            let star_x = [], star_y = [];
+
+            if (fullData.breakout_pa_events && fullData.breakout_pa_events.length > 0) {
+                fullData.breakout_pa_events.forEach(ev => {
+                    let idx = timeToIdx[ev.time];
+                    let hVal = idx !== undefined ? fullData.highs[idx] : ev.price;
+                    let lVal = idx !== undefined ? fullData.lows[idx] : ev.price;
+                    let offset = 0.08;
+
+                    // 起点 (30pips突破点) -> 高値より少し上へ配置
+                    if (ev.up || ev.down) {
+                        start_x.push(ev.time);
+                        start_y.push(hVal + offset);
+                    }
+                    // インサイドバー -> 安値より少し下へ配置
+                    if (ev.inside) {
+                        inside_x.push(ev.time);
+                        inside_y.push(lVal - offset);
+                    }
+                    // ピンバー -> 高値より少し上へ配置
+                    if (ev.pinbar) {
+                        pin_x.push(ev.time);
+                        pin_y.push(hVal + offset);
+                    }
+                    // 包み足 (◎) -> 安値より少し下へ配置
+                    if (ev.engulfing) {
+                        eng_x.push(ev.time);
+                        eng_y.push(lVal - offset);
+                    }
+                    // 明星・宵の明星 -> 高値の上へ配置
+                    if (ev.star) {
+                        star_x.push(ev.time);
+                        star_y.push(hVal + (offset * 1.5));
+                    }
+                });
+            }
+
             function findClosestTimeIdx(arr, targetStr) {
                 let targetTime = new Date(targetStr).getTime();
                 let closestIdx = 0;
@@ -442,7 +537,7 @@
                 hoverinfo: 'none'
             };
             
-            const traceSMA9    = { x: times, y: fullData.sma9,     mode: 'lines', name: 'SMA 9',     line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA9    = { x: times, y: fullData.sma9,    mode: 'lines', name: 'SMA 9',    line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
             const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5}, hoverinfo: 'skip' };
             const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5}, hoverinfo: 'skip' };
             
@@ -474,6 +569,39 @@
             if (sell_x.length > 0) traces.push({ x: sell_x, y: sell_y, mode: 'markers', name: 'SELL', marker: {symbol: 'triangle-down', size: 16, color: '#1e88e5'}, hoverinfo: 'skip' });
             if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#ffffff', line: {width: 2}}, hoverinfo: 'skip' });
             if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#cccccc'}, hoverinfo: 'skip' });
+
+            // プライスアクション＆起点マーカー用トレースの追加（起点専用に正しいゴールド白枠円 circle-open を適用）
+            const chkStart = document.getElementById('chk-start').checked;
+            const chkInside = document.getElementById('chk-inside').checked;
+            const chkPin = document.getElementById('chk-pin').checked;
+            const chkEng = document.getElementById('chk-eng').checked;
+            const chkStar = document.getElementById('chk-star').checked;
+
+            traces.push({
+                x: start_x, y: start_y, mode: 'markers', name: '起点 (30pips)',
+                marker: { symbol: 'circle-open', size: 11, color: '#ffd700', line: { width: 2 } },
+                visible: chkStart, hoverinfo: 'skip'
+            });
+            traces.push({
+                x: inside_x, y: inside_y, mode: 'markers', name: 'インサイドバー',
+                marker: { symbol: 'square', size: 7, color: '#adb5bd' },
+                visible: chkInside, hoverinfo: 'skip'
+            });
+            traces.push({
+                x: pin_x, y: pin_y, mode: 'markers', name: 'ピンバー',
+                marker: { symbol: 'triangle-up', size: 9, color: '#00bcd4' },
+                visible: chkPin, hoverinfo: 'skip'
+            });
+            traces.push({
+                x: eng_x, y: eng_y, mode: 'markers', name: '包み足 (◎)',
+                marker: { symbol: 'circle-dot', size: 10, color: '#ff9800' },
+                visible: chkEng, hoverinfo: 'skip'
+            });
+            traces.push({
+                x: star_x, y: star_y, mode: 'markers', name: '明星',
+                marker: { symbol: 'star', size: 11, color: '#e91e63' },
+                visible: chkStar, hoverinfo: 'skip'
+            });
 
             let total = times.length;
             let endIdx = total - 1;

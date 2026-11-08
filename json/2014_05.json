@@ -35121,118 +35121,996 @@
     94.299,
     94.303
   ],
-  "trades": [
+  "breakout_pa_events": [
     {
-      "entry_time": "2014-05-06 19:15",
-      "exit_time": "2014-05-07 01:31",
-      "type": "BUY",
-      "entry_price": 95.05,
-      "exit_price": 94.85,
-      "result": "SL"
+      "time": "2014-05-02 13:45",
+      "price": 94.88,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-07 23:00",
-      "exit_time": "2014-05-08 02:40",
-      "type": "BUY",
-      "entry_price": 94.99,
-      "exit_price": 95.37,
-      "result": "TP"
+      "time": "2014-05-02 14:00",
+      "price": 94.96,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-08 19:15",
-      "exit_time": "2014-05-09 00:10",
-      "type": "BUY",
-      "entry_price": 95.21,
-      "exit_price": 95.06,
-      "result": "SL"
+      "time": "2014-05-02 14:15",
+      "price": 94.9,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-09 18:15",
-      "exit_time": "2014-05-11 23:54",
-      "type": "SELL",
-      "entry_price": 95.18,
-      "exit_price": 95.38,
-      "result": "SL"
+      "time": "2014-05-02 14:30",
+      "price": 94.87,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-12 21:15",
-      "exit_time": "2014-05-13 05:46",
-      "type": "BUY",
-      "entry_price": 95.6,
-      "exit_price": 95.49,
-      "result": "SL"
+      "time": "2014-05-04 23:45",
+      "price": 94.76,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-13 18:15",
-      "exit_time": "2014-05-14 14:54",
-      "type": "BUY",
-      "entry_price": 95.67,
-      "exit_price": 95.46,
-      "result": "SL"
+      "time": "2014-05-05 00:00",
+      "price": 94.87,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-14 18:45",
-      "exit_time": "2014-05-19 06:04",
-      "type": "SELL",
-      "entry_price": 95.41,
-      "exit_price": 94.65,
-      "result": "TP"
+      "time": "2014-05-05 00:15",
+      "price": 94.85,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-19 18:45",
-      "exit_time": "2014-05-20 08:28",
-      "type": "SELL",
-      "entry_price": 94.49,
-      "exit_price": 93.91,
-      "result": "TP"
+      "time": "2014-05-05 00:30",
+      "price": 94.78,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-20 20:00",
-      "exit_time": "2014-05-21 06:36",
-      "type": "SELL",
-      "entry_price": 93.68,
-      "exit_price": 93.22,
-      "result": "TP"
+      "time": "2014-05-05 00:45",
+      "price": 94.7,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-21 18:00",
-      "exit_time": "2014-05-21 18:07",
-      "type": "SELL",
-      "entry_price": 93.47,
-      "exit_price": 93.6,
-      "result": "SL"
+      "time": "2014-05-05 01:00",
+      "price": 94.67,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
     },
     {
-      "entry_time": "2014-05-22 18:00",
-      "exit_time": "2014-05-23 00:05",
-      "type": "BUY",
-      "entry_price": 93.81,
-      "exit_price": 93.97,
-      "result": "TP"
+      "time": "2014-05-05 01:15",
+      "price": 94.65,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-26 18:45",
-      "exit_time": "2014-05-27 00:11",
-      "type": "BUY",
-      "entry_price": 94.16,
-      "exit_price": 94.4,
-      "result": "TP"
+      "time": "2014-05-05 01:30",
+      "price": 94.57,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-27 18:00",
-      "exit_time": "2014-05-27 23:47",
-      "type": "BUY",
-      "entry_price": 94.31,
-      "exit_price": 94.47,
-      "result": "TP"
+      "time": "2014-05-05 04:30",
+      "price": 94.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
     },
     {
-      "entry_time": "2014-05-28 21:00",
-      "exit_time": "2014-05-29 00:00",
-      "type": "SELL",
-      "entry_price": 94.0,
-      "exit_price": 93.8,
-      "result": "TP"
+      "time": "2014-05-05 04:45",
+      "price": 94.39,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-05 05:00",
+      "price": 94.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-05 05:15",
+      "price": 94.41,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-05 06:30",
+      "price": 94.73,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-05 12:45",
+      "price": 94.38,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-05 13:30",
+      "price": 94.4,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-07 23:45",
+      "price": 94.95,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2014-05-08 00:15",
+      "price": 95.04,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-08 00:30",
+      "price": 95.03,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-08 00:45",
+      "price": 95.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-08 01:00",
+      "price": 94.96,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-08 01:15",
+      "price": 94.99,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-08 01:45",
+      "price": 95.09,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-13 10:15",
+      "price": 95.5,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-13 10:45",
+      "price": 95.54,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-14 07:30",
+      "price": 95.98,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2014-05-14 07:45",
+      "price": 95.91,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-14 13:00",
+      "price": 95.75,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-14 13:15",
+      "price": 95.72,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-14 13:30",
+      "price": 95.64,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-14 14:00",
+      "price": 95.62,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 07:45",
+      "price": 95.63,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 11:30",
+      "price": 95.4,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-15 11:45",
+      "price": 95.39,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-15 12:00",
+      "price": 95.36,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-15 12:15",
+      "price": 95.37,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-15 12:30",
+      "price": 95.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-15 12:45",
+      "price": 95.21,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 13:00",
+      "price": 95.22,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 13:15",
+      "price": 95.22,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 13:30",
+      "price": 95.12,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-15 13:45",
+      "price": 95.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-19 03:30",
+      "price": 95.04,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-19 04:00",
+      "price": 95.01,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-19 04:15",
+      "price": 94.96,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-19 07:45",
+      "price": 94.86,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-19 23:30",
+      "price": 94.68,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-19 23:45",
+      "price": 94.7,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 00:00",
+      "price": 94.67,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 04:15",
+      "price": 94.41,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 04:30",
+      "price": 94.38,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 04:45",
+      "price": 94.33,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 05:00",
+      "price": 94.33,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 05:15",
+      "price": 94.35,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-20 05:30",
+      "price": 94.34,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 05:45",
+      "price": 94.24,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 07:00",
+      "price": 94.05,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-20 07:15",
+      "price": 94.03,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 07:30",
+      "price": 94.04,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-20 14:45",
+      "price": 93.84,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 04:45",
+      "price": 93.38,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 05:00",
+      "price": 93.42,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 05:15",
+      "price": 93.44,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 05:30",
+      "price": 93.48,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 05:45",
+      "price": 93.43,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 06:00",
+      "price": 93.36,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 06:15",
+      "price": 93.42,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 12:00",
+      "price": 93.2,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-21 12:30",
+      "price": 93.22,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 00:15",
+      "price": 93.57,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 00:30",
+      "price": 93.55,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-22 00:45",
+      "price": 93.6,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-22 01:00",
+      "price": 93.54,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 01:15",
+      "price": 93.46,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 01:30",
+      "price": 93.5,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 01:45",
+      "price": 93.83,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 02:00",
+      "price": 93.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 03:00",
+      "price": 94.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 03:15",
+      "price": 94.02,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-22 08:30",
+      "price": 94.08,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-28 05:00",
+      "price": 94.4,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 05:15",
+      "price": 94.42,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 05:30",
+      "price": 94.41,
+      "up": false,
+      "down": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 05:45",
+      "price": 94.42,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 06:00",
+      "price": 94.4,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 11:00",
+      "price": 94.14,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 11:15",
+      "price": 94.14,
+      "up": false,
+      "down": true,
+      "pinbar": true,
+      "engulfing": true,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-28 23:45",
+      "price": 93.82,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-29 00:00",
+      "price": 93.83,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": false
+    },
+    {
+      "time": "2014-05-29 00:15",
+      "price": 93.9,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": false
+    },
+    {
+      "time": "2014-05-29 00:30",
+      "price": 93.86,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-29 00:45",
+      "price": 93.87,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-29 01:00",
+      "price": 93.89,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "inside": true
+    },
+    {
+      "time": "2014-05-29 01:15",
+      "price": 93.84,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-29 01:30",
+      "price": 94.07,
+      "up": true,
+      "down": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false,
+      "inside": true
+    },
+    {
+      "time": "2014-05-29 01:45",
+      "price": 94.07,
+      "up": true,
+      "down": false,
+      "pinbar": true,
+      "engulfing": true,
+      "star": false,
+      "inside": true
     }
   ]
 }
