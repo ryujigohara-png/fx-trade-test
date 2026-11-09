@@ -33884,2352 +33884,2002 @@
     {
       "time": "2011-01-04 02:45",
       "price": 83.05,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-04 03:00",
       "price": 83.07,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 12:00",
       "price": 82.9,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 14:00",
       "price": 82.74,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 14:15",
       "price": 82.8,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 14:30",
       "price": 82.71,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 14:45",
       "price": 82.75,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 15:00",
       "price": 82.63,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 15:15",
       "price": 82.62,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 15:30",
       "price": 82.55,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 15:45",
       "price": 82.5,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 16:00",
       "price": 82.37,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-04 16:15",
       "price": 82.36,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-04 16:30",
       "price": 82.36,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-04 16:45",
       "price": 82.27,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-04 17:00",
       "price": 82.25,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 17:15",
       "price": 81.99,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 17:30",
       "price": 82.03,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-04 17:45",
       "price": 82.06,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-04 18:00",
       "price": 82.24,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2011-01-04 23:30",
+      "price": 82.5,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2011-01-04 23:45",
       "price": 82.58,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 03:00",
       "price": 82.31,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-05 03:15",
       "price": 82.34,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-05 03:30",
       "price": 82.32,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-05 03:45",
       "price": 82.36,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 04:00",
       "price": 82.3,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 11:15",
       "price": 82.15,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": true
     },
     {
       "time": "2011-01-05 11:30",
       "price": 82.09,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-05 11:45",
       "price": 82.14,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-05 12:00",
       "price": 82.19,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-05 12:15",
       "price": 82.16,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-05 12:30",
       "price": 82.17,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-05 12:45",
       "price": 82.1,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 13:00",
       "price": 82.18,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 14:15",
       "price": 82.85,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 14:30",
       "price": 82.82,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 14:45",
       "price": 82.91,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": true
     },
     {
       "time": "2011-01-05 15:00",
       "price": 82.9,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 15:15",
       "price": 82.92,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 15:30",
       "price": 82.91,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-05 15:45",
       "price": 83.01,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 00:15",
       "price": 83.31,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 00:30",
       "price": 83.26,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 00:45",
       "price": 83.18,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 01:00",
       "price": 83.16,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 01:15",
       "price": 83.15,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 01:30",
       "price": 83.09,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-06 01:45",
       "price": 83.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-06 14:00",
       "price": 82.83,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-07 11:30",
       "price": 82.89,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 11:45",
       "price": 82.92,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 12:00",
       "price": 82.93,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 12:15",
       "price": 82.86,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 12:30",
       "price": 82.85,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 12:45",
       "price": 82.83,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 13:00",
       "price": 82.83,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 13:15",
       "price": 82.93,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 14:00",
       "price": 83.0,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 14:15",
       "price": 82.94,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 14:30",
       "price": 82.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 14:45",
       "price": 82.93,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 15:00",
       "price": 82.93,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 15:15",
       "price": 82.94,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 15:30",
       "price": 82.96,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 15:45",
       "price": 82.8,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 16:00",
       "price": 82.78,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 16:15",
       "price": 82.7,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 16:30",
       "price": 82.56,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 16:45",
       "price": 82.61,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 17:00",
       "price": 82.54,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 17:30",
       "price": 82.31,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-07 17:45",
       "price": 82.33,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-07 18:00",
       "price": 82.35,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 13:00",
       "price": 82.17,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-10 13:15",
       "price": 82.25,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-10 13:30",
       "price": 82.25,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-10 13:45",
       "price": 82.19,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-10 14:00",
       "price": 82.2,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-10 14:15",
       "price": 82.15,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-10 15:15",
+      "price": 82.01,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-10 15:45",
       "price": 81.94,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 16:00",
       "price": 81.95,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 16:15",
       "price": 81.99,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 16:30",
       "price": 82.02,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 16:45",
       "price": 82.18,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-10 20:45",
       "price": 82.38,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-10 21:00",
       "price": 82.38,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-10 23:15",
       "price": 82.14,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-10 23:30",
       "price": 82.15,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-10 23:45",
       "price": 82.22,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 00:00",
       "price": 82.23,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 00:15",
       "price": 82.26,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 00:30",
       "price": 82.18,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 00:45",
       "price": 82.03,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 14:00",
       "price": 81.92,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 14:15",
       "price": 81.87,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 14:30",
       "price": 81.9,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 14:45",
       "price": 81.92,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 15:00",
       "price": 81.97,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-11 17:00",
       "price": 82.26,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 17:15",
       "price": 82.24,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 17:45",
       "price": 82.22,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 20:15",
       "price": 82.1,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 20:30",
       "price": 82.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 20:45",
       "price": 82.13,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 21:00",
       "price": 82.09,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-11 21:15",
       "price": 82.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 21:30",
       "price": 82.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-11 21:45",
       "price": 82.14,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-12 05:00",
+      "price": 81.84,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-12 05:15",
       "price": 81.82,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-12 05:30",
       "price": 81.81,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-12 05:45",
       "price": 81.82,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-12 06:00",
       "price": 81.86,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-12 11:15",
       "price": 82.27,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-12 11:30",
       "price": 82.31,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": true
     },
     {
       "time": "2011-01-12 11:45",
       "price": 82.29,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-12 12:00",
       "price": 82.35,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-12 12:15",
       "price": 82.39,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-12 12:30",
       "price": 82.45,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-12 12:45",
       "price": 82.43,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-12 13:00",
       "price": 82.51,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-13 00:15",
       "price": 82.7,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-13 01:30",
       "price": 82.72,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-13 20:30",
       "price": 82.37,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-14 06:45",
       "price": 82.33,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 07:00",
       "price": 82.37,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 07:15",
       "price": 82.32,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 07:30",
       "price": 82.31,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-14 08:15",
       "price": 82.12,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-14 08:30",
       "price": 82.13,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 09:30",
       "price": 82.14,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-14 09:45",
       "price": 82.11,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 11:00",
       "price": 81.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 11:15",
       "price": 81.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 11:30",
       "price": 81.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-14 15:00",
       "price": 81.75,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-14 15:15",
       "price": 81.7,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-14 15:30",
       "price": 81.72,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-14 15:45",
       "price": 81.81,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-14 17:15",
       "price": 81.94,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-17 06:30",
       "price": 81.74,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-17 06:45",
       "price": 81.82,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-17 07:15",
       "price": 81.83,
-      "up": true,
-      "down": false,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-18 05:00",
+      "price": 82.01,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": true
     },
     {
       "time": "2011-01-18 05:15",
       "price": 82.01,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 05:30",
       "price": 81.99,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 05:45",
       "price": 81.96,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 06:00",
       "price": 81.96,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 06:15",
       "price": 82.02,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 13:15",
       "price": 82.13,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 13:30",
       "price": 82.1,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-18 13:45",
       "price": 82.16,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-18 14:00",
       "price": 82.14,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-19 04:45",
       "price": 82.43,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-19 05:00",
+      "price": 82.46,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-19 05:15",
       "price": 82.43,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-19 06:45",
       "price": 82.72,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-19 13:45",
+      "price": 82.49,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-19 14:15",
       "price": 82.51,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-20 13:15",
       "price": 81.49,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
+    },
+    {
+      "time": "2011-01-20 13:45",
+      "price": 81.7,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-20 14:00",
       "price": 81.59,
-      "up": true,
-      "down": false,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-20 14:45",
+      "price": 81.71,
+      "start": false,
       "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-20 15:00",
       "price": 81.88,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-21 01:30",
       "price": 81.69,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-21 01:45",
       "price": 81.71,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2011-01-21 02:00",
+      "price": 81.75,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-21 02:15",
       "price": 81.72,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-21 02:30",
       "price": 81.71,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-24 14:15",
       "price": 82.04,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-24 14:30",
       "price": 82.06,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-24 14:45",
       "price": 82.01,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-24 15:00",
       "price": 82.02,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-24 22:30",
       "price": 82.27,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-24 22:45",
+      "price": 82.24,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-24 23:00",
       "price": 82.3,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-24 23:15",
       "price": 82.27,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-24 23:30",
       "price": 82.28,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-24 23:45",
       "price": 82.28,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 00:00",
       "price": 82.33,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-25 00:15",
       "price": 82.29,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-25 07:30",
       "price": 82.29,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 07:45",
       "price": 82.18,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-25 08:00",
       "price": 82.16,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2011-01-25 09:00",
+      "price": 82.01,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2011-01-25 09:15",
       "price": 82.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 11:45",
       "price": 81.85,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 13:00",
       "price": 81.6,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 15:00",
       "price": 81.86,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 15:45",
       "price": 81.88,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-25 17:30",
+      "price": 81.72,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 17:45",
       "price": 81.76,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-25 18:15",
       "price": 81.52,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 18:30",
       "price": 81.56,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 18:45",
       "price": 81.53,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 19:00",
       "price": 81.49,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-25 19:15",
       "price": 81.46,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-25 19:30",
       "price": 81.54,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-25 19:45",
       "price": 81.54,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-25 20:00",
       "price": 81.65,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-26 23:30",
       "price": 82.07,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-26 23:45",
       "price": 82.07,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 00:00",
       "price": 82.02,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 00:15",
       "price": 82.0,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 00:30",
       "price": 82.05,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 00:45",
       "price": 81.98,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 01:00",
       "price": 81.95,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2011-01-27 05:30",
+      "price": 81.71,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 05:45",
       "price": 81.73,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 06:00",
       "price": 81.7,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 06:15",
       "price": 81.73,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 06:30",
       "price": 81.76,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2011-01-27 06:45",
       "price": 81.74,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 07:00",
       "price": 81.76,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 07:15",
       "price": 81.81,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 07:30",
       "price": 81.74,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 08:00",
       "price": 82.22,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 10:15",
       "price": 81.97,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-27 23:15",
       "price": 82.03,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-27 23:30",
       "price": 82.02,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-27 23:45",
       "price": 82.01,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2011-01-28 08:00",
+      "price": 81.81,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2011-01-28 08:15",
       "price": 81.74,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 13:15",
       "price": 82.01,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 13:30",
       "price": 82.09,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 13:45",
       "price": 81.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-28 14:00",
       "price": 82.02,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-28 14:15",
       "price": 82.02,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-28 14:30",
       "price": 82.03,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-28 14:45",
       "price": 82.01,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 15:00",
       "price": 81.87,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 15:15",
       "price": 81.79,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 15:30",
       "price": 81.7,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 15:45",
       "price": 81.65,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 16:00",
       "price": 81.62,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 16:15",
       "price": 81.67,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 16:45",
       "price": 81.31,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
+    },
+    {
+      "time": "2011-01-28 19:00",
+      "price": 81.5,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 19:15",
       "price": 81.55,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 19:30",
       "price": 81.55,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 19:45",
       "price": 81.6,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 20:00",
       "price": 81.57,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2011-01-28 20:15",
       "price": 81.54,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 20:30",
       "price": 81.45,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-28 20:45",
       "price": 81.47,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-28 21:00",
       "price": 81.5,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2011-01-30 23:30",
       "price": 80.95,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2011-01-30 23:45",
       "price": 81.01,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     }
   ]
 }

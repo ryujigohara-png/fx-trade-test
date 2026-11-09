@@ -36009,2392 +36009,2074 @@
     {
       "time": "2021-11-01 00:00",
       "price": 85.9,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-01 16:00",
       "price": 86.01,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 01:30",
       "price": 85.82,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 01:45",
       "price": 85.77,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 02:00",
       "price": 85.74,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 02:15",
       "price": 85.76,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 02:30",
       "price": 85.72,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 02:45",
       "price": 85.69,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 03:00",
       "price": 85.61,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 03:15",
       "price": 85.66,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-02 03:45",
       "price": 85.46,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 04:00",
       "price": 85.42,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 04:15",
       "price": 85.41,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 05:00",
       "price": 85.21,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 05:15",
       "price": 85.15,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 05:30",
       "price": 85.14,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 05:45",
       "price": 85.14,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-02 13:30",
+      "price": 84.81,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-02 14:00",
       "price": 84.79,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-03 17:00",
       "price": 84.57,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-03 17:15",
       "price": 84.55,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-03 17:30",
       "price": 84.57,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-03 17:45",
       "price": 84.56,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 07:15",
       "price": 84.92,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 07:30",
       "price": 84.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 07:45",
       "price": 84.94,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 09:45",
       "price": 84.64,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-04 12:15",
       "price": 84.47,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 12:30",
       "price": 84.49,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-04 12:45",
       "price": 84.42,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": true
     },
     {
       "time": "2021-11-04 13:00",
       "price": 84.43,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 13:15",
       "price": 84.38,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-04 13:30",
       "price": 84.29,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 13:45",
       "price": 84.29,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 14:00",
       "price": 84.25,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-04 23:15",
       "price": 84.25,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-04 23:30",
       "price": 84.3,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-04 23:45",
       "price": 84.31,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-05 00:00",
       "price": 84.18,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-05 00:15",
       "price": 84.19,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-05 00:30",
       "price": 84.15,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-05 00:45",
       "price": 84.14,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-08 22:30",
+      "price": 84.03,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-08 22:45",
       "price": 84.04,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-08 23:00",
       "price": 83.99,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-09 01:15",
       "price": 83.73,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 01:45",
       "price": 83.69,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 02:00",
       "price": 83.74,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 02:15",
       "price": 83.71,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-09 12:45",
       "price": 83.64,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2021-11-09 13:00",
       "price": 83.67,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 13:15",
       "price": 83.63,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 13:30",
       "price": 83.6,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 13:45",
       "price": 83.53,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-09 14:00",
       "price": 83.58,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-09 14:15",
       "price": 83.6,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-09 14:30",
       "price": 83.59,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-10 06:00",
+      "price": 83.05,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2021-11-10 06:15",
       "price": 83.02,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 06:30",
       "price": 83.06,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 06:45",
       "price": 83.11,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-10 11:15",
+      "price": 83.27,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-10 11:30",
+      "price": 83.29,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2021-11-10 11:45",
       "price": 83.25,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 12:00",
       "price": 83.25,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 12:15",
       "price": 83.29,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-10 12:30",
       "price": 83.35,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 12:45",
       "price": 83.36,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 13:00",
       "price": 83.36,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 13:15",
       "price": 83.36,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-10 13:30",
       "price": 83.43,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-10 13:45",
       "price": 83.6,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-10 17:30",
       "price": 83.75,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-10 17:45",
       "price": 83.77,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-11 01:45",
+      "price": 83.48,
+      "start": false,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-11 02:15",
       "price": 83.46,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-11 02:30",
       "price": 83.44,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-15 23:30",
+      "price": 83.84,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2021-11-15 23:45",
       "price": 83.8,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 02:30",
       "price": 84.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-16 02:45",
+      "price": 84.01,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": false
     },
     {
       "time": "2021-11-16 03:00",
       "price": 84.05,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 03:15",
       "price": 84.04,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 03:30",
       "price": 84.03,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 23:15",
       "price": 83.84,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 23:30",
       "price": 83.85,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-16 23:45",
       "price": 83.87,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-17 00:00",
       "price": 83.82,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-17 12:30",
+      "price": 83.63,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-17 12:45",
       "price": 83.65,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 13:00",
       "price": 83.58,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 13:15",
       "price": 83.6,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-17 14:15",
+      "price": 83.43,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 14:30",
       "price": 83.4,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-17 15:30",
       "price": 83.23,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 15:45",
       "price": 83.3,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 16:00",
       "price": 83.24,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-17 16:15",
       "price": 83.19,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-17 16:45",
       "price": 83.13,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-17 23:45",
       "price": 82.98,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-18 00:00",
       "price": 82.97,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-19 07:15",
       "price": 83.29,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 07:30",
       "price": 83.31,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 07:45",
       "price": 83.26,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-19 08:00",
       "price": 83.26,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 08:15",
       "price": 83.32,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 08:30",
       "price": 83.23,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-19 08:45",
       "price": 83.19,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 09:00",
       "price": 83.12,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 09:15",
       "price": 82.79,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 10:30",
       "price": 82.51,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-19 10:45",
       "price": 82.54,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-19 11:00",
+      "price": 82.43,
+      "start": false,
+      "pinbar": false,
+      "engulfing": true,
+      "star": true
     },
     {
       "time": "2021-11-19 11:15",
       "price": 82.49,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-19 11:45",
+      "price": 82.39,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 12:15",
       "price": 82.36,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 12:30",
       "price": 82.19,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 12:45",
       "price": 82.23,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 13:00",
       "price": 82.27,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 13:15",
       "price": 82.34,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-19 13:45",
       "price": 82.43,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-22 12:00",
       "price": 82.78,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-22 12:15",
       "price": 82.81,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-22 12:30",
       "price": 82.83,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-22 12:45",
       "price": 82.81,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-22 13:00",
       "price": 82.84,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-22 13:15",
       "price": 82.82,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-23 06:15",
       "price": 83.02,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-23 06:30",
       "price": 83.04,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-23 06:45",
       "price": 83.05,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-23 07:00",
       "price": 82.96,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-23 08:30",
       "price": 82.68,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-23 08:45",
       "price": 82.67,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-23 14:45",
       "price": 83.11,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-24 02:00",
       "price": 83.12,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-24 02:15",
       "price": 83.11,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-24 02:30",
       "price": 83.07,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-24 02:45",
       "price": 83.05,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-25 21:30",
       "price": 82.92,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 21:45",
       "price": 82.92,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 22:00",
       "price": 82.91,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-25 22:15",
       "price": 82.92,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 22:30",
       "price": 82.9,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-25 22:45",
       "price": 82.9,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 23:00",
       "price": 82.87,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 23:15",
       "price": 82.77,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-25 23:30",
       "price": 82.64,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-25 23:45",
       "price": 82.52,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 00:30",
       "price": 82.37,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 00:45",
       "price": 82.41,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 01:00",
       "price": 82.32,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": true
     },
     {
       "time": "2021-11-26 01:15",
       "price": 82.36,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 01:30",
       "price": 82.22,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 01:45",
       "price": 82.17,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 02:00",
       "price": 82.13,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 02:15",
       "price": 82.09,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 04:30",
       "price": 81.93,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 04:45",
       "price": 81.91,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 05:00",
       "price": 81.87,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2021-11-26 05:15",
       "price": 81.85,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 05:30",
       "price": 81.85,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 05:45",
       "price": 81.87,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 06:00",
       "price": 81.81,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 06:15",
       "price": 81.71,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 06:30",
       "price": 81.68,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 06:45",
       "price": 81.76,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 07:00",
       "price": 81.61,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 07:15",
       "price": 81.53,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 07:30",
       "price": 81.4,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 07:45",
       "price": 81.33,
-      "up": true,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 08:00",
       "price": 81.17,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 08:15",
       "price": 80.98,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 08:30",
       "price": 81.32,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 08:45",
       "price": 81.62,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 09:00",
       "price": 81.54,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-26 12:15",
+      "price": 81.35,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 12:45",
       "price": 81.48,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 13:00",
       "price": 81.53,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 13:15",
       "price": 81.49,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 13:30",
       "price": 81.41,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 13:45",
       "price": 81.32,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 14:00",
       "price": 81.31,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 14:15",
       "price": 81.24,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 14:30",
       "price": 81.11,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 14:45",
       "price": 81.14,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 15:00",
       "price": 80.87,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-26 15:15",
       "price": 80.98,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 15:30",
       "price": 80.87,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-26 19:00",
+      "price": 80.65,
+      "start": false,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 19:30",
       "price": 80.56,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 19:45",
       "price": 80.48,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 20:00",
       "price": 80.51,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 20:15",
       "price": 80.51,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 20:30",
       "price": 80.5,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 20:45",
       "price": 80.7,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-26 21:00",
       "price": 80.74,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 21:15",
       "price": 80.6,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 21:30",
       "price": 80.69,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 21:45",
       "price": 80.71,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-26 22:00",
       "price": 80.72,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-28 22:00",
       "price": 80.84,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-28 22:15",
       "price": 80.67,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-28 22:30",
       "price": 80.79,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-28 22:45",
       "price": 80.79,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-28 23:30",
       "price": 81.28,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 03:45",
       "price": 81.19,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 04:00",
       "price": 81.2,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 04:15",
       "price": 81.17,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 04:30",
       "price": 81.11,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 04:45",
       "price": 81.06,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 05:00",
       "price": 81.06,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 05:45",
       "price": 80.83,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 06:00",
       "price": 80.73,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 06:15",
       "price": 80.66,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 06:30",
       "price": 80.74,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-29 07:30",
+      "price": 80.98,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true
     },
     {
       "time": "2021-11-29 07:45",
       "price": 81.16,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 08:15",
       "price": 80.85,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": false
+      "star": false
+    },
+    {
+      "time": "2021-11-29 13:00",
+      "price": 81.17,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-29 13:30",
       "price": 81.22,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 13:45",
       "price": 81.29,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 14:00",
       "price": 81.3,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-29 14:15",
       "price": 81.29,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 14:30",
       "price": 81.21,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-29 14:45",
       "price": 81.27,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
+    },
+    {
+      "time": "2021-11-30 02:30",
+      "price": 81.24,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 03:00",
       "price": 81.3,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 03:15",
       "price": 81.19,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 03:30",
       "price": 81.18,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": false
+      "star": false
     },
     {
       "time": "2021-11-30 03:45",
       "price": 81.2,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 04:00",
       "price": 81.15,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 04:15",
       "price": 81.15,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 04:30",
       "price": 81.11,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 04:45",
       "price": 81.1,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 05:00",
       "price": 80.78,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 05:30",
       "price": 80.47,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 06:00",
       "price": 80.23,
-      "up": true,
-      "down": false,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 07:15",
       "price": 80.51,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 07:45",
       "price": 80.54,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 08:00",
       "price": 80.55,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 08:15",
       "price": 80.56,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 10:15",
       "price": 80.42,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
+    },
+    {
+      "time": "2021-11-30 10:45",
+      "price": 80.44,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 11:00",
       "price": 80.38,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 14:00",
       "price": 80.63,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 14:15",
       "price": 80.66,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": false,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 14:30",
       "price": 80.59,
-      "up": false,
-      "down": true,
-      "pinbar": true,
+      "start": true,
+      "pinbar": false,
       "engulfing": true,
-      "star": false,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 14:45",
       "price": 80.66,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 15:00",
       "price": 80.68,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 15:15",
       "price": 80.66,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "inside": true
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 15:30",
       "price": 80.74,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 15:45",
       "price": 80.46,
-      "up": false,
-      "down": true,
+      "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
-      "inside": true
+      "star": false
     },
     {
       "time": "2021-11-30 16:00",
       "price": 80.53,
-      "up": false,
-      "down": true,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 16:15",
       "price": 80.43,
-      "up": false,
-      "down": true,
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-30 16:45",
+      "price": 80.21,
+      "start": false,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 17:00",
       "price": 80.15,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 17:15",
       "price": 80.24,
-      "up": true,
-      "down": false,
-      "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "inside": false
+      "start": true,
+      "pinbar": false,
+      "engulfing": false,
+      "star": false
     },
     {
       "time": "2021-11-30 18:00",
       "price": 80.27,
-      "up": true,
-      "down": false,
+      "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "inside": true
+      "engulfing": false,
+      "star": false
+    },
+    {
+      "time": "2021-11-30 23:45",
+      "price": 80.69,
+      "start": false,
+      "pinbar": true,
+      "engulfing": false,
+      "star": false
     }
   ]
 }

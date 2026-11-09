@@ -56,13 +56,12 @@
             padding: 6px 10px;
             font-weight: bold;
         }
-        /* プライスアクション用トグルコントロールのスタイル */
         .pa-controls {
             background: #181818;
             padding: 6px 15px;
             border-bottom: 1px solid #2a2a2a;
             display: flex;
-            gap: 12px;
+            gap: 18px;
             align-items: center;
             flex-wrap: wrap;
             font-size: 12px;
@@ -93,7 +92,6 @@
             z-index: 1000;
             border: 1px solid #444;
         }
-        /* カスタムツールチップのスタイル（背景透かし・縦1列高密度） */
         #custom-tooltip {
             position: absolute;
             display: none;
@@ -171,24 +169,19 @@
         </div>
     </div>
 
-    <!-- プライスアクション表示切替用コントロールバー（初期表示は起点のみチェックON） -->
     <div class="pa-controls">
         <span style="font-weight: bold; color: #aaa;">PA表示:</span>
         <label><input type="checkbox" id="chk-start" checked onchange="togglePATrace('start', this.checked)"> 🟡 起点(30pips)</label>
-        <label><input type="checkbox" id="chk-inside" onchange="togglePATrace('inside', this.checked)"> ⬜ インサイドバー</label>
         <label><input type="checkbox" id="chk-pin" onchange="togglePATrace('pin', this.checked)"> 🔺 ピンバー</label>
         <label><input type="checkbox" id="chk-eng" onchange="togglePATrace('eng', this.checked)"> ◎ 包み足</label>
         <label><input type="checkbox" id="chk-star" onchange="togglePATrace('star', this.checked)"> ⭐ 明星</label>
     </div>
 
-    <!-- カスタムツールチップ表示用コンテナ -->
     <div id="custom-tooltip"></div>
-
     <div id="loading">データをロード中...</div>
     <div id="chart"></div>
 
     <script>
-        // --- CONFIG 領域 ---
         const APP_CONFIG = {
             fontSizeScale: 1.0
         };
@@ -284,14 +277,12 @@
             }
         }
 
-        // プライスアクション用トレースの非同期トグル切り替え関数
         function togglePATrace(type, isChecked) {
             var gd = document.getElementById('chart');
             if (!gd || !gd.data) return;
             
             let traceNameMap = {
                 'start': '起点 (30pips)',
-                'inside': 'インサイドバー',
                 'pin': 'ピンバー',
                 'eng': '包み足 (◎)',
                 'star': '明星'
@@ -330,7 +321,7 @@
                 let bottomMargin = gd._fullLayout.margin.b;
                 let plotHeight = gd.clientHeight - topMargin - bottomMargin;
                 let relY = clientY - (rect.top + topMargin);
-                let yRange = yaxis.range; // [min, max]
+                let yRange = yaxis.range;
                 
                 let calculatedPrice = yRange[0] + (yRange[1] - yRange[0]) * (1 - (relY / plotHeight));
                 cursorPriceStr = fmt(calculatedPrice);
@@ -467,9 +458,7 @@
                 });
             }
 
-            // プライスアクション・起点イベントデータの抽出配列
             let start_x = [], start_y = [];
-            let inside_x = [], inside_y = [];
             let pin_x = [], pin_y = [];
             let eng_x = [], eng_y = [];
             let star_x = [], star_y = [];
@@ -481,30 +470,25 @@
                     let lVal = idx !== undefined ? fullData.lows[idx] : ev.price;
                     let offset = 0.08;
 
-                    // 起点 (30pips突破点) -> 高値より少し上へ配置
-                    if (ev.up || ev.down) {
+                    // 1. 起点 (30pips): 高値の上側
+                    if (ev.start) {
                         start_x.push(ev.time);
                         start_y.push(hVal + offset);
                     }
-                    // インサイドバー -> 安値より少し下へ配置
-                    if (ev.inside) {
-                        inside_x.push(ev.time);
-                        inside_y.push(lVal - offset);
-                    }
-                    // ピンバー -> 高値より少し上へ配置
+                    // 2. ピンバー: 包み足と同じ高さ（安値の下側）
                     if (ev.pinbar) {
                         pin_x.push(ev.time);
-                        pin_y.push(hVal + offset);
+                        pin_y.push(lVal - offset);
                     }
-                    // 包み足 (◎) -> 安値より少し下へ配置
+                    // 3. 包み足: 安値の下側
                     if (ev.engulfing) {
                         eng_x.push(ev.time);
                         eng_y.push(lVal - offset);
                     }
-                    // 明星・宵の明星 -> 高値の上へ配置
+                    // 4. 明星: 起点よりもさらに上の位置（高値から離して配置）
                     if (ev.star) {
                         star_x.push(ev.time);
-                        star_y.push(hVal + (offset * 1.5));
+                        star_y.push(hVal + (offset * 2.2));
                     }
                 });
             }
@@ -570,36 +554,33 @@
             if (entry_circle_x.length > 0) traces.push({ x: entry_circle_x, y: entry_circle_y, mode: 'markers', name: 'Entry', marker: {symbol: 'circle-open', size: 14, color: '#ffffff', line: {width: 2}}, hoverinfo: 'skip' });
             if (exit_x.length > 0) traces.push({ x: exit_x, y: exit_y, mode: 'markers', name: 'Exit', marker: {symbol: 'square', size: 11, color: '#cccccc'}, hoverinfo: 'skip' });
 
-            // プライスアクション＆起点マーカー用トレースの追加（起点専用に正しいゴールド白枠円 circle-open を適用）
             const chkStart = document.getElementById('chk-start').checked;
-            const chkInside = document.getElementById('chk-inside').checked;
             const chkPin = document.getElementById('chk-pin').checked;
             const chkEng = document.getElementById('chk-eng').checked;
             const chkStar = document.getElementById('chk-star').checked;
 
             traces.push({
-                x: start_x, y: start_y, mode: 'markers', name: '起点 (30pips)',
-                marker: { symbol: 'circle-open', size: 11, color: '#ffd700', line: { width: 2 } },
+                x: start_x, y: start_y, mode: 'text', name: '起点 (30pips)',
+                text: start_x.map(() => '🟡'),
+                textfont: { size: 12 },
                 visible: chkStart, hoverinfo: 'skip'
             });
             traces.push({
-                x: inside_x, y: inside_y, mode: 'markers', name: 'インサイドバー',
-                marker: { symbol: 'square', size: 7, color: '#adb5bd' },
-                visible: chkInside, hoverinfo: 'skip'
-            });
-            traces.push({
-                x: pin_x, y: pin_y, mode: 'markers', name: 'ピンバー',
-                marker: { symbol: 'triangle-up', size: 9, color: '#00bcd4' },
+                x: pin_x, y: pin_y, mode: 'text', name: 'ピンバー',
+                text: pin_x.map(() => '🔺'),
+                textfont: { size: 12 },
                 visible: chkPin, hoverinfo: 'skip'
             });
             traces.push({
-                x: eng_x, y: eng_y, mode: 'markers', name: '包み足 (◎)',
-                marker: { symbol: 'circle-dot', size: 10, color: '#ff9800' },
+                x: eng_x, y: eng_y, mode: 'text', name: '包み足 (◎)',
+                text: eng_x.map(() => '◎'),
+                textfont: { size: 13, color: '#ff9800' },
                 visible: chkEng, hoverinfo: 'skip'
             });
             traces.push({
-                x: star_x, y: star_y, mode: 'markers', name: '明星',
-                marker: { symbol: 'star', size: 11, color: '#e91e63' },
+                x: star_x, y: star_y, mode: 'text', name: '明星',
+                text: star_x.map(() => '⭐'),
+                textfont: { size: 12 },
                 visible: chkStar, hoverinfo: 'skip'
             });
 
@@ -675,7 +656,6 @@
                     }
                 });
 
-                // 方法A：Plotly標準の data.points から正確な pointIndex を直接取得してツールチップを表示
                 gd.on('plotly_click', function(data) {
                     let clientX = data.event.clientX;
                     let clientY = data.event.clientY;
