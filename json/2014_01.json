@@ -35264,7 +35264,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 06:15",
@@ -35272,7 +35273,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 06:30",
@@ -35280,7 +35282,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 06:45",
@@ -35288,7 +35291,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 09:00",
@@ -35296,7 +35300,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 09:15",
@@ -35304,7 +35309,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 09:30",
@@ -35312,7 +35318,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 09:45",
@@ -35320,7 +35327,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 10:00",
@@ -35328,7 +35336,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 10:15",
@@ -35336,7 +35345,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 10:30",
@@ -35344,15 +35354,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2014-01-02 12:30",
-      "price": 93.26,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 12:45",
@@ -35360,7 +35363,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 13:00",
@@ -35368,7 +35372,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 13:15",
@@ -35376,7 +35381,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 13:30",
@@ -35384,7 +35390,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 13:45",
@@ -35392,7 +35399,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 14:00",
@@ -35400,7 +35408,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 14:15",
@@ -35408,7 +35417,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 14:30",
@@ -35416,7 +35426,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-02 17:15",
@@ -35424,7 +35435,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-02 17:45",
@@ -35432,7 +35444,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 00:15",
@@ -35440,7 +35453,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 00:30",
@@ -35448,7 +35462,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 00:45",
@@ -35456,7 +35471,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 01:00",
@@ -35464,7 +35480,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 01:30",
@@ -35472,7 +35489,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 01:45",
@@ -35480,7 +35498,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-03 02:15",
@@ -35488,7 +35507,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 02:30",
@@ -35496,7 +35516,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 02:45",
@@ -35504,7 +35525,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 03:00",
@@ -35512,7 +35534,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 03:15",
@@ -35520,7 +35543,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 03:30",
@@ -35528,7 +35552,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 03:45",
@@ -35536,7 +35561,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 04:00",
@@ -35544,7 +35570,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-03 20:45",
@@ -35552,7 +35579,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-05 23:30",
@@ -35560,7 +35588,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-05 23:45",
@@ -35568,7 +35597,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 00:00",
@@ -35576,7 +35606,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 00:15",
@@ -35584,7 +35615,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 00:30",
@@ -35592,7 +35624,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 00:45",
@@ -35600,7 +35633,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 01:00",
@@ -35608,7 +35642,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 01:15",
@@ -35616,7 +35651,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 01:30",
@@ -35624,7 +35660,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 05:30",
@@ -35632,7 +35669,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-06 05:45",
@@ -35640,7 +35678,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-06 06:00",
@@ -35648,7 +35687,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-06 06:15",
@@ -35656,7 +35696,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-06 14:15",
@@ -35664,7 +35705,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 14:30",
@@ -35672,7 +35714,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 14:45",
@@ -35680,7 +35723,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 15:00",
@@ -35688,7 +35732,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 15:15",
@@ -35696,7 +35741,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 15:30",
@@ -35704,7 +35750,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 15:45",
@@ -35712,7 +35759,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 16:00",
@@ -35720,7 +35768,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 16:15",
@@ -35728,7 +35777,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 16:45",
@@ -35736,7 +35786,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 17:30",
@@ -35744,7 +35795,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-06 23:30",
@@ -35752,7 +35804,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-06 23:45",
@@ -35760,7 +35813,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-07 00:00",
@@ -35768,7 +35822,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-07 00:15",
@@ -35776,7 +35831,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-07 01:15",
@@ -35784,7 +35840,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-07 01:45",
@@ -35792,7 +35849,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-08 14:15",
@@ -35800,7 +35858,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 14:30",
@@ -35808,7 +35867,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 14:45",
@@ -35816,7 +35876,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 15:00",
@@ -35824,7 +35885,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 15:15",
@@ -35832,7 +35894,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 15:30",
@@ -35840,7 +35903,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-08 15:45",
@@ -35848,7 +35912,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-09 00:15",
@@ -35856,7 +35921,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-09 01:00",
@@ -35864,7 +35930,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-09 13:45",
@@ -35872,7 +35939,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-09 14:15",
@@ -35880,7 +35948,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-09 14:45",
@@ -35888,7 +35957,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 11:30",
@@ -35896,7 +35966,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 11:45",
@@ -35904,7 +35975,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 12:00",
@@ -35912,7 +35984,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 12:15",
@@ -35920,7 +35993,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 12:30",
@@ -35928,7 +36002,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 12:45",
@@ -35936,7 +36011,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 13:00",
@@ -35944,7 +36020,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-10 13:15",
@@ -35952,7 +36029,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-10 13:30",
@@ -35960,7 +36038,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-10 13:45",
@@ -35968,7 +36047,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-13 13:00",
@@ -35976,7 +36056,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-13 13:15",
@@ -35984,7 +36065,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 06:00",
@@ -35992,7 +36074,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 06:15",
@@ -36000,7 +36083,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 13:15",
@@ -36008,7 +36092,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-15 13:30",
@@ -36016,7 +36101,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-15 14:15",
@@ -36024,7 +36110,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-15 22:15",
@@ -36032,7 +36119,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 22:30",
@@ -36040,7 +36128,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 22:45",
@@ -36048,7 +36137,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 23:00",
@@ -36056,7 +36146,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 23:15",
@@ -36064,7 +36155,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 23:30",
@@ -36072,7 +36164,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-15 23:45",
@@ -36080,7 +36173,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 00:00",
@@ -36088,7 +36182,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 00:15",
@@ -36096,7 +36191,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 06:15",
@@ -36104,7 +36200,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 06:30",
@@ -36112,7 +36209,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 06:45",
@@ -36120,7 +36218,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-16 07:45",
@@ -36128,7 +36227,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 00:45",
@@ -36136,7 +36236,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 01:00",
@@ -36144,7 +36245,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 01:15",
@@ -36152,7 +36254,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 01:30",
@@ -36160,7 +36263,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 20:15",
@@ -36168,7 +36272,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 20:30",
@@ -36176,7 +36281,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-17 20:45",
@@ -36184,7 +36290,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-19 23:00",
@@ -36192,7 +36299,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-19 23:15",
@@ -36200,7 +36308,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-19 23:30",
@@ -36208,7 +36317,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-19 23:45",
@@ -36216,7 +36326,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-20 00:00",
@@ -36224,7 +36335,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 00:15",
@@ -36232,7 +36344,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 00:30",
@@ -36240,7 +36353,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 00:45",
@@ -36248,7 +36362,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 01:00",
@@ -36256,7 +36371,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 01:15",
@@ -36264,7 +36380,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 01:30",
@@ -36272,7 +36389,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 01:45",
@@ -36280,7 +36398,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 02:00",
@@ -36288,7 +36407,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-20 05:15",
@@ -36296,7 +36416,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 05:45",
@@ -36304,7 +36425,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 23:00",
@@ -36312,7 +36434,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 23:15",
@@ -36320,7 +36443,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 23:30",
@@ -36328,7 +36452,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-20 23:45",
@@ -36336,7 +36461,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 00:00",
@@ -36344,7 +36470,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 00:15",
@@ -36352,7 +36479,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 00:30",
@@ -36360,7 +36488,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 00:45",
@@ -36368,7 +36497,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 01:00",
@@ -36376,7 +36506,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 06:45",
@@ -36384,7 +36515,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 07:00",
@@ -36392,7 +36524,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 07:15",
@@ -36400,7 +36533,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 07:30",
@@ -36408,7 +36542,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 07:45",
@@ -36416,7 +36551,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 13:45",
@@ -36424,7 +36560,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 14:00",
@@ -36432,7 +36569,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 14:15",
@@ -36440,7 +36578,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 14:30",
@@ -36448,7 +36587,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 14:45",
@@ -36456,7 +36596,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 15:00",
@@ -36464,7 +36605,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-21 22:00",
@@ -36472,7 +36614,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 22:15",
@@ -36480,7 +36623,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 22:30",
@@ -36488,7 +36632,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 22:45",
@@ -36496,7 +36641,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 23:00",
@@ -36504,7 +36650,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 23:15",
@@ -36512,7 +36659,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 23:30",
@@ -36520,7 +36668,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-21 23:45",
@@ -36528,7 +36677,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 00:00",
@@ -36536,7 +36686,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 00:15",
@@ -36544,7 +36695,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 03:30",
@@ -36552,7 +36704,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 03:45",
@@ -36560,7 +36713,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 04:00",
@@ -36568,7 +36722,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 04:15",
@@ -36576,7 +36731,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 04:30",
@@ -36584,7 +36740,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 04:45",
@@ -36592,7 +36749,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-22 14:00",
@@ -36600,7 +36758,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 14:15",
@@ -36608,7 +36767,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 14:30",
@@ -36616,7 +36776,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 14:45",
@@ -36624,7 +36785,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 15:15",
@@ -36632,7 +36794,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 15:30",
@@ -36640,7 +36803,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-22 23:45",
@@ -36648,7 +36812,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 00:00",
@@ -36656,7 +36821,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 00:15",
@@ -36664,7 +36830,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 00:30",
@@ -36672,7 +36839,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 00:45",
@@ -36680,7 +36848,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 01:00",
@@ -36688,7 +36857,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 01:15",
@@ -36696,7 +36866,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 01:30",
@@ -36704,7 +36875,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 02:30",
@@ -36712,7 +36884,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 02:45",
@@ -36720,7 +36893,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 03:00",
@@ -36728,7 +36902,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 05:30",
@@ -36736,7 +36911,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 05:45",
@@ -36744,7 +36920,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 06:00",
@@ -36752,7 +36929,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 06:15",
@@ -36760,7 +36938,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 06:30",
@@ -36768,7 +36947,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 06:45",
@@ -36776,7 +36956,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 07:00",
@@ -36784,7 +36965,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 07:15",
@@ -36792,7 +36974,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 07:30",
@@ -36800,7 +36983,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-23 09:45",
@@ -36808,7 +36992,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 10:00",
@@ -36816,7 +37001,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 10:15",
@@ -36824,7 +37010,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 10:30",
@@ -36832,7 +37019,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 10:45",
@@ -36840,7 +37028,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 11:00",
@@ -36848,7 +37037,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 11:15",
@@ -36856,7 +37046,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 12:30",
@@ -36864,7 +37055,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 12:45",
@@ -36872,7 +37064,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 13:00",
@@ -36880,7 +37073,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 13:15",
@@ -36888,7 +37082,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 13:30",
@@ -36896,7 +37091,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 13:45",
@@ -36904,7 +37100,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 14:00",
@@ -36912,7 +37109,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 14:15",
@@ -36920,7 +37118,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 15:15",
@@ -36928,7 +37127,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 15:30",
@@ -36936,7 +37136,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 15:45",
@@ -36944,7 +37145,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 16:00",
@@ -36952,7 +37154,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 16:15",
@@ -36960,7 +37163,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 16:30",
@@ -36968,7 +37172,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 16:45",
@@ -36976,7 +37181,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 17:00",
@@ -36984,7 +37190,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-23 20:15",
@@ -36992,7 +37199,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-23 23:00",
@@ -37000,7 +37208,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-23 23:30",
@@ -37008,7 +37217,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-23 23:45",
@@ -37016,7 +37226,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 00:15",
@@ -37024,7 +37235,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 00:30",
@@ -37032,7 +37244,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 00:45",
@@ -37040,7 +37253,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 02:45",
@@ -37048,7 +37262,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 03:00",
@@ -37056,7 +37271,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 03:15",
@@ -37064,7 +37280,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 03:30",
@@ -37072,7 +37289,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 03:45",
@@ -37080,7 +37298,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 04:00",
@@ -37088,7 +37307,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 04:15",
@@ -37096,7 +37316,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 04:30",
@@ -37104,7 +37325,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 04:45",
@@ -37112,7 +37334,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 05:00",
@@ -37120,7 +37343,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 05:15",
@@ -37128,7 +37352,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 05:30",
@@ -37136,7 +37361,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 06:00",
@@ -37144,7 +37370,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 06:15",
@@ -37152,7 +37379,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 06:30",
@@ -37160,7 +37388,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 06:45",
@@ -37168,7 +37397,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 07:00",
@@ -37176,7 +37406,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 07:15",
@@ -37184,7 +37415,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 07:30",
@@ -37192,7 +37424,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 07:45",
@@ -37200,7 +37433,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 08:00",
@@ -37208,7 +37442,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 08:15",
@@ -37216,7 +37451,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 08:30",
@@ -37224,7 +37460,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 08:45",
@@ -37232,7 +37469,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 09:00",
@@ -37240,7 +37478,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 09:15",
@@ -37248,7 +37487,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 09:30",
@@ -37256,7 +37496,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 09:45",
@@ -37264,7 +37505,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 10:00",
@@ -37272,7 +37514,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 10:15",
@@ -37280,7 +37523,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 10:30",
@@ -37288,7 +37532,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 10:45",
@@ -37296,7 +37541,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 11:00",
@@ -37304,7 +37550,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 11:15",
@@ -37312,7 +37559,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 11:30",
@@ -37320,7 +37568,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 11:45",
@@ -37328,7 +37577,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 12:00",
@@ -37336,7 +37586,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 12:15",
@@ -37344,7 +37595,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 12:30",
@@ -37352,7 +37604,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 12:45",
@@ -37360,7 +37613,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 13:00",
@@ -37368,7 +37622,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 13:15",
@@ -37376,7 +37631,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 13:30",
@@ -37384,7 +37640,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 13:45",
@@ -37392,7 +37649,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 14:00",
@@ -37400,7 +37658,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 14:15",
@@ -37408,7 +37667,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 14:30",
@@ -37416,7 +37676,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 15:00",
@@ -37424,7 +37685,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 15:15",
@@ -37432,7 +37694,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 15:30",
@@ -37440,7 +37703,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 16:15",
@@ -37448,7 +37712,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-24 18:15",
@@ -37456,7 +37721,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 18:30",
@@ -37464,7 +37730,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 18:45",
@@ -37472,7 +37739,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 19:00",
@@ -37480,7 +37748,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 19:15",
@@ -37488,7 +37757,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 19:30",
@@ -37496,7 +37766,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 19:45",
@@ -37504,7 +37775,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 20:00",
@@ -37512,7 +37784,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 20:15",
@@ -37520,7 +37793,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 20:30",
@@ -37528,7 +37802,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-24 20:45",
@@ -37536,7 +37811,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-26 23:00",
@@ -37544,7 +37820,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-26 23:45",
@@ -37552,7 +37829,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 00:00",
@@ -37560,7 +37838,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 00:30",
@@ -37568,7 +37847,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 00:45",
@@ -37576,7 +37856,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 01:00",
@@ -37584,7 +37865,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 01:15",
@@ -37592,7 +37874,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 01:30",
@@ -37600,7 +37883,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 01:45",
@@ -37608,7 +37892,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 02:00",
@@ -37616,7 +37901,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 02:15",
@@ -37624,7 +37910,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 02:30",
@@ -37632,7 +37919,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 02:45",
@@ -37640,7 +37928,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 03:00",
@@ -37648,7 +37937,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 03:15",
@@ -37656,7 +37946,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 05:00",
@@ -37664,7 +37955,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 05:15",
@@ -37672,7 +37964,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 05:30",
@@ -37680,7 +37973,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 05:45",
@@ -37688,7 +37982,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 06:00",
@@ -37696,7 +37991,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 06:15",
@@ -37704,7 +38000,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 06:30",
@@ -37712,7 +38009,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 06:45",
@@ -37720,7 +38018,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 07:00",
@@ -37728,7 +38027,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 07:15",
@@ -37736,7 +38036,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 07:30",
@@ -37744,7 +38045,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 07:45",
@@ -37752,7 +38054,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 08:00",
@@ -37760,7 +38063,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 09:00",
@@ -37768,7 +38072,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 09:15",
@@ -37776,7 +38081,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 09:30",
@@ -37784,7 +38090,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 09:45",
@@ -37792,7 +38099,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 10:00",
@@ -37800,7 +38108,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 10:15",
@@ -37808,7 +38117,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 10:30",
@@ -37816,7 +38126,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 10:45",
@@ -37824,7 +38135,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 11:00",
@@ -37832,7 +38144,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 11:15",
@@ -37840,7 +38153,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 11:30",
@@ -37848,7 +38162,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 12:15",
@@ -37856,7 +38171,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 13:15",
@@ -37864,7 +38180,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 13:30",
@@ -37872,7 +38189,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 13:45",
@@ -37880,7 +38198,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 14:15",
@@ -37888,7 +38207,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 14:30",
@@ -37896,7 +38216,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 14:45",
@@ -37904,7 +38225,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 15:00",
@@ -37912,7 +38234,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 15:15",
@@ -37920,7 +38243,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 15:30",
@@ -37928,7 +38252,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 15:45",
@@ -37936,7 +38261,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 16:00",
@@ -37944,7 +38270,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 16:15",
@@ -37952,7 +38279,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 16:30",
@@ -37960,7 +38288,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 16:45",
@@ -37968,7 +38297,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 17:00",
@@ -37976,7 +38306,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 17:15",
@@ -37984,7 +38315,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 17:30",
@@ -37992,7 +38324,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 17:45",
@@ -38000,7 +38333,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 18:00",
@@ -38008,7 +38342,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 18:15",
@@ -38016,7 +38351,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 18:30",
@@ -38024,7 +38360,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 19:30",
@@ -38032,7 +38369,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 19:45",
@@ -38040,7 +38378,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 20:00",
@@ -38048,7 +38387,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 20:15",
@@ -38056,7 +38396,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-27 22:30",
@@ -38064,7 +38405,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 22:45",
@@ -38072,7 +38414,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 23:00",
@@ -38080,7 +38423,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 23:15",
@@ -38088,7 +38432,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 23:30",
@@ -38096,7 +38441,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-27 23:45",
@@ -38104,7 +38450,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 00:00",
@@ -38112,7 +38459,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 00:15",
@@ -38120,7 +38468,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 01:45",
@@ -38128,7 +38477,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 02:00",
@@ -38136,7 +38486,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 02:15",
@@ -38144,7 +38495,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 02:30",
@@ -38152,7 +38504,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 02:45",
@@ -38160,7 +38513,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 06:00",
@@ -38168,7 +38522,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 06:15",
@@ -38176,7 +38531,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 06:30",
@@ -38184,7 +38540,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 06:45",
@@ -38192,7 +38549,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 07:00",
@@ -38200,7 +38558,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 07:15",
@@ -38208,7 +38567,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 07:30",
@@ -38216,7 +38576,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 07:45",
@@ -38224,7 +38585,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 08:00",
@@ -38232,7 +38594,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 08:15",
@@ -38240,7 +38603,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 08:30",
@@ -38248,7 +38612,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 08:45",
@@ -38256,7 +38621,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 11:30",
@@ -38264,7 +38630,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 11:45",
@@ -38272,7 +38639,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 12:00",
@@ -38280,7 +38648,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 12:15",
@@ -38288,7 +38657,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 12:30",
@@ -38296,7 +38666,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 12:45",
@@ -38304,7 +38675,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 13:00",
@@ -38312,7 +38684,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 13:15",
@@ -38320,7 +38693,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 15:00",
@@ -38328,7 +38702,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 20:00",
@@ -38336,7 +38711,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 20:15",
@@ -38344,7 +38720,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 20:30",
@@ -38352,7 +38729,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 20:45",
@@ -38360,7 +38738,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 21:00",
@@ -38368,7 +38747,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 21:15",
@@ -38376,7 +38756,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 21:30",
@@ -38384,7 +38765,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 21:45",
@@ -38392,7 +38774,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 22:30",
@@ -38400,7 +38783,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-28 23:30",
@@ -38408,7 +38792,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-28 23:45",
@@ -38416,7 +38801,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 05:45",
@@ -38424,7 +38810,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 06:00",
@@ -38432,7 +38819,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 06:15",
@@ -38440,7 +38828,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 06:30",
@@ -38448,7 +38837,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 06:45",
@@ -38456,7 +38846,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 07:00",
@@ -38464,7 +38855,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 07:15",
@@ -38472,7 +38864,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 07:30",
@@ -38480,7 +38873,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 07:45",
@@ -38488,7 +38882,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 08:00",
@@ -38496,7 +38891,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 08:15",
@@ -38504,7 +38900,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 08:30",
@@ -38512,7 +38909,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 08:45",
@@ -38520,7 +38918,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 09:30",
@@ -38528,7 +38927,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 09:45",
@@ -38536,7 +38936,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 10:00",
@@ -38544,7 +38945,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 10:15",
@@ -38552,7 +38954,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 10:30",
@@ -38560,7 +38963,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 10:45",
@@ -38568,7 +38972,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 11:15",
@@ -38576,7 +38981,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 11:30",
@@ -38584,7 +38990,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 11:45",
@@ -38592,7 +38999,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 12:00",
@@ -38600,7 +39008,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 12:15",
@@ -38608,7 +39017,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 12:30",
@@ -38616,7 +39026,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 12:45",
@@ -38624,7 +39035,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 13:00",
@@ -38632,7 +39044,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 13:15",
@@ -38640,7 +39053,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 13:30",
@@ -38648,7 +39062,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 13:45",
@@ -38656,7 +39071,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 14:00",
@@ -38664,7 +39080,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 14:15",
@@ -38672,7 +39089,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 16:15",
@@ -38680,7 +39098,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 17:00",
@@ -38688,7 +39107,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 17:15",
@@ -38696,7 +39116,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 17:30",
@@ -38704,7 +39125,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 17:45",
@@ -38712,7 +39134,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 18:00",
@@ -38720,7 +39143,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 18:15",
@@ -38728,7 +39152,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 18:30",
@@ -38736,7 +39161,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 18:45",
@@ -38744,7 +39170,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 19:00",
@@ -38752,7 +39179,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 19:30",
@@ -38760,7 +39188,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 20:00",
@@ -38768,7 +39197,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-29 23:30",
@@ -38776,7 +39206,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-29 23:45",
@@ -38784,7 +39215,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 00:00",
@@ -38792,7 +39224,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 00:15",
@@ -38800,7 +39233,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 00:30",
@@ -38808,7 +39242,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 00:45",
@@ -38816,7 +39251,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 01:00",
@@ -38824,7 +39260,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 01:15",
@@ -38832,7 +39269,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 01:45",
@@ -38840,7 +39278,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 02:00",
@@ -38848,7 +39287,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 02:30",
@@ -38856,7 +39296,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 02:45",
@@ -38864,7 +39305,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 03:00",
@@ -38872,7 +39314,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 09:15",
@@ -38880,7 +39323,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 09:30",
@@ -38888,7 +39332,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 09:45",
@@ -38896,7 +39341,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 10:00",
@@ -38904,7 +39350,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 10:15",
@@ -38912,7 +39359,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 10:30",
@@ -38920,7 +39368,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 10:45",
@@ -38928,7 +39377,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 11:00",
@@ -38936,7 +39386,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 11:15",
@@ -38944,7 +39395,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 11:30",
@@ -38952,7 +39404,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 11:45",
@@ -38960,7 +39413,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 12:00",
@@ -38968,7 +39422,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 12:15",
@@ -38976,7 +39431,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 12:30",
@@ -38984,7 +39440,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 12:45",
@@ -38992,7 +39449,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 13:00",
@@ -39000,7 +39458,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 13:15",
@@ -39008,7 +39467,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 13:30",
@@ -39016,7 +39476,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 14:00",
@@ -39024,7 +39485,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 14:15",
@@ -39032,7 +39494,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 15:30",
@@ -39040,7 +39503,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-30 22:30",
@@ -39048,7 +39512,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 22:45",
@@ -39056,7 +39521,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 23:00",
@@ -39064,7 +39530,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 23:15",
@@ -39072,7 +39539,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 23:30",
@@ -39080,7 +39548,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2014-01-30 23:45",
@@ -39088,7 +39557,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 00:00",
@@ -39096,7 +39566,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 00:30",
@@ -39104,7 +39575,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 00:45",
@@ -39112,7 +39584,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 01:45",
@@ -39120,7 +39593,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 02:00",
@@ -39128,7 +39602,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 02:15",
@@ -39136,7 +39611,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 02:30",
@@ -39144,7 +39620,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 02:45",
@@ -39152,7 +39629,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 03:00",
@@ -39160,7 +39638,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 03:15",
@@ -39168,7 +39647,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 03:30",
@@ -39176,7 +39656,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 03:45",
@@ -39184,7 +39665,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 04:00",
@@ -39192,7 +39674,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 07:30",
@@ -39200,7 +39683,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 08:00",
@@ -39208,7 +39692,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 08:15",
@@ -39216,7 +39701,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 08:30",
@@ -39224,7 +39710,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 08:45",
@@ -39232,7 +39719,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 09:00",
@@ -39240,7 +39728,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 09:15",
@@ -39248,7 +39737,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 09:30",
@@ -39256,7 +39746,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 09:45",
@@ -39264,7 +39755,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 10:00",
@@ -39272,7 +39764,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 10:15",
@@ -39280,7 +39773,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 10:30",
@@ -39288,7 +39782,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 10:45",
@@ -39296,7 +39791,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 11:00",
@@ -39304,7 +39800,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 11:15",
@@ -39312,7 +39809,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2014-01-31 14:15",
@@ -39320,7 +39818,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 14:30",
@@ -39328,7 +39827,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 15:00",
@@ -39336,7 +39836,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 15:15",
@@ -39344,7 +39845,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 15:30",
@@ -39352,7 +39854,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 15:45",
@@ -39360,7 +39863,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 16:00",
@@ -39368,7 +39872,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 16:30",
@@ -39376,7 +39881,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 20:30",
@@ -39384,7 +39890,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2014-01-31 20:45",
@@ -39392,7 +39899,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     }
   ]
 }

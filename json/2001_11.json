@@ -35060,7 +35060,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 09:00",
@@ -35068,7 +35069,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 09:15",
@@ -35076,7 +35078,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 09:30",
@@ -35084,7 +35087,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 09:45",
@@ -35092,7 +35096,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 10:00",
@@ -35100,7 +35105,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 10:15",
@@ -35108,7 +35114,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 10:30",
@@ -35116,7 +35123,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 10:45",
@@ -35124,7 +35132,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-01 11:45",
@@ -35132,7 +35141,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 00:15",
@@ -35140,7 +35150,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 00:30",
@@ -35148,7 +35159,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 00:45",
@@ -35156,7 +35168,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 01:00",
@@ -35164,7 +35177,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 05:45",
@@ -35172,7 +35186,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 06:15",
@@ -35180,7 +35195,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 06:30",
@@ -35188,7 +35204,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 06:45",
@@ -35196,7 +35213,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 07:00",
@@ -35204,7 +35222,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 11:00",
@@ -35212,7 +35231,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-02 11:15",
@@ -35220,7 +35240,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-06 00:30",
@@ -35228,7 +35249,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 00:45",
@@ -35236,7 +35258,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 01:00",
@@ -35244,7 +35267,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 01:15",
@@ -35252,7 +35276,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 01:30",
@@ -35260,7 +35285,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 01:45",
@@ -35268,7 +35294,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 11:45",
@@ -35276,7 +35303,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 12:00",
@@ -35284,7 +35312,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 12:15",
@@ -35292,7 +35321,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 12:30",
@@ -35300,7 +35330,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 12:45",
@@ -35308,7 +35339,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-06 13:45",
@@ -35316,7 +35348,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-07 09:00",
@@ -35324,7 +35357,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-07 21:00",
@@ -35332,7 +35366,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-07 21:15",
@@ -35340,7 +35375,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-08 00:45",
@@ -35348,7 +35384,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-08 05:30",
@@ -35356,7 +35393,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 05:45",
@@ -35364,7 +35402,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 06:00",
@@ -35372,7 +35411,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 06:15",
@@ -35380,7 +35420,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 06:30",
@@ -35388,7 +35429,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 15:00",
@@ -35396,7 +35438,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 15:30",
@@ -35404,7 +35447,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 15:45",
@@ -35412,7 +35456,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 16:00",
@@ -35420,7 +35465,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-08 16:15",
@@ -35428,7 +35474,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 01:15",
@@ -35436,7 +35483,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 06:15",
@@ -35444,7 +35492,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 06:45",
@@ -35452,7 +35501,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 07:00",
@@ -35460,7 +35510,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 07:15",
@@ -35468,7 +35519,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 07:30",
@@ -35476,7 +35528,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-09 19:00",
@@ -35484,7 +35537,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 19:15",
@@ -35492,7 +35546,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 19:30",
@@ -35500,7 +35555,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 19:45",
@@ -35508,7 +35564,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 20:00",
@@ -35516,7 +35573,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 20:15",
@@ -35524,7 +35582,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 20:30",
@@ -35532,7 +35591,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-09 20:45",
@@ -35540,7 +35600,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 06:30",
@@ -35548,7 +35609,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 06:45",
@@ -35556,7 +35618,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 07:00",
@@ -35564,7 +35627,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 07:15",
@@ -35572,7 +35636,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 07:30",
@@ -35580,7 +35645,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 07:45",
@@ -35588,7 +35654,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 08:00",
@@ -35596,7 +35663,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-12 12:30",
@@ -35604,7 +35672,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 12:45",
@@ -35612,7 +35681,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 13:00",
@@ -35620,7 +35690,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 13:15",
@@ -35628,7 +35699,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 13:30",
@@ -35636,7 +35708,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 13:45",
@@ -35644,7 +35717,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 14:00",
@@ -35652,7 +35726,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 14:15",
@@ -35660,7 +35735,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-12 16:30",
@@ -35668,7 +35744,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 08:45",
@@ -35676,7 +35753,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 13:00",
@@ -35684,7 +35762,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 13:15",
@@ -35692,7 +35771,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 13:30",
@@ -35700,7 +35780,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 13:45",
@@ -35708,7 +35789,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 14:00",
@@ -35716,7 +35798,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 14:15",
@@ -35724,7 +35807,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-13 14:30",
@@ -35732,7 +35816,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 14:45",
@@ -35740,7 +35825,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 15:00",
@@ -35748,7 +35834,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 15:15",
@@ -35756,7 +35843,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 15:30",
@@ -35764,7 +35852,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 15:45",
@@ -35772,7 +35861,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 16:00",
@@ -35780,7 +35870,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 16:30",
@@ -35788,7 +35879,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-13 16:45",
@@ -35796,7 +35888,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-14 06:45",
@@ -35804,7 +35897,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-14 07:00",
@@ -35812,7 +35906,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-14 07:15",
@@ -35820,7 +35915,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-14 07:45",
@@ -35828,7 +35924,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-14 13:30",
@@ -35836,7 +35933,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 13:45",
@@ -35844,7 +35942,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 14:00",
@@ -35852,7 +35951,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 14:15",
@@ -35860,7 +35960,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 14:30",
@@ -35868,7 +35969,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 14:45",
@@ -35876,7 +35978,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 15:00",
@@ -35884,7 +35987,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-14 15:15",
@@ -35892,7 +35996,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-15 11:30",
@@ -35900,7 +36005,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-15 12:00",
@@ -35908,7 +36014,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-16 01:45",
@@ -35916,7 +36023,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 02:00",
@@ -35924,7 +36032,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 02:15",
@@ -35932,7 +36041,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 02:30",
@@ -35940,7 +36050,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 02:45",
@@ -35948,7 +36059,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 08:15",
@@ -35956,7 +36068,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 08:45",
@@ -35964,7 +36077,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 09:00",
@@ -35972,7 +36086,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 09:15",
@@ -35980,7 +36095,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 09:30",
@@ -35988,7 +36104,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 09:45",
@@ -35996,7 +36113,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 10:00",
@@ -36004,7 +36122,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 10:15",
@@ -36012,7 +36131,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 10:30",
@@ -36020,7 +36140,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-16 14:15",
@@ -36028,7 +36149,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-16 14:30",
@@ -36036,7 +36158,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-16 14:45",
@@ -36044,7 +36167,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-16 15:00",
@@ -36052,7 +36176,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 08:30",
@@ -36060,7 +36185,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 08:45",
@@ -36068,7 +36194,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 09:00",
@@ -36076,7 +36203,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 12:15",
@@ -36084,7 +36212,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 12:30",
@@ -36092,7 +36221,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 12:45",
@@ -36100,7 +36230,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 13:00",
@@ -36108,7 +36239,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 13:15",
@@ -36116,7 +36248,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-20 13:30",
@@ -36124,7 +36257,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-23 09:00",
@@ -36132,7 +36266,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-23 09:30",
@@ -36140,7 +36275,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-26 15:00",
@@ -36148,7 +36284,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 22:15",
@@ -36156,7 +36293,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 22:30",
@@ -36164,7 +36302,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 22:45",
@@ -36172,7 +36311,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 23:00",
@@ -36180,7 +36320,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 23:15",
@@ -36188,7 +36329,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 23:30",
@@ -36196,7 +36338,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-26 23:45",
@@ -36204,15 +36347,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2001-11-27 08:15",
-      "price": 64.72,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-27 08:30",
@@ -36220,7 +36356,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-27 09:30",
@@ -36228,7 +36365,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-27 10:00",
@@ -36236,7 +36374,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-27 10:15",
@@ -36244,7 +36383,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-27 10:30",
@@ -36252,7 +36392,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-27 10:45",
@@ -36260,7 +36401,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-28 08:00",
@@ -36268,7 +36410,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-28 12:00",
@@ -36276,7 +36419,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-28 12:45",
@@ -36284,7 +36428,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-29 08:00",
@@ -36292,7 +36437,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-29 08:30",
@@ -36300,7 +36446,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-29 08:45",
@@ -36308,7 +36455,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-29 10:15",
@@ -36316,7 +36464,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-29 10:30",
@@ -36324,7 +36473,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-29 10:45",
@@ -36332,7 +36482,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 12:15",
@@ -36340,7 +36491,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 12:30",
@@ -36348,7 +36500,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 12:45",
@@ -36356,7 +36509,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 13:00",
@@ -36364,7 +36518,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 13:15",
@@ -36372,7 +36527,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 13:30",
@@ -36380,7 +36536,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 18:30",
@@ -36388,7 +36545,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-30 18:45",
@@ -36396,7 +36554,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-30 19:00",
@@ -36404,7 +36563,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-11-30 20:00",
@@ -36412,7 +36572,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2001-11-30 20:30",
@@ -36420,7 +36581,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     }
   ]
 }

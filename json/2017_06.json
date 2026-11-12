@@ -35213,7 +35213,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-01 00:15",
@@ -35221,7 +35222,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-01 00:30",
@@ -35229,7 +35231,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-01 00:45",
@@ -35237,7 +35240,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-01 01:00",
@@ -35245,7 +35249,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-01 01:15",
@@ -35253,7 +35258,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-01 01:30",
@@ -35261,7 +35267,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-01 01:45",
@@ -35269,7 +35276,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 10:45",
@@ -35277,7 +35285,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 11:00",
@@ -35285,7 +35294,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 11:15",
@@ -35293,7 +35303,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 11:30",
@@ -35301,7 +35312,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 11:45",
@@ -35309,7 +35321,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 12:00",
@@ -35317,7 +35330,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 12:15",
@@ -35325,7 +35339,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-02 13:45",
@@ -35333,7 +35348,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 00:00",
@@ -35341,7 +35357,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 00:15",
@@ -35349,7 +35366,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 00:30",
@@ -35357,7 +35375,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 00:45",
@@ -35365,7 +35384,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 01:00",
@@ -35373,7 +35393,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 01:15",
@@ -35381,7 +35402,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-05 22:30",
@@ -35389,15 +35411,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2017-06-05 22:45",
-      "price": 82.67,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-05 23:00",
@@ -35405,7 +35420,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-05 23:15",
@@ -35413,7 +35429,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-05 23:30",
@@ -35421,7 +35438,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-05 23:45",
@@ -35429,7 +35447,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 00:00",
@@ -35437,7 +35456,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 00:15",
@@ -35445,7 +35465,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 00:30",
@@ -35453,7 +35474,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 00:45",
@@ -35461,7 +35483,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 01:00",
@@ -35469,7 +35492,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 01:15",
@@ -35477,7 +35501,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 02:30",
@@ -35485,7 +35510,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 02:45",
@@ -35493,7 +35519,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 03:00",
@@ -35501,7 +35528,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 03:15",
@@ -35509,7 +35537,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 03:30",
@@ -35517,7 +35546,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 03:45",
@@ -35525,7 +35555,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 04:00",
@@ -35533,7 +35564,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 04:45",
@@ -35541,7 +35573,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 05:00",
@@ -35549,7 +35582,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 05:15",
@@ -35557,7 +35591,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 05:30",
@@ -35565,7 +35600,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 05:45",
@@ -35573,7 +35609,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 06:00",
@@ -35581,7 +35618,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-06 11:30",
@@ -35589,7 +35627,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 11:45",
@@ -35597,7 +35636,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 12:00",
@@ -35605,7 +35645,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 12:15",
@@ -35613,7 +35654,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 12:30",
@@ -35621,7 +35663,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 23:30",
@@ -35629,7 +35672,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-06 23:45",
@@ -35637,7 +35681,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 00:00",
@@ -35645,7 +35690,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 00:15",
@@ -35653,7 +35699,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 00:30",
@@ -35661,7 +35708,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 00:45",
@@ -35669,7 +35717,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 01:00",
@@ -35677,7 +35726,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 01:15",
@@ -35685,7 +35735,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 08:15",
@@ -35693,7 +35744,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 08:45",
@@ -35701,7 +35753,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-07 16:30",
@@ -35709,7 +35762,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 03:45",
@@ -35717,7 +35771,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 04:15",
@@ -35725,7 +35780,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 04:30",
@@ -35733,7 +35789,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 07:00",
@@ -35741,7 +35798,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 07:15",
@@ -35749,7 +35807,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 07:30",
@@ -35757,7 +35816,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 07:45",
@@ -35765,7 +35825,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 18:45",
@@ -35773,7 +35834,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 19:00",
@@ -35781,7 +35843,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 19:15",
@@ -35789,7 +35852,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 19:30",
@@ -35797,7 +35861,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 19:45",
@@ -35805,7 +35870,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 20:00",
@@ -35813,7 +35879,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 20:15",
@@ -35821,7 +35888,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 20:30",
@@ -35829,7 +35897,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 20:45",
@@ -35837,7 +35906,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 21:00",
@@ -35845,7 +35915,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 21:15",
@@ -35853,7 +35924,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 22:15",
@@ -35861,7 +35933,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 22:45",
@@ -35869,7 +35942,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-08 23:15",
@@ -35877,7 +35951,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 23:30",
@@ -35885,7 +35960,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-08 23:45",
@@ -35893,7 +35969,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-09 00:00",
@@ -35901,7 +35978,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-09 00:15",
@@ -35909,7 +35987,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-09 00:30",
@@ -35917,7 +35996,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-09 16:45",
@@ -35925,7 +36005,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-12 22:30",
@@ -35933,7 +36014,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-12 22:45",
@@ -35941,7 +36023,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-12 23:00",
@@ -35949,7 +36032,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-12 23:15",
@@ -35957,7 +36041,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-12 23:30",
@@ -35965,7 +36050,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 05:45",
@@ -35973,7 +36059,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 06:15",
@@ -35981,7 +36068,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 06:30",
@@ -35989,7 +36077,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 06:45",
@@ -35997,7 +36086,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 07:00",
@@ -36005,7 +36095,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 07:15",
@@ -36013,7 +36104,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 07:30",
@@ -36021,7 +36113,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 07:45",
@@ -36029,7 +36122,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 08:00",
@@ -36037,7 +36131,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 11:15",
@@ -36045,7 +36140,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 11:30",
@@ -36053,7 +36149,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 12:00",
@@ -36061,7 +36158,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 12:15",
@@ -36069,7 +36167,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 12:30",
@@ -36077,7 +36176,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 12:45",
@@ -36085,7 +36185,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 13:00",
@@ -36093,7 +36194,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 13:15",
@@ -36101,7 +36203,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 13:45",
@@ -36109,7 +36212,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-14 23:00",
@@ -36117,7 +36221,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 23:30",
@@ -36125,7 +36230,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-14 23:45",
@@ -36133,7 +36239,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 00:00",
@@ -36141,7 +36248,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 00:15",
@@ -36149,7 +36257,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 00:30",
@@ -36157,7 +36266,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 00:45",
@@ -36165,7 +36275,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 01:00",
@@ -36173,7 +36284,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 01:15",
@@ -36181,7 +36293,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 05:00",
@@ -36189,7 +36302,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-15 05:30",
@@ -36197,7 +36311,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-15 05:45",
@@ -36205,7 +36320,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-15 10:15",
@@ -36213,7 +36329,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 10:30",
@@ -36221,7 +36338,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 10:45",
@@ -36229,7 +36347,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 11:30",
@@ -36237,7 +36356,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 12:30",
@@ -36245,7 +36365,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 13:00",
@@ -36253,7 +36374,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 13:30",
@@ -36261,7 +36383,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 13:45",
@@ -36269,7 +36392,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 14:15",
@@ -36277,7 +36401,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-15 22:15",
@@ -36285,7 +36410,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 06:15",
@@ -36293,7 +36419,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 06:30",
@@ -36301,7 +36428,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 06:45",
@@ -36309,7 +36437,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 07:00",
@@ -36317,7 +36446,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 07:15",
@@ -36325,7 +36455,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 07:30",
@@ -36333,7 +36464,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-16 11:30",
@@ -36341,7 +36473,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-16 11:45",
@@ -36349,7 +36482,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-16 12:15",
@@ -36357,7 +36491,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-19 06:45",
@@ -36365,7 +36500,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-19 07:00",
@@ -36373,7 +36509,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-19 07:15",
@@ -36381,7 +36518,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-19 07:30",
@@ -36389,7 +36527,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-20 10:30",
@@ -36397,7 +36536,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-20 13:45",
@@ -36405,7 +36545,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2017-06-20 14:00",
@@ -36413,7 +36554,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-20 14:15",
@@ -36421,7 +36563,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-20 14:45",
@@ -36429,7 +36572,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-21 06:45",
@@ -36437,7 +36581,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-22 00:15",
@@ -36445,7 +36590,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-22 00:30",
@@ -36453,7 +36599,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-27 12:15",
@@ -36461,7 +36608,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-27 13:15",
@@ -36469,7 +36617,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-27 13:45",
@@ -36477,7 +36626,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-27 14:00",
@@ -36485,7 +36635,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-27 14:15",
@@ -36493,7 +36644,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-27 17:00",
@@ -36501,7 +36653,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-27 17:15",
@@ -36509,7 +36662,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 06:00",
@@ -36517,7 +36671,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 06:15",
@@ -36525,7 +36680,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 06:30",
@@ -36533,7 +36689,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 06:45",
@@ -36541,7 +36698,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 07:00",
@@ -36549,7 +36707,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 07:15",
@@ -36557,7 +36716,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-28 11:30",
@@ -36565,7 +36725,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 12:00",
@@ -36573,7 +36734,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 12:15",
@@ -36581,7 +36743,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 12:30",
@@ -36589,7 +36752,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 13:45",
@@ -36597,7 +36761,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 14:00",
@@ -36605,7 +36770,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 14:45",
@@ -36613,7 +36779,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 15:00",
@@ -36621,7 +36788,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-28 15:15",
@@ -36629,7 +36797,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 05:00",
@@ -36637,7 +36806,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 05:15",
@@ -36645,7 +36815,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 05:30",
@@ -36653,7 +36824,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 05:45",
@@ -36661,7 +36833,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 06:00",
@@ -36669,7 +36842,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 06:15",
@@ -36677,7 +36851,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 06:30",
@@ -36685,7 +36860,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 06:45",
@@ -36693,7 +36869,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 14:30",
@@ -36701,7 +36878,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 14:45",
@@ -36709,7 +36887,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 15:00",
@@ -36717,7 +36896,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 15:15",
@@ -36725,7 +36905,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 15:30",
@@ -36733,7 +36914,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 15:45",
@@ -36741,7 +36923,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 16:00",
@@ -36749,7 +36932,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 16:15",
@@ -36757,7 +36941,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 16:30",
@@ -36765,7 +36950,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2017-06-29 17:15",
@@ -36773,7 +36959,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 23:00",
@@ -36781,7 +36968,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-29 23:30",
@@ -36789,7 +36977,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2017-06-30 19:30",
@@ -36797,7 +36986,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     }
   ]
 }

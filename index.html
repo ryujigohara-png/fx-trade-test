@@ -188,10 +188,10 @@
 
     <div class="pa-controls">
         <span style="font-weight: bold; color: #aaa;">PA表示:</span>
-        <label><input type="checkbox" id="chk-start" checked onchange="togglePATrace('start', this.checked)"> 🟡 起点(30pips)</label>
-        <label><input type="checkbox" id="chk-pin" onchange="togglePATrace('pin', this.checked)"> 🔺 ピンバー</label>
-        <label><input type="checkbox" id="chk-eng" onchange="togglePATrace('eng', this.checked)"> ◎ 包み足</label>
-        <label><input type="checkbox" id="chk-star" onchange="togglePATrace('star', this.checked)"> ⭐ 明星</label>
+        <label><input type="checkbox" id="chk-start" checked onchange="handlePACheckboxChange('start', this.checked)"> 🟡 起点(30pips)</label>
+        <label><input type="checkbox" id="chk-pin" onchange="handlePACheckboxChange('pin', this.checked)"> 🔺 ピンバー</label>
+        <label><input type="checkbox" id="chk-eng" onchange="handlePACheckboxChange('eng', this.checked)"> ◎ 包み足</label>
+        <label><input type="checkbox" id="chk-star" onchange="handlePACheckboxChange('star', this.checked)"> ⭐ 明星</label>
     </div>
 
     <!-- 仕様書モーダルウィンドウ -->
@@ -202,49 +202,36 @@
                 <button onclick="toggleSpecModal(false)" style="background: #444; padding: 2px 8px; font-size: 12px;">✕</button>
             </div>
             <div class="spec-body">
-                <h2>1. 共通の配置ルール（Y軸オフセットと表示方式）</h2>
+                <h2>1. 共通の配置ルール（Y軸オフセットと階層化）</h2>
                 <ul>
                     <li><strong>表示形式:</strong> チャート上のマーカーはすべて、コントロールバー（凡例）の文字記号と完全に一致したテキスト文字で描画します。</li>
-                    <li><strong>上下の配置方針:</strong> 売り買いの方向性やインジケーター・ローソク足との重なりを防ぐため、上側グループと下側グループに明確に分離して配置します。</li>
+                    <li><strong>重なり防止（階層化）:</strong> 起点マークがローソク足の下にある時はさらにその下に、上にある時はさらにその上に起点以外のマーク（ピンバー・包み足・明星）を配置し、視覚的な重なりを防ぎます。</li>
                 </ul>
 
                 <h2>2. 各マークの技術的判定基準・因果関係・配置仕様</h2>
                 
                 <h3>① 🟡 起点 (30pips)</h3>
                 <ul>
-                    <li><strong>配置位置:</strong> ローソク足の高値の上側</li>
-                    <li><strong>判定基準:</strong> 30pips初動ブレイクアウトイベントの発生時刻リスト（<code>breakout_events_30pips.csv</code>）に完全に一致している足。</li>
-                    <li><strong>意味:</strong> トレンドの起爆点となり、その後2時間以内に±30pipsの値幅を達成した基準点。</li>
+                    <li><strong>配置位置:</strong> 上昇起点(+30pips)は安値の下側、下落起点(-30pips)は高値の上側</li>
+                    <li><strong>判定基準:</strong> 30pips初動ブレイクアウトイベントの発生時刻リストに完全に一致している足。</li>
                 </ul>
 
                 <h3>② 🔺 ピンバー</h3>
                 <ul>
-                    <li><strong>配置位置:</strong> ローソク足の安値の下側（包み足と同じ高さ）</li>
-                    <li><strong>形状判定:</strong> 全体値幅に対して実体が25%以下、ヒゲの長さが55%以上。</li>
-                    <li><strong>因果関係:</strong> ピンバーの「次」または「さらに次」の足が起点であること。
-                        <br>・マイナス30pips以上動いた起点(下落) ⇒ 上ヒげピンバー
-                        <br>・プラス30pips以上動いた起点(上昇) ⇒ 下ヒげピンバー
-                    </li>
+                    <li><strong>配置位置:</strong> 起点マークの外側（さらに上下に離した位置）</li>
+                    <li><strong>形状判定:</strong> 実体比率が全体値幅の <strong>25%以下</strong>、ヒゲが <strong>55%以上</strong>。</li>
                 </ul>
 
                 <h3>③ ◎ 包み足</h3>
                 <ul>
-                    <li><strong>配置位置:</strong> ローソク足の安値の下側</li>
-                    <li><strong>形状判定:</strong> 2本足のペアで直前の足の実体を完全に包み込む形。</li>
-                    <li><strong>因果関係:</strong> 起点の「直前の足」が包み足であること。
-                        <br>・マイナス30pips以上動いた起点 ⇒ 陰線の包み足
-                        <br>・プラス30pips以上動いた起点 ⇒ 陽線の包み足
-                    </li>
+                    <li><strong>配置位置:</strong> 起点マークの外側（さらに上下に離した位置）</li>
+                    <li><strong>形状判定:</strong> 2本足のペアで、2本目が前足の実体を完全に包み込む形。</li>
                 </ul>
 
                 <h3>④ ⭐ 明星</h3>
                 <ul>
-                    <li><strong>配置位置:</strong> ローソク足の高値の上側（起点よりもさらに上の高い位置）</li>
-                    <li><strong>形状判定:</strong> 3本足構成（1本目大実体、2本目コマ、3本目反対方向への強力な引け）。</li>
-                    <li><strong>因果関係:</strong> 明星の「3本目の足の次」が起点であること。
-                        <br>・マイナス30pips以上動いたとき ⇒ 3本目が陰線の明星
-                        <br>・プラス30pips以上動いたとき ⇒ 3本目が陽線の明星
-                    </li>
+                    <li><strong>配置位置:</strong> 起点マークの外側（さらに上下に離した位置）</li>
+                    <li><strong>形状判定:</strong> 3本足構成（1本目大実体、2本目コマ、3本目終値が1本目の始値を超える/包み込む包み足状のイメージ）。</li>
                 </ul>
             </div>
         </div>
@@ -263,6 +250,29 @@
         const DEFAULT_BARS = 200;
         let currentBarCount = DEFAULT_BARS;
         let showLegendState = false;
+
+        function initPACheckboxes() {
+            const checkboxes = {
+                'start': document.getElementById('chk-start'),
+                'pin': document.getElementById('chk-pin'),
+                'eng': document.getElementById('chk-eng'),
+                'star': document.getElementById('chk-star')
+            };
+
+            for (let key in checkboxes) {
+                const saved = localStorage.getItem(`fx_pa_chk_${key}`);
+                if (saved !== null) {
+                    checkboxes[key].checked = (saved === 'true');
+                } else {
+                    checkboxes[key].checked = (key === 'start');
+                }
+            }
+        }
+
+        function handlePACheckboxChange(type, isChecked) {
+            localStorage.setItem(`fx_pa_chk_${type}`, isChecked);
+            togglePATrace(type, isChecked);
+        }
 
         function getInitialBarCount() {
             const isMobile = window.innerWidth < 768;
@@ -315,6 +325,8 @@
                 }
                 monthSelect.appendChild(opt);
             }
+
+            initPACheckboxes();
         }
 
         async function loadMonthlyData() {
@@ -548,23 +560,29 @@
                     let idx = timeToIdx[ev.time];
                     let hVal = idx !== undefined ? fullData.highs[idx] : ev.price;
                     let lVal = idx !== undefined ? fullData.lows[idx] : ev.price;
-                    let offset = 0.08;
+                    
+                    // 重なり防止のための階層化オフセット
+                    let offsetStart = 0.06;
+                    let offsetOther = 0.16; // 起点よりさらに外側に配置
+
+                    let isUp = (ev.direction === 'up');
 
                     if (ev.start) {
                         start_x.push(ev.time);
-                        start_y.push(hVal + offset);
+                        start_y.push(isUp ? (lVal - offsetStart) : (hVal + offsetStart));
                     }
                     if (ev.pinbar) {
                         pin_x.push(ev.time);
-                        pin_y.push(lVal - offset);
+                        // 起点が下ならさらに下へ、上ならさらに上へ
+                        pin_y.push(isUp ? (lVal - offsetOther) : (hVal + offsetOther));
                     }
                     if (ev.engulfing) {
                         eng_x.push(ev.time);
-                        eng_y.push(lVal - offset);
+                        eng_y.push(isUp ? (lVal - offsetOther) : (hVal + offsetOther));
                     }
                     if (ev.star) {
                         star_x.push(ev.time);
-                        star_y.push(hVal + (offset * 2.2));
+                        star_y.push(isUp ? (lVal - (offsetOther * 1.3)) : (hVal + (offsetOther * 1.3)));
                     }
                 });
             }
@@ -664,14 +682,12 @@
             let endIdx = total - 1;
             let startIdx = Math.max(0, total - currentBarCount);
 
-            // ローカルストレージから前回記憶していた表示レンジ（位置）の復元を試みる
             const savedRange = localStorage.getItem('fx_last_xaxis_range');
             let initialRange = [startIdx, endIdx];
             if (savedRange) {
                 try {
                     let parsed = JSON.parse(savedRange);
                     if (Array.isArray(parsed) && parsed.length === 2) {
-                        // データの総本数内に収まるか安全チェック
                         let s = Math.max(0, Math.min(parsed[0], total - 1));
                         let e = Math.max(0, Math.min(parsed[1], total - 1));
                         if (e > s) {
@@ -777,7 +793,6 @@
                     }
                 });
 
-                // チャートがズーム・スクロールされた際に位置を自動保存
                 gd.on('plotly_relayout', function(eventData) {
                     if (eventData['xaxis.range[0]'] || eventData['xaxis.range'] || eventData['xaxis.autorange']) {
                         let xrange = gd._fullLayout.xaxis.range;
@@ -842,7 +857,7 @@
 
             if (fullData.trades && fullData.trades.length > 0) {
                 const timeToIdx = {};
-                fullData.times.forEach((t, i) => timeToIdx[t] = i);
+                fullData.times.length > 0 && fullData.times.forEach((t, i) => timeToIdx[t] = i);
 
                 fullData.trades.forEach(row => {
                     let eIdx = timeToIdx[row.entry_time] !== undefined ? timeToIdx[row.entry_time] : findClosestTimeIdx(fullData.times, row.entry_time);

@@ -35094,7 +35094,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 03:30",
@@ -35102,7 +35103,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 03:45",
@@ -35110,7 +35112,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 04:00",
@@ -35118,7 +35121,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 04:15",
@@ -35126,7 +35130,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 04:30",
@@ -35134,7 +35139,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-01 04:45",
@@ -35142,7 +35148,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-03 08:00",
@@ -35150,15 +35157,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2021-09-03 08:15",
-      "price": 81.71,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-03 08:30",
@@ -35166,7 +35166,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-03 08:45",
@@ -35174,7 +35175,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-03 09:00",
@@ -35182,7 +35184,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-03 10:15",
@@ -35190,7 +35193,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-03 10:30",
@@ -35198,7 +35202,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-03 10:45",
@@ -35206,7 +35211,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-03 11:00",
@@ -35214,7 +35220,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-07 00:45",
@@ -35222,7 +35229,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-07 01:00",
@@ -35230,7 +35238,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-07 01:15",
@@ -35238,7 +35247,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-07 02:00",
@@ -35246,7 +35256,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-07 02:15",
@@ -35254,7 +35265,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-07 02:30",
@@ -35262,7 +35274,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 03:00",
@@ -35270,7 +35283,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 03:15",
@@ -35278,7 +35292,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 03:30",
@@ -35286,7 +35301,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 03:45",
@@ -35294,7 +35310,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 04:00",
@@ -35302,7 +35319,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 04:15",
@@ -35310,7 +35328,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 04:30",
@@ -35318,7 +35337,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 04:45",
@@ -35326,7 +35346,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 10:45",
@@ -35334,7 +35355,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-08 12:30",
@@ -35342,7 +35364,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-09 23:00",
@@ -35350,7 +35373,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-09 23:15",
@@ -35358,7 +35382,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-09 23:30",
@@ -35366,7 +35391,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-10 04:00",
@@ -35374,7 +35400,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-10 04:15",
@@ -35382,7 +35409,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-10 04:30",
@@ -35390,7 +35418,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-10 04:45",
@@ -35398,7 +35427,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-10 10:45",
@@ -35406,7 +35436,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-10 11:00",
@@ -35414,7 +35445,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-10 11:15",
@@ -35422,7 +35454,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-10 11:30",
@@ -35430,7 +35463,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-10 11:45",
@@ -35438,7 +35472,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 00:45",
@@ -35446,7 +35481,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 10:15",
@@ -35454,7 +35490,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 10:30",
@@ -35462,7 +35499,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 10:45",
@@ -35470,7 +35508,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 11:00",
@@ -35478,7 +35517,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 11:15",
@@ -35486,7 +35526,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 11:30",
@@ -35494,7 +35535,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2021-09-14 11:45",
@@ -35502,7 +35544,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-15 08:15",
@@ -35510,7 +35553,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-15 10:00",
@@ -35518,7 +35562,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-15 10:15",
@@ -35526,7 +35571,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-15 22:15",
@@ -35534,7 +35580,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-15 22:30",
@@ -35542,7 +35589,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-16 10:30",
@@ -35550,7 +35598,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-16 10:45",
@@ -35558,7 +35607,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-16 11:00",
@@ -35566,7 +35616,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-16 11:15",
@@ -35574,7 +35625,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-16 11:30",
@@ -35582,7 +35634,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 10:00",
@@ -35590,7 +35643,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 10:15",
@@ -35598,7 +35652,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 10:30",
@@ -35606,7 +35661,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 10:45",
@@ -35614,7 +35670,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 11:00",
@@ -35622,7 +35679,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 11:15",
@@ -35630,7 +35688,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2021-09-17 11:30",
@@ -35638,7 +35697,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 21:45",
@@ -35646,7 +35706,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 22:00",
@@ -35654,7 +35715,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 22:15",
@@ -35662,7 +35724,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 22:30",
@@ -35670,7 +35733,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 22:45",
@@ -35678,7 +35742,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 23:00",
@@ -35686,7 +35751,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-19 23:15",
@@ -35694,7 +35760,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-20 08:15",
@@ -35702,7 +35769,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-20 09:30",
@@ -35710,7 +35778,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 09:45",
@@ -35718,7 +35787,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 10:00",
@@ -35726,7 +35796,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 10:15",
@@ -35734,7 +35805,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 10:30",
@@ -35742,7 +35814,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 12:45",
@@ -35750,7 +35823,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-20 13:00",
@@ -35758,7 +35832,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-20 13:15",
@@ -35766,7 +35841,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-20 16:15",
@@ -35774,7 +35850,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 16:30",
@@ -35782,15 +35859,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2021-09-20 16:45",
-      "price": 79.14,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-20 17:00",
@@ -35798,7 +35868,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 06:45",
@@ -35806,7 +35877,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 07:00",
@@ -35814,7 +35886,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 07:15",
@@ -35822,7 +35895,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 07:30",
@@ -35830,7 +35904,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 07:45",
@@ -35838,7 +35913,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 08:15",
@@ -35846,7 +35922,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 08:30",
@@ -35854,7 +35931,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 08:45",
@@ -35862,7 +35940,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 09:00",
@@ -35870,7 +35949,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 09:15",
@@ -35878,7 +35958,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 09:30",
@@ -35886,7 +35967,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 09:45",
@@ -35894,7 +35976,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 10:00",
@@ -35902,7 +35985,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 10:15",
@@ -35910,7 +35994,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 10:30",
@@ -35918,7 +36003,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 10:45",
@@ -35926,7 +36012,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-21 12:45",
@@ -35934,7 +36021,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 21:00",
@@ -35942,7 +36030,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 21:15",
@@ -35950,7 +36039,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 21:30",
@@ -35958,7 +36048,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 21:45",
@@ -35966,7 +36057,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 22:00",
@@ -35974,7 +36066,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 22:15",
@@ -35982,7 +36075,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 22:30",
@@ -35990,7 +36084,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-21 22:45",
@@ -35998,7 +36093,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 14:30",
@@ -36006,7 +36102,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 14:45",
@@ -36014,7 +36111,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 15:00",
@@ -36022,7 +36120,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 15:15",
@@ -36030,7 +36129,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 15:30",
@@ -36038,7 +36138,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 15:45",
@@ -36046,7 +36147,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-22 16:00",
@@ -36054,7 +36156,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-22 16:15",
@@ -36062,7 +36165,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-23 02:45",
@@ -36070,7 +36174,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 03:00",
@@ -36078,7 +36183,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 03:15",
@@ -36086,7 +36192,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 03:45",
@@ -36094,7 +36201,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 04:00",
@@ -36102,7 +36210,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 04:15",
@@ -36110,7 +36219,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 05:00",
@@ -36118,7 +36228,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 05:15",
@@ -36126,7 +36237,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 05:30",
@@ -36134,7 +36246,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 05:45",
@@ -36142,7 +36255,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 07:00",
@@ -36150,7 +36264,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-23 07:15",
@@ -36158,7 +36273,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-23 07:30",
@@ -36166,7 +36282,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-23 07:45",
@@ -36174,15 +36291,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
-    },
-    {
-      "time": "2021-09-23 08:30",
-      "price": 79.91,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-23 08:45",
@@ -36190,7 +36300,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 09:00",
@@ -36198,7 +36309,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 09:15",
@@ -36206,7 +36318,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 09:30",
@@ -36214,7 +36327,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 09:45",
@@ -36222,7 +36336,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 10:00",
@@ -36230,7 +36345,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 10:15",
@@ -36238,7 +36354,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-23 10:30",
@@ -36246,7 +36363,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-24 04:00",
@@ -36254,7 +36372,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-24 04:15",
@@ -36262,7 +36381,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-24 04:30",
@@ -36270,7 +36390,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2021-09-24 04:45",
@@ -36278,7 +36399,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-27 22:30",
@@ -36286,7 +36408,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-27 22:45",
@@ -36294,7 +36417,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-27 23:00",
@@ -36302,7 +36426,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-27 23:15",
@@ -36310,7 +36435,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-27 23:30",
@@ -36318,7 +36444,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-28 00:00",
@@ -36326,7 +36453,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-28 00:15",
@@ -36334,7 +36462,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2021-09-28 03:30",
@@ -36342,7 +36471,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 03:45",
@@ -36350,7 +36480,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 04:00",
@@ -36358,7 +36489,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 04:15",
@@ -36366,7 +36498,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 09:45",
@@ -36374,7 +36507,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 10:15",
@@ -36382,7 +36516,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 11:00",
@@ -36390,7 +36525,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 11:15",
@@ -36398,7 +36534,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-28 11:30",
@@ -36406,7 +36543,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-29 09:30",
@@ -36414,7 +36552,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-29 09:45",
@@ -36422,7 +36561,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-29 10:00",
@@ -36430,7 +36570,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-29 10:15",
@@ -36438,7 +36579,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 11:45",
@@ -36446,7 +36588,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 12:00",
@@ -36454,7 +36597,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 12:15",
@@ -36462,7 +36606,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 12:30",
@@ -36470,7 +36615,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 12:45",
@@ -36478,7 +36624,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 13:00",
@@ -36486,7 +36633,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 13:15",
@@ -36494,7 +36642,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 13:30",
@@ -36502,7 +36651,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2021-09-30 13:45",
@@ -36510,7 +36660,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     }
   ]
 }

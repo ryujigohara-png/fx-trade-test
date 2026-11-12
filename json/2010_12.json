@@ -36896,7 +36896,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 00:15",
@@ -36904,7 +36905,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 00:30",
@@ -36912,7 +36914,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 00:45",
@@ -36920,7 +36923,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 01:00",
@@ -36928,7 +36932,17 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
+    },
+    {
+      "time": "2010-12-01 05:00",
+      "price": 80.0,
+      "start": false,
+      "pinbar": false,
+      "engulfing": false,
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 05:15",
@@ -36936,7 +36950,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 05:30",
@@ -36944,7 +36959,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 05:45",
@@ -36952,7 +36968,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 06:00",
@@ -36960,7 +36977,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 06:15",
@@ -36968,7 +36986,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 06:30",
@@ -36976,7 +36995,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 06:45",
@@ -36984,7 +37004,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 07:00",
@@ -36992,7 +37013,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 07:15",
@@ -37000,7 +37022,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 07:30",
@@ -37008,7 +37031,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 07:45",
@@ -37016,7 +37040,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 11:00",
@@ -37024,7 +37049,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 11:15",
@@ -37032,7 +37058,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 11:30",
@@ -37040,7 +37067,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 11:45",
@@ -37048,7 +37076,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 12:00",
@@ -37056,7 +37085,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 12:15",
@@ -37064,7 +37094,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 12:30",
@@ -37072,7 +37103,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 12:45",
@@ -37080,7 +37112,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 14:15",
@@ -37088,7 +37121,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 14:45",
@@ -37096,7 +37130,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 15:00",
@@ -37104,7 +37139,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 15:15",
@@ -37112,7 +37148,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 15:30",
@@ -37120,7 +37157,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 15:45",
@@ -37128,7 +37166,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 16:00",
@@ -37136,7 +37175,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 16:15",
@@ -37144,7 +37184,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 16:30",
@@ -37152,7 +37193,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-01 21:45",
@@ -37160,7 +37202,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 22:15",
@@ -37168,7 +37211,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 22:30",
@@ -37176,7 +37220,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 22:45",
@@ -37184,7 +37229,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 23:00",
@@ -37192,7 +37238,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 23:15",
@@ -37200,7 +37247,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 23:30",
@@ -37208,7 +37256,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-01 23:45",
@@ -37216,7 +37265,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 00:00",
@@ -37224,7 +37274,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 00:15",
@@ -37232,7 +37283,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 04:00",
@@ -37240,7 +37292,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 04:15",
@@ -37248,7 +37301,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 04:30",
@@ -37256,7 +37310,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 04:45",
@@ -37264,7 +37319,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 05:00",
@@ -37272,7 +37328,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 05:15",
@@ -37280,7 +37337,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 05:30",
@@ -37288,7 +37346,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 06:45",
@@ -37296,7 +37355,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 07:00",
@@ -37304,7 +37364,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 07:45",
@@ -37312,7 +37373,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 08:30",
@@ -37320,7 +37382,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 08:45",
@@ -37328,7 +37391,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 09:00",
@@ -37336,7 +37400,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 11:45",
@@ -37344,7 +37409,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 12:00",
@@ -37352,7 +37418,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 12:15",
@@ -37360,7 +37427,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 12:30",
@@ -37368,7 +37436,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 12:45",
@@ -37376,7 +37445,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-02 13:00",
@@ -37384,7 +37454,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 13:15",
@@ -37392,7 +37463,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 13:30",
@@ -37400,7 +37472,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 13:45",
@@ -37408,7 +37481,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 14:00",
@@ -37416,7 +37490,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 14:15",
@@ -37424,7 +37499,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 14:30",
@@ -37432,7 +37508,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 14:45",
@@ -37440,7 +37517,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-02 18:00",
@@ -37448,7 +37526,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 05:15",
@@ -37456,7 +37535,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 05:30",
@@ -37464,7 +37544,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 06:30",
@@ -37472,7 +37553,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 06:45",
@@ -37480,7 +37562,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 11:15",
@@ -37488,7 +37571,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 11:30",
@@ -37496,7 +37580,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 11:45",
@@ -37504,7 +37589,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 12:00",
@@ -37512,7 +37598,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 12:15",
@@ -37520,7 +37607,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 12:30",
@@ -37528,7 +37616,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 12:45",
@@ -37536,7 +37625,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 13:00",
@@ -37544,7 +37634,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-03 13:15",
@@ -37552,7 +37643,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": true,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 13:30",
@@ -37560,7 +37652,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 13:45",
@@ -37568,7 +37661,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 14:00",
@@ -37576,7 +37670,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 14:15",
@@ -37584,7 +37679,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-03 17:45",
@@ -37592,7 +37688,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-06 07:00",
@@ -37600,7 +37697,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 07:30",
@@ -37608,7 +37706,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 07:45",
@@ -37616,7 +37715,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 08:00",
@@ -37624,7 +37724,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 08:15",
@@ -37632,7 +37733,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 08:30",
@@ -37640,7 +37742,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 08:45",
@@ -37648,7 +37751,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 23:00",
@@ -37656,7 +37760,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 23:15",
@@ -37664,7 +37769,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 23:30",
@@ -37672,7 +37778,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-06 23:45",
@@ -37680,7 +37787,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 04:15",
@@ -37688,7 +37796,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 04:30",
@@ -37696,7 +37805,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 05:00",
@@ -37704,7 +37814,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 07:00",
@@ -37712,7 +37823,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 07:15",
@@ -37720,7 +37832,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 07:30",
@@ -37728,7 +37841,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 07:45",
@@ -37736,7 +37850,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 08:15",
@@ -37744,7 +37859,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 08:30",
@@ -37752,7 +37868,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 17:00",
@@ -37760,7 +37877,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 18:45",
@@ -37768,7 +37886,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 19:30",
@@ -37776,7 +37895,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 19:45",
@@ -37784,7 +37904,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 20:00",
@@ -37792,7 +37913,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 20:15",
@@ -37800,7 +37922,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-07 23:30",
@@ -37808,7 +37931,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-07 23:45",
@@ -37816,7 +37940,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 01:15",
@@ -37824,7 +37949,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 01:30",
@@ -37832,7 +37958,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 01:45",
@@ -37840,7 +37967,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 12:45",
@@ -37848,7 +37976,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 14:15",
@@ -37856,7 +37985,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 14:30",
@@ -37864,7 +37994,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 14:45",
@@ -37872,7 +38003,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 15:00",
@@ -37880,7 +38012,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-08 22:30",
@@ -37888,7 +38021,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 22:45",
@@ -37896,7 +38030,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 23:00",
@@ -37904,7 +38039,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 23:15",
@@ -37912,7 +38048,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 23:30",
@@ -37920,7 +38057,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-08 23:45",
@@ -37928,7 +38066,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-09 00:00",
@@ -37936,7 +38075,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-09 00:15",
@@ -37944,7 +38084,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-09 14:45",
@@ -37952,7 +38093,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-09 15:00",
@@ -37960,7 +38102,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-09 15:15",
@@ -37968,7 +38111,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-09 15:30",
@@ -37976,7 +38120,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-09 16:00",
@@ -37984,7 +38129,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-09 16:15",
@@ -37992,7 +38138,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-10 08:15",
@@ -38000,7 +38147,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-13 07:15",
@@ -38008,7 +38156,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-13 07:30",
@@ -38016,7 +38165,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-13 07:45",
@@ -38024,7 +38174,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-13 08:00",
@@ -38032,7 +38183,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-14 11:30",
@@ -38040,7 +38192,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-14 11:45",
@@ -38048,7 +38201,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-14 14:00",
@@ -38056,7 +38210,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-14 14:15",
@@ -38064,7 +38219,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-14 14:30",
@@ -38072,7 +38228,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-15 04:15",
@@ -38080,7 +38237,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 04:30",
@@ -38088,7 +38246,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 04:45",
@@ -38096,7 +38255,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 05:00",
@@ -38104,7 +38264,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true
+      "star": true,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 05:15",
@@ -38112,7 +38273,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 05:30",
@@ -38120,7 +38282,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 05:45",
@@ -38128,7 +38291,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-15 06:15",
@@ -38136,7 +38300,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-20 02:45",
@@ -38144,7 +38309,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-20 10:15",
@@ -38152,7 +38318,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-21 00:30",
@@ -38160,7 +38327,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-21 00:45",
@@ -38168,7 +38336,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-24 19:15",
@@ -38176,7 +38345,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 19:30",
@@ -38184,7 +38354,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 19:45",
@@ -38192,7 +38363,8 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 20:00",
@@ -38200,7 +38372,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 20:15",
@@ -38208,7 +38381,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 20:30",
@@ -38216,7 +38390,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 20:45",
@@ -38224,7 +38399,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-24 21:00",
@@ -38232,7 +38408,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-30 14:15",
@@ -38240,7 +38417,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 14:00",
@@ -38248,7 +38426,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 14:15",
@@ -38256,7 +38435,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 14:30",
@@ -38264,7 +38444,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 14:45",
@@ -38272,7 +38453,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 15:00",
@@ -38280,7 +38462,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 15:15",
@@ -38288,7 +38471,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 15:30",
@@ -38296,7 +38480,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2010-12-31 18:45",
@@ -38304,7 +38489,8 @@
       "start": false,
       "pinbar": true,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-31 19:15",
@@ -38312,7 +38498,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2010-12-31 19:30",
@@ -38320,7 +38507,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": false
+      "star": false,
+      "direction": "down"
     }
   ]
 }
