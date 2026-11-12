@@ -35346,7 +35346,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -35814,7 +35814,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -37210,15 +37210,6 @@
       "pinbar": true,
       "engulfing": false,
       "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2011-07-29 00:15",
-      "price": 85.47,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "down"
     },
     {

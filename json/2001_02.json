@@ -32036,7 +32036,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -33135,15 +33135,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2001-02-14 11:00",
-      "price": 61.7,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "down"
     },
     {
@@ -34412,7 +34403,7 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {

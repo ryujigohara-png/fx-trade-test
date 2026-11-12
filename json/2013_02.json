@@ -32852,7 +32852,7 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -32924,7 +32924,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -33069,15 +33069,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2013-02-06 00:00",
-      "price": 97.09,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "down"
     },
     {
@@ -33239,7 +33230,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -37982,7 +37973,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

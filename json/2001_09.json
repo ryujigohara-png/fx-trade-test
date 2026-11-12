@@ -33731,7 +33731,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -34091,7 +34091,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -35450,7 +35450,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -35649,15 +35649,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2001-09-26 05:30",
-      "price": 57.78,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "up"
     },
     {

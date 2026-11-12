@@ -33780,15 +33780,6 @@
   ],
   "breakout_pa_events": [
     {
-      "time": "2019-03-01 19:15",
-      "price": 79.23,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2019-03-01 19:30",
       "price": 79.22,
       "start": true,
@@ -34190,7 +34181,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

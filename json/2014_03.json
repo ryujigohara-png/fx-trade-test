@@ -36285,7 +36285,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -36492,7 +36492,7 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -36881,15 +36881,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2014-03-23 23:30",
-      "price": 92.9,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
     },
     {
       "time": "2014-03-23 23:45",

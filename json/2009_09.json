@@ -36467,7 +36467,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -36800,8 +36800,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2009-09-04 11:30",
@@ -37628,7 +37628,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -37907,7 +37907,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -37988,7 +37988,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -38442,15 +38442,6 @@
       "direction": "down"
     },
     {
-      "time": "2009-09-15 07:00",
-      "price": 78.42,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
       "time": "2009-09-15 07:15",
       "price": 78.49,
       "start": true,
@@ -38501,7 +38492,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

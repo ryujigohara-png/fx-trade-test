@@ -35291,7 +35291,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -36047,7 +36047,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -36201,15 +36201,6 @@
       "pinbar": true,
       "engulfing": false,
       "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2001-03-07 23:00",
-      "price": 61.1,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "down"
     },
     {
@@ -38252,7 +38243,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -38306,7 +38297,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -38522,8 +38513,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "down"
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2001-03-21 11:30",
@@ -39719,7 +39710,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {

@@ -35018,8 +35018,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2024-08-01 00:30",
@@ -35225,7 +35225,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -37565,7 +37565,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -38915,7 +38915,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -39401,7 +39401,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -39698,7 +39698,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -41448,15 +41448,6 @@
       "direction": "up"
     },
     {
-      "time": "2024-08-20 20:30",
-      "price": 97.86,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2024-08-20 20:45",
       "price": 97.86,
       "start": true,
@@ -41885,7 +41876,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -42777,15 +42768,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-08-29 14:30",
-      "price": 98.64,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "down"
     },
     {

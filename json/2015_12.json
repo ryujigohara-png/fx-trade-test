@@ -35432,7 +35432,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -37106,7 +37106,7 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -37866,15 +37866,6 @@
       "direction": "up"
     },
     {
-      "time": "2015-12-17 17:30",
-      "price": 87.22,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2015-12-17 17:45",
       "price": 87.14,
       "start": true,
@@ -38024,7 +38015,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {

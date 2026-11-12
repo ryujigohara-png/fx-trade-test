@@ -35891,7 +35891,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -36152,7 +36152,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -37817,8 +37817,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2009-04-06 15:00",
@@ -40863,15 +40863,6 @@
       "direction": "down"
     },
     {
-      "time": "2009-04-14 18:00",
-      "price": 71.7,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
       "time": "2009-04-14 18:15",
       "price": 71.83,
       "start": true,
@@ -42092,7 +42083,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -42452,7 +42443,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -43622,7 +43613,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -45611,7 +45602,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -46160,7 +46151,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -47739,15 +47730,6 @@
       "direction": "up"
     },
     {
-      "time": "2009-04-29 15:15",
-      "price": 70.4,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2009-04-29 15:30",
       "price": 70.33,
       "start": true,
@@ -47763,15 +47745,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2009-04-29 16:00",
-      "price": 70.41,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "up"
     },
     {
@@ -48032,7 +48005,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -48464,7 +48437,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

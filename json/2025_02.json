@@ -32858,7 +32858,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -34068,15 +34068,6 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-12 06:30",
-      "price": 96.45,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
       "time": "2025-02-12 06:45",
       "price": 96.59,
       "start": true,
@@ -34163,7 +34154,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -34694,7 +34685,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

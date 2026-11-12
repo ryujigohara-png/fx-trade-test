@@ -37550,7 +37550,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -37767,15 +37767,6 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-05-10 23:45",
-      "price": 98.99,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
       "direction": "up"
     },
     {
@@ -38405,7 +38396,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -38882,7 +38873,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -39080,7 +39071,7 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {

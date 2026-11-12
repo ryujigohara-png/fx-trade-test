@@ -38113,7 +38113,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -40421,15 +40421,6 @@
       "direction": "down"
     },
     {
-      "time": "2024-10-25 12:30",
-      "price": 100.87,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
       "time": "2024-10-25 12:45",
       "price": 100.92,
       "start": true,
@@ -40516,7 +40507,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

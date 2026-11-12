@@ -36917,15 +36917,6 @@
       "direction": "up"
     },
     {
-      "time": "2006-03-02 14:45",
-      "price": 86.74,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
       "time": "2006-03-02 15:00",
       "price": 86.83,
       "start": true,
@@ -37273,7 +37264,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
@@ -37336,7 +37327,7 @@
       "start": false,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {

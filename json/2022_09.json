@@ -36725,15 +36725,6 @@
       "direction": "up"
     },
     {
-      "time": "2022-09-13 04:45",
-      "price": 97.94,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2022-09-13 05:00",
       "price": 97.94,
       "start": true,
@@ -36793,8 +36784,8 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "down"
+      "star": false,
+      "direction": "up"
     },
     {
       "time": "2022-09-13 09:30",
@@ -37522,7 +37513,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -38350,8 +38341,8 @@
       "start": true,
       "pinbar": true,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
+      "star": false,
+      "direction": "down"
     },
     {
       "time": "2022-09-22 04:30",
@@ -38359,7 +38350,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": true,
-      "star": true,
+      "star": false,
       "direction": "down"
     },
     {
@@ -40366,7 +40357,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {

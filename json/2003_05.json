@@ -35140,15 +35140,6 @@
   ],
   "breakout_pa_events": [
     {
-      "time": "2003-05-01 12:00",
-      "price": 74.41,
-      "start": false,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
       "time": "2003-05-01 12:15",
       "price": 74.31,
       "start": true,
@@ -36027,7 +36018,7 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
+      "star": false,
       "direction": "up"
     },
     {
