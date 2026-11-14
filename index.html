@@ -171,8 +171,8 @@
         <div>
             <span style="font-weight: bold; margin-right: 8px; font-size: 14px; color: #4dabf7;">AUD/JPY</span>
             <label style="font-weight: bold; margin-right: 4px;">年月:</label>
-            <select id="yearSelect" onchange="loadMonthlyData()"></select>
-            <select id="monthSelect" onchange="loadMonthlyData()"></select>
+            <select id="yearSelect" onchange="onSelectorChange()"></select>
+            <select id="monthSelect" onchange="onSelectorChange()"></select>
         </div>
         <div style="display: flex; gap: 8px; align-items: center;">
             <div class="nav-group">
@@ -182,11 +182,12 @@
                 <button onclick="resetView()" title="直近へジャンプ">▶▶</button>
                 <button onclick="toggleLegend()" title="凡例表示切替" id="legendBtn" style="background: #444;">凡例</button>
                 <button onclick="toggleSpecModal(true)" title="仕様書表示" style="background: #28a745;">仕様書</button>
+                <button onclick="togglePAControls()" title="PA・インジケータ表示切替" id="paToggleBtn" style="background: #007bff;">表示</button>
             </div>
         </div>
     </div>
 
-    <div class="pa-controls">
+    <div class="pa-controls" id="paControls">
         <span style="font-weight: bold; color: #aaa;">PA表示:</span>
         <label><input type="checkbox" id="chk-start" checked onchange="handlePACheckboxChange('start', this.checked)"> 🟡 起点(30pips)</label>
         <label><input type="checkbox" id="chk-pin" onchange="handlePACheckboxChange('pin', this.checked)"> 🔺 ピンバー</label>
@@ -251,6 +252,9 @@
         };
 
         let fullData = null;
+        let loadedMonths = new Set();
+        let isLoadingAdjacent = false;
+        let paControlsVisible = true;
         const DEFAULT_BARS = 200;
         let currentBarCount = DEFAULT_BARS;
         let showLegendState = false;
@@ -299,6 +303,44 @@
                     bb144Chk.checked = (savedBB144 === 'true');
                 } else {
                     bb144Chk.checked = true;
+                }
+            }
+
+            // PAコントロールの表示状態復元
+            const savedPACVisible = localStorage.getItem('fx_pa_controls_visible');
+            if (savedPACVisible !== null) {
+                paControlsVisible = (savedPACVisible === 'true');
+            } else {
+                paControlsVisible = true; // デフォルトは表示
+            }
+            applyPAControlsVisibility(false);
+        }
+
+        function togglePAControls() {
+            paControlsVisible = !paControlsVisible;
+            localStorage.setItem('fx_pa_controls_visible', paControlsVisible);
+            applyPAControlsVisibility(true);
+        }
+
+        function applyPAControlsVisibility(resizeChart) {
+            const controls = document.getElementById('paControls');
+            const btn = document.getElementById('paToggleBtn');
+            if (!controls || !btn) return;
+
+            if (paControlsVisible) {
+                controls.style.display = 'flex';
+                btn.style.background = '#007bff';
+                btn.style.opacity = '1.0';
+            } else {
+                controls.style.display = 'none';
+                btn.style.background = '#555';
+                btn.style.opacity = '0.7';
+            }
+
+            if (resizeChart) {
+                var gd = document.getElementById('chart');
+                if (gd) {
+                    Plotly.Plots.resize(gd);
                 }
             }
         }
@@ -373,6 +415,11 @@
             initPACheckboxes();
         }
 
+        function onSelectorChange() {
+            loadedMonths.clear();
+            loadMonthlyData();
+        }
+
         async function loadMonthlyData() {
             const year = document.getElementById('yearSelect').value;
             const month = document.getElementById('monthSelect').value;
@@ -381,21 +428,134 @@
             localStorage.setItem('fx_last_year', year);
             localStorage.setItem('fx_last_month', month);
 
-            const jsonPath = `json/${year}_${month}.json`;
+            const monthKey = `${year}_${month}`;
+            const jsonPath = `json/${monthKey}.json`;
             document.getElementById('loading').style.display = 'block';
 
             try {
                 let response = await fetch(jsonPath);
                 if (!response.ok) throw new Error("データなし");
-                fullData = await response.json();
+                let data = await response.json();
+                
+                fullData = data;
+                loadedMonths.clear();
+                loadedMonths.add(monthKey);
+
                 currentBarCount = getInitialBarCount();
-                renderChart(`${year}年${month}月`);
+                renderChart(`${year}年${month}月`, true);
             } catch (error) {
                 console.warn(`データが見つかりません: ${jsonPath}`);
                 document.getElementById('chart').innerHTML = `<div style="text-align:center; padding:50px; color:#adb5bd;">${year}年${month}月のデータがありません</div>`;
                 fullData = null;
             } finally {
                 document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        async function loadAdjacentMonthData(direction) {
+            if (isLoadingAdjacent || !fullData || !fullData.times || fullData.times.length === 0) return;
+            isLoadingAdjacent = true;
+
+            let targetYear, targetMonth;
+            if (direction === 'prev') {
+                let oldestTimeStr = fullData.times[0];
+                let d = new Date(oldestTimeStr);
+                if (isNaN(d.getTime())) {
+                    isLoadingAdjacent = false;
+                    return;
+                }
+                d.setMonth(d.getMonth() - 1);
+                targetYear = d.getFullYear();
+                targetMonth = String(d.getMonth() + 1).padStart(2, '0');
+            } else {
+                let newestTimeStr = fullData.times[fullData.times.length - 1];
+                let d = new Date(newestTimeStr);
+                if (isNaN(d.getTime())) {
+                    isLoadingAdjacent = false;
+                    return;
+                }
+                d.setMonth(d.getMonth() + 1);
+                targetYear = d.getFullYear();
+                targetMonth = String(d.getMonth() + 1).padStart(2, '0');
+            }
+
+            const monthKey = `${targetYear}_${targetMonth}`;
+            if (loadedMonths.has(monthKey)) {
+                isLoadingAdjacent = false;
+                return;
+            }
+
+            const jsonPath = `json/${monthKey}.json`;
+            try {
+                let res = await fetch(jsonPath);
+                if (!res.ok) {
+                    isLoadingAdjacent = false;
+                    return;
+                }
+                let addData = await res.json();
+                if (!addData.times || addData.times.length === 0) {
+                    isLoadingAdjacent = false;
+                    return;
+                }
+
+                loadedMonths.add(monthKey);
+                mergeDataset(addData, direction);
+            } catch (err) {
+                console.warn("隣接月のロードに失敗:", jsonPath);
+            } finally {
+                isLoadingAdjacent = false;
+            }
+        }
+
+        function mergeDataset(addData, direction) {
+            const arrKeys = [
+                'times', 'opens', 'highs', 'lows', 'closes',
+                'sma9', 'sma36', 'sma144',
+                'bb1', 'bb2', 'bb_l1', 'bb_l2',
+                'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2',
+                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka'
+            ];
+
+            let gd = document.getElementById('chart');
+            let oldXRange = gd && gd._fullLayout && gd._fullLayout.xaxis ? gd._fullLayout.xaxis.range : null;
+
+            if (direction === 'prev') {
+                arrKeys.forEach(k => {
+                    if (addData[k] && fullData[k]) {
+                        fullData[k] = addData[k].concat(fullData[k]);
+                    }
+                });
+                if (addData.trades) {
+                    fullData.trades = (addData.trades || []).concat(fullData.trades || []);
+                }
+                if (addData.breakout_pa_events) {
+                    fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
+                }
+
+                let shiftCount = addData.times.length;
+                renderChart(null, false);
+
+                if (oldXRange && gd) {
+                    let newRange = [oldXRange[0] + shiftCount, oldXRange[1] + shiftCount];
+                    Plotly.relayout(gd, { 'xaxis.range': newRange });
+                }
+            } else {
+                arrKeys.forEach(k => {
+                    if (addData[k] && fullData[k]) {
+                        fullData[k] = fullData[k].concat(addData[k]);
+                    }
+                });
+                if (addData.trades) {
+                    fullData.trades = (fullData.trades || []).concat(addData.trades || []);
+                }
+                if (addData.breakout_pa_events) {
+                    fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(addData.breakout_pa_events || []);
+                }
+
+                renderChart(null, false);
+                if (oldXRange && gd) {
+                    Plotly.relayout(gd, { 'xaxis.range': oldXRange });
+                }
             }
         }
 
@@ -590,7 +750,7 @@
             if (tip) tip.style.display = 'none';
         }
 
-        function renderChart(titleStr) {
+        function renderChart(titleStr, resetRange = false) {
             if (!fullData) return;
 
             const times = fullData.times;
@@ -731,10 +891,7 @@
             const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, visible: chkBB144, hoverinfo: 'skip' };
             const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, visible: chkBB144, showlegend: false, hoverinfo: 'skip' };
 
-            // =========================================================================
-            // 【案1：交差ポイント補間方式】によるスパンモデル雲の生成
-            // category軸におけるインデックスズレやnull連結によるハミ出しを完全に防止
-            // =========================================================================
+            // スパンモデル雲の生成（交差ポイント補間方式）
             const aouValues = fullData.span_aou || [];
             const akaValues = fullData.span_aka || [];
             const timesArr = fullData.times || [];
@@ -798,7 +955,6 @@
                     curTop.push(aou);
                     curBtm.push(aka);
                 } else {
-                    // 陽転・陰転が切り替わる場合、現在の足で閉じてから新しいセグメントを開始
                     let midVal = (aou + aka) / 2;
                     curX.push(t);
                     curTop.push(midVal);
@@ -870,20 +1026,27 @@
             let endIdx = total - 1;
             let startIdx = Math.max(0, total - currentBarCount);
 
-            const savedRange = localStorage.getItem('fx_last_xaxis_range');
             let initialRange = [startIdx, endIdx];
-            if (savedRange) {
-                try {
-                    let parsed = JSON.parse(savedRange);
-                    if (Array.isArray(parsed) && parsed.length === 2) {
-                        let s = Math.max(0, Math.min(parsed[0], total - 1));
-                        let e = Math.max(0, Math.min(parsed[1], total - 1));
-                        if (e > s) {
-                            initialRange = [s, e];
-                            currentBarCount = Math.round(e - s);
+            if (!resetRange) {
+                let gd = document.getElementById('chart');
+                if (gd && gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
+                    initialRange = gd._fullLayout.xaxis.range;
+                }
+            } else {
+                const savedRange = localStorage.getItem('fx_last_xaxis_range');
+                if (savedRange) {
+                    try {
+                        let parsed = JSON.parse(savedRange);
+                        if (Array.isArray(parsed) && parsed.length === 2) {
+                            let s = Math.max(0, Math.min(parsed[0], total - 1));
+                            let e = Math.max(0, Math.min(parsed[1], total - 1));
+                            if (e > s) {
+                                initialRange = [s, e];
+                                currentBarCount = Math.round(e - s);
+                            }
                         }
-                    }
-                } catch(e) {}
+                    } catch(e) {}
+                }
             }
 
             const layout = {
@@ -987,6 +1150,12 @@
                         if (xrange) {
                             currentBarCount = Math.max(10, Math.round(xrange[1] - xrange[0]));
                             localStorage.setItem('fx_last_xaxis_range', JSON.stringify(xrange));
+
+                            if (xrange[0] < 30) {
+                                loadAdjacentMonthData('prev');
+                            } else if (xrange[1] > fullData.times.length - 30) {
+                                loadAdjacentMonthData('next');
+                            }
                         }
                         autoScaleY(gd);
                     }
