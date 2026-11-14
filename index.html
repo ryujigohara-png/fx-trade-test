@@ -149,7 +149,7 @@
             border-radius: 4px;
             line-height: 1.35;
             box-shadow: 0 4px 12px rgba(0,0,0,0.7);
-            width: 120px;
+            width: 125px;
             box-sizing: border-box;
             white-space: nowrap;
             backdrop-filter: blur(2px);
@@ -192,6 +192,10 @@
         <label><input type="checkbox" id="chk-pin" onchange="handlePACheckboxChange('pin', this.checked)"> 🔺 ピンバー</label>
         <label><input type="checkbox" id="chk-eng" onchange="handlePACheckboxChange('eng', this.checked)"> ◎ 包み足</label>
         <label><input type="checkbox" id="chk-star" onchange="handlePACheckboxChange('star', this.checked)"> ⭐ 明星</label>
+        <span style="margin-left: 10px; font-weight: bold; color: #aaa;">インジケータ:</span>
+        <label><input type="checkbox" id="chk-span" checked onchange="handleSpanCheckboxChange(this.checked)"> ☁ スパンモデル</label>
+        <label><input type="checkbox" id="chk-bb36" checked onchange="handleBBCheckboxChange('bb36', this.checked)"> 36BB</label>
+        <label><input type="checkbox" id="chk-bb144" checked onchange="handleBBCheckboxChange('bb144', this.checked)"> 144BB</label>
     </div>
 
     <!-- 仕様書モーダルウィンドウ -->
@@ -267,11 +271,51 @@
                     checkboxes[key].checked = (key === 'start');
                 }
             }
+
+            const spanChk = document.getElementById('chk-span');
+            if (spanChk) {
+                const savedSpan = localStorage.getItem('fx_span_chk');
+                if (savedSpan !== null) {
+                    spanChk.checked = (savedSpan === 'true');
+                } else {
+                    spanChk.checked = true;
+                }
+            }
+
+            const bb36Chk = document.getElementById('chk-bb36');
+            if (bb36Chk) {
+                const savedBB36 = localStorage.getItem('fx_bb36_chk');
+                if (savedBB36 !== null) {
+                    bb36Chk.checked = (savedBB36 === 'true');
+                } else {
+                    bb36Chk.checked = true;
+                }
+            }
+
+            const bb144Chk = document.getElementById('chk-bb144');
+            if (bb144Chk) {
+                const savedBB144 = localStorage.getItem('fx_bb144_chk');
+                if (savedBB144 !== null) {
+                    bb144Chk.checked = (savedBB144 === 'true');
+                } else {
+                    bb144Chk.checked = true;
+                }
+            }
         }
 
         function handlePACheckboxChange(type, isChecked) {
             localStorage.setItem(`fx_pa_chk_${type}`, isChecked);
             togglePATrace(type, isChecked);
+        }
+
+        function handleSpanCheckboxChange(isChecked) {
+            localStorage.setItem('fx_span_chk', isChecked);
+            toggleSpanTraces(isChecked);
+        }
+
+        function handleBBCheckboxChange(type, isChecked) {
+            localStorage.setItem(`fx_${type}_chk`, isChecked);
+            toggleBBTraces(type, isChecked);
         }
 
         function getInitialBarCount() {
@@ -394,6 +438,47 @@
             }
         }
 
+        function toggleSpanTraces(isChecked) {
+            var gd = document.getElementById('chart');
+            if (!gd || !gd.data) return;
+
+            let spanNames = ['青色スパン(先行1)', '赤色スパン(先行2)', 'スパン雲(陽転)', 'スパン雲(陰転)'];
+            let traceIndices = [];
+
+            gd.data.forEach((trace, idx) => {
+                if (spanNames.includes(trace.name)) {
+                    traceIndices.push(idx);
+                }
+            });
+
+            if (traceIndices.length > 0) {
+                Plotly.restyle(gd, { visible: isChecked ? true : false }, traceIndices);
+            }
+        }
+
+        function toggleBBTraces(type, isChecked) {
+            var gd = document.getElementById('chart');
+            if (!gd || !gd.data) return;
+
+            let bbNamesMap = {
+                'bb36': ['36BB ±1σ', '36BB ±2σ'],
+                'bb144': ['144BB Mid', '144BB ±1σ', '144BB ±2σ']
+            };
+
+            let targetNames = bbNamesMap[type] || [];
+            let traceIndices = [];
+
+            gd.data.forEach((trace, idx) => {
+                if (targetNames.includes(trace.name)) {
+                    traceIndices.push(idx);
+                }
+            });
+
+            if (traceIndices.length > 0) {
+                Plotly.restyle(gd, { visible: isChecked ? true : false }, traceIndices);
+            }
+        }
+
         function fmt(val) {
             if (val === undefined || val === null || isNaN(val)) return '-';
             return typeof val === 'number' ? val.toFixed(3) : val;
@@ -440,6 +525,11 @@
             let b144u2 = fmt(fullData.bb144_u2 ? fullData.bb144_u2[idx] : null);
             let b144l2 = fmt(fullData.bb144_l2 ? fullData.bb144_l2[idx] : null);
 
+            let spTenkan = fmt(fullData.span_tenkan ? fullData.span_tenkan[idx] : null);
+            let spKijun = fmt(fullData.span_kijun ? fullData.span_kijun[idx] : null);
+            let spAou = fmt(fullData.span_aou ? fullData.span_aou[idx] : null);
+            let spAka = fmt(fullData.span_aka ? fullData.span_aka[idx] : null);
+
             tip.innerHTML = `
                 <div class="tip-title">${t}</div>
                 <div class="tip-price-row"><span>十字価格</span><span class="tip-val">${cursorPriceStr}</span></div>
@@ -465,6 +555,12 @@
                 <div class="tip-row"><span>+1σ</span><span class="tip-val">${b144u1}</span></div>
                 <div class="tip-row"><span>-1σ</span><span class="tip-val">${b144l1}</span></div>
                 <div class="tip-row"><span>-2σ</span><span class="tip-val">${b144l2}</span></div>
+
+                <div class="tip-sec">スパンモデル</div>
+                <div class="tip-row"><span>転換線</span><span class="tip-val">${spTenkan}</span></div>
+                <div class="tip-row"><span>基準線</span><span class="tip-val">${spKijun}</span></div>
+                <div class="tip-row"><span>青スパン</span><span class="tip-val">${spAou}</span></div>
+                <div class="tip-row"><span>赤スパン</span><span class="tip-val">${spAka}</span></div>
             `;
             tip.style.display = 'block';
             
@@ -473,7 +569,7 @@
                 let y = clientY + 10;
                 
                 let tipWidth = tip.offsetWidth || 155;
-                let tipHeight = tip.offsetHeight || 320;
+                let tipHeight = tip.offsetHeight || 380;
                 
                 if (x + tipWidth > window.innerWidth - 5) {
                     x = clientX - tipWidth - 10;
@@ -561,9 +657,8 @@
                     let hVal = idx !== undefined ? fullData.highs[idx] : ev.price;
                     let lVal = idx !== undefined ? fullData.lows[idx] : ev.price;
                     
-                    // 重なり防止のための階層化オフセット
                     let offsetStart = 0.06;
-                    let offsetOther = 0.16; // 起点よりさらに外側に配置
+                    let offsetOther = 0.16;
 
                     let isUp = (ev.direction === 'up');
 
@@ -573,7 +668,6 @@
                     }
                     if (ev.pinbar) {
                         pin_x.push(ev.time);
-                        // 起点が下ならさらに下へ、上ならさらに上へ
                         pin_y.push(isUp ? (lVal - offsetOther) : (hVal + offsetOther));
                     }
                     if (ev.engulfing) {
@@ -601,6 +695,10 @@
                 return closestIdx;
             }
 
+            const chkSpan = document.getElementById('chk-span') ? document.getElementById('chk-span').checked : true;
+            const chkBB36 = document.getElementById('chk-bb36') ? document.getElementById('chk-bb36').checked : true;
+            const chkBB144 = document.getElementById('chk-bb144') ? document.getElementById('chk-bb144').checked : true;
+
             const traceCandle = {
                 x: times, 
                 open: fullData.opens, 
@@ -615,29 +713,119 @@
                 hoverinfo: 'none'
             };
             
-            const traceSMA9    = { x: times, y: fullData.sma9,    mode: 'lines', name: 'SMA 9',    line: {color: '#e2cb68', width: 1.5}, hoverinfo: 'skip' };
-            const traceSMA36    = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36',    line: {color: '#3498db', width: 1.5}, hoverinfo: 'skip' };
-            const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144',   line: {color: '#b977e6', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA9    = { x: times, y: fullData.sma9,    mode: 'lines', name: 'SMA 9 (移動平均1)',    line: {color: '#ffd700', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA36   = { x: times, y: fullData.sma36,    mode: 'lines', name: 'SMA 36 (移動平均2)',    line: {color: '#00bcd4', width: 1.5}, hoverinfo: 'skip' };
+            const traceSMA144   = { x: times, y: fullData.sma144,   mode: 'lines', name: 'SMA 144 (移動平均3)',   line: {color: '#e040fb', width: 1.5}, hoverinfo: 'skip' };
             
-            const traceBB1      = { x: times, y: fullData.bb1,      mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
-            const traceBBL1     = { x: times, y: fullData.bb_l1,    mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
+            const traceBB1      = { x: times, y: fullData.bb1,      mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, visible: chkBB36, hoverinfo: 'skip' };
+            const traceBBL1     = { x: times, y: fullData.bb_l1,    mode: 'lines', name: '36BB ±1σ', line: {color: '#e91e63', width: 1, dash: 'dot'}, visible: chkBB36, showlegend: false, hoverinfo: 'skip' };
             
-            const traceBB2      = { x: times, y: fullData.bb2,      mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
-            const traceBBL2     = { x: times, y: fullData.bb_l2,    mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
+            const traceBB2      = { x: times, y: fullData.bb2,      mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, visible: chkBB36, hoverinfo: 'skip' };
+            const traceBBL2     = { x: times, y: fullData.bb_l2,    mode: 'lines', name: '36BB ±2σ', line: {color: '#9c27b0', width: 1, dash: 'dot'}, visible: chkBB36, showlegend: false, hoverinfo: 'skip' };
 
-            const traceBB144MID = { x: times, y: fullData.bb144_mid, mode: 'lines', name: '144BB Mid', line: {color: '#e67e22', width: 1}, hoverinfo: 'skip' };
+            const traceBB144MID = { x: times, y: fullData.bb144_mid, mode: 'lines', name: '144BB Mid', line: {color: '#ff9800', width: 1}, visible: chkBB144, hoverinfo: 'skip' };
             
-            const traceBB144U1  = { x: times, y: fullData.bb144_u1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
-            const traceBB144L1  = { x: times, y: fullData.bb144_l1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#e67e22', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
+            const traceBB144U1  = { x: times, y: fullData.bb144_u1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#ff9800', width: 1, dash: 'dot'}, visible: chkBB144, hoverinfo: 'skip' };
+            const traceBB144L1  = { x: times, y: fullData.bb144_l1,  mode: 'lines', name: '144BB ±1σ', line: {color: '#ff9800', width: 1, dash: 'dot'}, visible: chkBB144, showlegend: false, hoverinfo: 'skip' };
             
-            const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, hoverinfo: 'skip' };
-            const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, showlegend: false, hoverinfo: 'skip' };
+            const traceBB144U2  = { x: times, y: fullData.bb144_u2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, visible: chkBB144, hoverinfo: 'skip' };
+            const traceBB144L2  = { x: times, y: fullData.bb144_l2,  mode: 'lines', name: '144BB ±2σ', line: {color: '#795548', width: 1, dash: 'dot'}, visible: chkBB144, showlegend: false, hoverinfo: 'skip' };
+
+            // =========================================================================
+            // 【案1：交差ポイント補間方式】によるスパンモデル雲の生成
+            // category軸におけるインデックスズレやnull連結によるハミ出しを完全に防止
+            // =========================================================================
+            const aouValues = fullData.span_aou || [];
+            const akaValues = fullData.span_aka || [];
+            const timesArr = fullData.times || [];
+
+            const spanTraces = [];
+            let curX = [], curTop = [], curBtm = [];
+            let curIsBull = null;
+
+            const flushSegment = () => {
+                if (curX.length > 0 && curIsBull !== null) {
+                    const fillColor = curIsBull ? 'rgba(33, 150, 243, 0.22)' : 'rgba(244, 67, 54, 0.22)';
+                    const segName = curIsBull ? 'スパン雲(陽転)' : 'スパン雲(陰転)';
+                    spanTraces.push({
+                        x: curX.slice(),
+                        y: curTop.slice(),
+                        mode: 'lines',
+                        name: segName,
+                        line: { color: 'transparent', width: 0 },
+                        hoverinfo: 'skip',
+                        showlegend: false,
+                        visible: chkSpan
+                    });
+                    spanTraces.push({
+                        x: curX.slice(),
+                        y: curBtm.slice(),
+                        mode: 'lines',
+                        name: segName,
+                        line: { color: 'transparent', width: 0 },
+                        fill: 'tonexty',
+                        fillcolor: fillColor,
+                        hoverinfo: 'skip',
+                        showlegend: false,
+                        visible: chkSpan
+                    });
+                }
+                curX = [];
+                curTop = [];
+                curBtm = [];
+            };
+
+            for (let i = 0; i < timesArr.length; i++) {
+                let t = timesArr[i];
+                let aou = aouValues[i];
+                let aka = akaValues[i];
+
+                if (aou === null || aka === null || isNaN(aou) || isNaN(aka)) {
+                    flushSegment();
+                    curIsBull = null;
+                    continue;
+                }
+
+                let isBull = (aou >= aka);
+
+                if (curIsBull === null) {
+                    curIsBull = isBull;
+                    curX.push(t);
+                    curTop.push(aou);
+                    curBtm.push(aka);
+                } else if (curIsBull === isBull) {
+                    curX.push(t);
+                    curTop.push(aou);
+                    curBtm.push(aka);
+                } else {
+                    // 陽転・陰転が切り替わる場合、現在の足で閉じてから新しいセグメントを開始
+                    let midVal = (aou + aka) / 2;
+                    curX.push(t);
+                    curTop.push(midVal);
+                    curBtm.push(midVal);
+                    flushSegment();
+
+                    curIsBull = isBull;
+                    curX.push(t);
+                    curTop.push(midVal);
+                    curBtm.push(midVal);
+                    curX.push(t);
+                    curTop.push(aou);
+                    curBtm.push(aka);
+                }
+            }
+            flushSegment();
+
+            const traceSpanAou = { x: times, y: fullData.span_aou, mode: 'lines', name: '青色スパン(先行1)', line: {color: '#4fc3f7', width: 1.2}, visible: chkSpan, hoverinfo: 'skip' };
+            const traceSpanAka = { x: times, y: fullData.span_aka, mode: 'lines', name: '赤色スパン(先行2)', line: {color: '#f06292', width: 1.2}, visible: chkSpan, hoverinfo: 'skip' };
 
             const traces = [
                 traceCandle, 
                 traceSMA9, traceSMA36, traceSMA144, 
                 traceBB1, traceBBL1, traceBB2, traceBBL2,
-                traceBB144MID, traceBB144U1, traceBB144L1, traceBB144U2, traceBB144L2
+                traceBB144MID, traceBB144U1, traceBB144L1, traceBB144U2, traceBB144L2,
+                traceSpanAou, traceSpanAka,
+                ...spanTraces
             ];
 
             if (win_x.length > 0) traces.push({ x: win_x, y: win_y, mode: 'lines', name: 'Win Line', line: {color: '#0052cc', width: 2.5}, opacity: 0.85, hoverinfo: 'skip' });
@@ -841,7 +1029,7 @@
             let xMaxIdx = Math.min(fullData.times.length - 1, Math.ceil(xrange[1]));
 
             let yMin = Infinity, yMax = -Infinity;
-            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2', 'bb_l1', 'bb_l2', 'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2'];
+            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2', 'bb_l1', 'bb_l2', 'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2', 'span_tenkan', 'span_kijun', 'span_aou', 'span_aka'];
             
             keys.forEach(k => {
                 let arr = fullData[k];
