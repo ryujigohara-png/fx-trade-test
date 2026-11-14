@@ -40305,7 +40305,7 @@
     {
       "time": "2017-04-05 17:30",
       "price": 84.22,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -41068,42 +41068,6 @@
       "direction": "up"
     },
     {
-      "time": "2017-04-12 23:30",
-      "price": 82.12,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-04-12 23:45",
-      "price": 82.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-04-13 00:00",
-      "price": 82.08,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-04-13 00:15",
-      "price": 82.06,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2017-04-13 00:30",
       "price": 82.03,
       "start": true,
@@ -41383,15 +41347,6 @@
       "direction": "down"
     },
     {
-      "time": "2017-04-18 23:30",
-      "price": 81.95,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2017-04-18 23:45",
       "price": 82.0,
       "start": true,
@@ -41592,24 +41547,6 @@
     {
       "time": "2017-04-21 17:00",
       "price": 82.08,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-04-21 18:15",
-      "price": 82.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-04-21 18:30",
-      "price": 82.33,
       "start": true,
       "pinbar": false,
       "engulfing": false,

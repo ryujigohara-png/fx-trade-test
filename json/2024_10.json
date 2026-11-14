@@ -45612,7 +45612,7 @@
     {
       "time": "2024-10-01 03:45",
       "price": 99.9,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": false,
       "star": true,
@@ -45754,33 +45754,6 @@
       "direction": "up"
     },
     {
-      "time": "2024-10-01 09:45",
-      "price": 99.25,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-10-01 10:00",
-      "price": 99.32,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-10-01 10:15",
-      "price": 99.37,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2024-10-01 10:30",
       "price": 99.41,
       "start": true,
@@ -45815,15 +45788,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2024-10-01 11:30",
-      "price": 98.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2024-10-01 11:45",
@@ -45901,10 +45865,10 @@
       "time": "2024-10-01 13:45",
       "price": 98.96,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2024-10-01 14:00",
@@ -45922,16 +45886,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2024-10-01 14:30",
-      "price": 98.49,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2024-10-01 14:45",
@@ -45940,7 +45895,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2024-10-01 15:00",
@@ -46150,15 +46105,6 @@
       "direction": "down"
     },
     {
-      "time": "2024-10-02 02:45",
-      "price": 98.92,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2024-10-02 03:00",
       "price": 99.04,
       "start": true,
@@ -46240,15 +46186,6 @@
       "direction": "up"
     },
     {
-      "time": "2024-10-02 06:45",
-      "price": 99.47,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2024-10-02 07:00",
       "price": 99.46,
       "start": true,
@@ -46260,7 +46197,7 @@
     {
       "time": "2024-10-02 07:15",
       "price": 99.48,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -46305,15 +46242,6 @@
     {
       "time": "2024-10-02 08:30",
       "price": 99.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
-      "time": "2024-10-02 08:45",
-      "price": 99.89,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46386,7 +46314,7 @@
     {
       "time": "2024-10-02 11:00",
       "price": 100.28,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -46607,15 +46535,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2024-10-03 10:00",
-      "price": 100.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2024-10-03 10:15",
@@ -47212,15 +47131,6 @@
       "direction": "down"
     },
     {
-      "time": "2024-10-08 00:15",
-      "price": 99.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2024-10-08 00:30",
       "price": 99.38,
       "start": true,
@@ -47464,24 +47374,6 @@
       "direction": "up"
     },
     {
-      "time": "2024-10-09 03:00",
-      "price": 100.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-10-09 03:15",
-      "price": 100.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2024-10-09 03:30",
       "price": 100.23,
       "start": true,
@@ -47701,24 +47593,6 @@
       "time": "2024-10-10 09:45",
       "price": 100.05,
       "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-10-10 10:00",
-      "price": 100.02,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-10-10 10:15",
-      "price": 100.01,
-      "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
@@ -47882,15 +47756,6 @@
       "price": 100.49,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2024-10-14 10:00",
-      "price": 100.5,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -49878,7 +49743,7 @@
     {
       "time": "2024-10-31 11:30",
       "price": 100.31,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": false,
       "star": true,
@@ -49973,24 +49838,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2024-10-31 14:15",
-      "price": 99.74,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2024-10-31 14:30",
-      "price": 99.71,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2024-10-31 14:45",

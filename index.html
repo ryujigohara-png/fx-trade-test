@@ -233,7 +233,7 @@
                     <li><strong>形状判定:</strong> 2本足のペアで、2本目が前足の実体を完全に包み込む形。</li>
                 </ul>
 
-                <h3>④ ⭐ 明星</h3>
+                ### ④ ⭐ 明星</h3>
                 <ul>
                     <li><strong>配置位置:</strong> 起点マークの外側（さらに上下に離した位置）</li>
                     <li><strong>形状判定:</strong> 3本足構成（1本目大実体、2本目コマ、3本目終値が1本目の始値を超える/包み込む包み足状のイメージ）。</li>
@@ -255,9 +255,59 @@
         let loadedMonths = new Set();
         let isLoadingAdjacent = false;
         let paControlsVisible = true;
+        let isSyncingSelector = false;
         const DEFAULT_BARS = 200;
         let currentBarCount = DEFAULT_BARS;
         let showLegendState = false;
+
+        function formatDateTimeWithoutYear(str) {
+            if (!str) return '-';
+            let parts = str.split(' ');
+            if (parts.length >= 2) {
+                let dateParts = parts[0].split('-');
+                if (dateParts.length === 3) {
+                    return `${dateParts[1]}/${dateParts[2]} ${parts[1]}`;
+                }
+            }
+            return str;
+        }
+
+        // 表示中のローソク足の本数（ズーム倍率）に応じて動的にラベルを間引く関数
+        function getDynamicTicks(times, xrange) {
+            if (!times || times.length === 0) return { tickvals: [], ticktext: [] };
+            
+            let startIdx = Math.max(0, Math.floor(xrange ? xrange[0] : 0));
+            let endIdx = Math.min(times.length - 1, Math.ceil(xrange ? xrange[1] : times.length - 1));
+            let visibleCount = endIdx - startIdx;
+            
+            // 表示本数に応じたステップ（間引き間隔）の動的決定
+            let step = 8; // デフォルト（約2時間おき）
+            if (visibleCount > 600) {
+                step = 64; // 広範囲（縮小時）
+            } else if (visibleCount > 300) {
+                step = 32;
+            } else if (visibleCount > 150) {
+                step = 16;
+            } else if (visibleCount > 70) {
+                step = 8;
+            } else if (visibleCount > 30) {
+                step = 4;
+            } else {
+                step = 1; // 拡大時（細かく表示）
+            }
+
+            let tickvals = [];
+            let ticktext = [];
+            
+            // 画面範囲内外を含めて全体から一定間隔で抽出
+            for (let i = 0; i < times.length; i++) {
+                if (i % step === 0) {
+                    tickvals.push(times[i]);
+                    ticktext.push(formatDateTimeWithoutYear(times[i]));
+                }
+            }
+            return { tickvals, ticktext };
+        }
 
         function initPACheckboxes() {
             const checkboxes = {
@@ -306,12 +356,11 @@
                 }
             }
 
-            // PAコントロールの表示状態復元
             const savedPACVisible = localStorage.getItem('fx_pa_controls_visible');
             if (savedPACVisible !== null) {
                 paControlsVisible = (savedPACVisible === 'true');
             } else {
-                paControlsVisible = true; // デフォルトは表示
+                paControlsVisible = true;
             }
             applyPAControlsVisibility(false);
         }
@@ -416,8 +465,37 @@
         }
 
         function onSelectorChange() {
+            if (isSyncingSelector) return;
             loadedMonths.clear();
             loadMonthlyData();
+        }
+
+        function updateSelectorsFromChartCenter(xrange) {
+            if (!fullData || !fullData.times || fullData.times.length === 0) return;
+            let centerIdx = Math.round((xrange[0] + xrange[1]) / 2);
+            centerIdx = Math.max(0, Math.min(centerIdx, fullData.times.length - 1));
+            
+            let timeStr = fullData.times[centerIdx];
+            if (!timeStr) return;
+
+            let d = new Date(timeStr);
+            if (isNaN(d.getTime())) return;
+
+            let yStr = String(d.getFullYear());
+            let mStr = String(d.getMonth() + 1).padStart(2, '0');
+
+            const yearSelect = document.getElementById('yearSelect');
+            const monthSelect = document.getElementById('monthSelect');
+            if (!yearSelect || !monthSelect) return;
+
+            if (yearSelect.value !== yStr || monthSelect.value !== mStr) {
+                isSyncingSelector = true;
+                yearSelect.value = yStr;
+                monthSelect.value = mStr;
+                localStorage.setItem('fx_last_year', yStr);
+                localStorage.setItem('fx_last_month', mStr);
+                isSyncingSelector = false;
+            }
         }
 
         async function loadMonthlyData() {
@@ -546,7 +624,7 @@
                     }
                 });
                 if (addData.trades) {
-                    fullData.trades = (fullData.trades || []).concat(addData.trades || []);
+                    fullData.trades = (addData.trades || []).concat(addData.trades || []);
                 }
                 if (addData.breakout_pa_events) {
                     fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(addData.breakout_pa_events || []);
@@ -664,7 +742,7 @@
                 cursorPriceStr = fmt(calculatedPrice);
             }
             
-            let t = fullData.times[idx];
+            let t = formatDateTimeWithoutYear(fullData.times[idx]);
             let o = fmt(fullData.opens[idx]);
             let h = fmt(fullData.highs[idx]);
             let l = fmt(fullData.lows[idx]);
@@ -756,6 +834,36 @@
             const times = fullData.times;
             const timeToIdx = {};
             times.forEach((t, i) => timeToIdx[t] = i);
+
+            let total = times.length;
+            let endIdx = total - 1;
+            let startIdx = Math.max(0, total - currentBarCount);
+
+            let initialRange = [startIdx, endIdx];
+            if (!resetRange) {
+                let gd = document.getElementById('chart');
+                if (gd && gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
+                    initialRange = gd._fullLayout.xaxis.range;
+                }
+            } else {
+                const savedRange = localStorage.getItem('fx_last_xaxis_range');
+                if (savedRange) {
+                    try {
+                        let parsed = JSON.parse(savedRange);
+                        if (Array.isArray(parsed) && parsed.length === 2) {
+                            let s = Math.max(0, Math.min(parsed[0], total - 1));
+                            let e = Math.max(0, Math.min(parsed[1], total - 1));
+                            if (e > s) {
+                                initialRange = [s, e];
+                                currentBarCount = Math.round(e - s);
+                            }
+                        }
+                    } catch(e) {}
+                }
+            }
+
+            // 初期表示範囲に基づいた動的目盛りを計算
+            let initialTicks = getDynamicTicks(times, initialRange);
 
             let win_x = [], win_y = [];
             let lose_x = [], lose_y = [];
@@ -1022,33 +1130,6 @@
                 visible: chkStar, hoverinfo: 'skip'
             });
 
-            let total = times.length;
-            let endIdx = total - 1;
-            let startIdx = Math.max(0, total - currentBarCount);
-
-            let initialRange = [startIdx, endIdx];
-            if (!resetRange) {
-                let gd = document.getElementById('chart');
-                if (gd && gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                    initialRange = gd._fullLayout.xaxis.range;
-                }
-            } else {
-                const savedRange = localStorage.getItem('fx_last_xaxis_range');
-                if (savedRange) {
-                    try {
-                        let parsed = JSON.parse(savedRange);
-                        if (Array.isArray(parsed) && parsed.length === 2) {
-                            let s = Math.max(0, Math.min(parsed[0], total - 1));
-                            let e = Math.max(0, Math.min(parsed[1], total - 1));
-                            if (e > s) {
-                                initialRange = [s, e];
-                                currentBarCount = Math.round(e - s);
-                            }
-                        }
-                    } catch(e) {}
-                }
-            }
-
             const layout = {
                 title: false,
                 dragmode: 'pan',
@@ -1070,6 +1151,8 @@
                     spikecolor: '#aaaaaa',
                     spikethickness: 1,
                     spikedash: 'dot',
+                    tickvals: initialTicks.tickvals,
+                    ticktext: initialTicks.ticktext,
                     tickfont: { size: Math.round(11 * APP_CONFIG.fontSizeScale), color: '#b0b0b0' }
                 },
                 yaxis: { 
@@ -1144,6 +1227,7 @@
                     }
                 });
 
+                // ズームやスクロール（relayout）が発生するたびに軸ラベルの間引きを動的に再計算して更新
                 gd.on('plotly_relayout', function(eventData) {
                     if (eventData['xaxis.range[0]'] || eventData['xaxis.range'] || eventData['xaxis.autorange']) {
                         let xrange = gd._fullLayout.xaxis.range;
@@ -1151,11 +1235,20 @@
                             currentBarCount = Math.max(10, Math.round(xrange[1] - xrange[0]));
                             localStorage.setItem('fx_last_xaxis_range', JSON.stringify(xrange));
 
+                            updateSelectorsFromChartCenter(xrange);
+
                             if (xrange[0] < 30) {
                                 loadAdjacentMonthData('prev');
                             } else if (xrange[1] > fullData.times.length - 30) {
                                 loadAdjacentMonthData('next');
                             }
+
+                            // ズーム状態に応じた新しい動的目盛りを取得し、X軸をリアルタイム更新
+                            let newTicks = getDynamicTicks(fullData.times, xrange);
+                            Plotly.relayout(gd, {
+                                'xaxis.tickvals': newTicks.tickvals,
+                                'xaxis.ticktext': newTicks.ticktext
+                            });
                         }
                         autoScaleY(gd);
                     }
@@ -1184,7 +1277,16 @@
             }).then(() => {
                 autoScaleY(gd);
                 if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                    localStorage.setItem('fx_last_xaxis_range', JSON.stringify(gd._fullLayout.xaxis.range));
+                    let newRange = gd._fullLayout.xaxis.range;
+                    localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
+                    updateSelectorsFromChartCenter(newRange);
+
+                    // ズームボタン操作時も動的目盛りを即座に反映
+                    let newTicks = getDynamicTicks(fullData.times, newRange);
+                    Plotly.relayout(gd, {
+                        'xaxis.tickvals': newTicks.tickvals,
+                        'xaxis.ticktext': newTicks.ticktext
+                    });
                 }
             });
         }
@@ -1283,7 +1385,15 @@
                 }).then(() => {
                     autoScaleY(gd);
                     if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(gd._fullLayout.xaxis.range));
+                        let newRange = gd._fullLayout.xaxis.range;
+                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
+                        updateSelectorsFromChartCenter(newRange);
+
+                        let newTicks = getDynamicTicks(fullData.times, newRange);
+                        Plotly.relayout(gd, {
+                            'xaxis.tickvals': newTicks.tickvals,
+                            'xaxis.ticktext': newTicks.ticktext
+                        });
                     }
                 });
             }
@@ -1302,7 +1412,15 @@
                 }).then(() => {
                     autoScaleY(gd);
                     if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(gd._fullLayout.xaxis.range));
+                        let newRange = gd._fullLayout.xaxis.range;
+                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
+                        updateSelectorsFromChartCenter(newRange);
+
+                        let newTicks = getDynamicTicks(fullData.times, newRange);
+                        Plotly.relayout(gd, {
+                            'xaxis.tickvals': newTicks.tickvals,
+                            'xaxis.ticktext': newTicks.ticktext
+                        });
                     }
                 });
             }

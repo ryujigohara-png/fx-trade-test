@@ -45921,7 +45921,7 @@
     {
       "time": "2019-01-02 08:00",
       "price": 76.76,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -46126,15 +46126,6 @@
       "direction": "down"
     },
     {
-      "time": "2019-01-02 21:30",
-      "price": 76.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2019-01-02 21:45",
       "price": 76.32,
       "start": true,
@@ -46216,15 +46207,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-03 00:00",
-      "price": 73.71,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2019-01-03 00:15",
       "price": 73.99,
       "start": true,
@@ -46290,15 +46272,6 @@
     {
       "time": "2019-01-03 04:30",
       "price": 74.31,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2019-01-03 04:45",
-      "price": 74.26,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46441,15 +46414,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-03 08:45",
-      "price": 74.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2019-01-03 12:15",
       "price": 74.84,
       "start": true,
@@ -46522,24 +46486,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-03 14:15",
-      "price": 75.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2019-01-03 14:45",
-      "price": 75.25,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2019-01-03 15:00",
       "price": 75.27,
       "start": true,
@@ -46564,7 +46510,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2019-01-03 15:45",
@@ -46573,20 +46519,11 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2019-01-03 16:00",
       "price": 74.97,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2019-01-03 16:15",
-      "price": 75.32,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46909,15 +46846,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-04 07:15",
-      "price": 75.85,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2019-01-04 07:30",
       "price": 75.73,
       "start": true,
@@ -47053,33 +46981,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-04 14:15",
-      "price": 76.36,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2019-01-04 14:30",
-      "price": 76.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2019-01-04 14:45",
-      "price": 76.31,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2019-01-04 15:00",
       "price": 76.28,
       "start": true,
@@ -47208,15 +47109,6 @@
     {
       "time": "2019-01-08 01:00",
       "price": 77.68,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2019-01-08 15:00",
-      "price": 77.62,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47818,15 +47710,6 @@
       "direction": "up"
     },
     {
-      "time": "2019-01-15 19:15",
-      "price": 77.96,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2019-01-15 19:30",
       "price": 77.97,
       "start": true,
@@ -48045,7 +47928,7 @@
     {
       "time": "2019-01-18 14:15",
       "price": 78.72,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,

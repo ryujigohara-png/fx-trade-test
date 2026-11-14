@@ -46357,33 +46357,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-09 22:00",
-      "price": 89.67,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-09 22:15",
-      "price": 89.68,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-09 22:30",
-      "price": 89.71,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-09 22:45",
       "price": 89.84,
       "start": true,
@@ -46402,35 +46375,8 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-09 23:30",
-      "price": 89.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-09 23:45",
-      "price": 89.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-10 00:00",
       "price": 89.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-10 00:15",
-      "price": 89.5,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46444,21 +46390,12 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-10 00:45",
-      "price": 89.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-10 01:00",
       "price": 89.47,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46636,15 +46573,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-10 11:30",
-      "price": 90.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-10 11:45",
       "price": 90.07,
       "start": true,
@@ -46708,15 +46636,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-10 13:30",
-      "price": 89.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-10 13:45",
       "price": 89.27,
       "start": true,
@@ -46732,7 +46651,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-10 14:15",
@@ -46791,15 +46710,6 @@
     {
       "time": "2023-03-10 15:45",
       "price": 89.23,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-10 16:00",
-      "price": 89.1,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46926,15 +46836,6 @@
     {
       "time": "2023-03-12 22:15",
       "price": 89.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-12 22:30",
-      "price": 89.35,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47086,33 +46987,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-13 05:45",
-      "price": 89.59,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-13 06:00",
-      "price": 89.61,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-13 06:15",
-      "price": 89.61,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-13 06:30",
       "price": 89.71,
       "start": true,
@@ -47206,10 +47080,10 @@
       "time": "2023-03-13 09:00",
       "price": 88.28,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2023-03-13 09:15",
@@ -47228,15 +47102,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2023-03-13 09:45",
-      "price": 88.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2023-03-13 10:00",
@@ -47272,7 +47137,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-13 11:00",
@@ -47281,7 +47146,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-13 11:15",
@@ -47290,16 +47155,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-13 11:30",
-      "price": 88.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-13 11:45",
@@ -47316,15 +47172,6 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-13 12:15",
-      "price": 88.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
       "star": false,
       "direction": "up"
     },
@@ -47333,15 +47180,6 @@
       "price": 88.35,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-13 12:45",
-      "price": 88.72,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -47716,37 +47554,10 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-14 10:30",
-      "price": 89.42,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-14 10:45",
-      "price": 89.41,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-14 11:00",
       "price": 89.42,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-14 11:15",
-      "price": 89.47,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -47941,15 +47752,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-15 08:30",
-      "price": 89.21,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-15 08:45",
       "price": 89.24,
       "start": true,
@@ -47979,15 +47781,6 @@
     {
       "time": "2023-03-15 09:30",
       "price": 88.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-15 09:45",
-      "price": 88.67,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48055,7 +47848,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-15 11:45",
@@ -48064,7 +47857,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-15 12:00",
@@ -48092,15 +47885,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2023-03-15 12:45",
-      "price": 88.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2023-03-15 13:00",
@@ -48150,7 +47934,7 @@
     {
       "time": "2023-03-15 14:15",
       "price": 87.82,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -48175,15 +47959,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-15 15:00",
-      "price": 87.6,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-15 15:15",
       "price": 87.38,
       "start": true,
@@ -48195,7 +47970,7 @@
     {
       "time": "2023-03-15 15:30",
       "price": 87.63,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -48256,15 +48031,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-15 17:15",
-      "price": 88.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-15 17:30",
       "price": 88.47,
       "start": true,
@@ -48319,33 +48085,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-15 22:00",
-      "price": 88.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-15 22:15",
-      "price": 88.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-15 22:30",
-      "price": 88.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-15 22:45",
       "price": 87.93,
       "start": true,
@@ -48380,15 +48119,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2023-03-15 23:45",
-      "price": 88.43,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2023-03-16 00:00",
@@ -48562,15 +48292,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-16 06:30",
-      "price": 88.49,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-16 06:45",
       "price": 88.6,
       "start": true,
@@ -48656,15 +48377,6 @@
       "price": 88.15,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-16 11:00",
-      "price": 87.97,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -48679,22 +48391,13 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-16 11:30",
-      "price": 87.88,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-16 11:45",
       "price": 87.94,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-16 12:00",
@@ -48703,16 +48406,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-16 12:15",
-      "price": 87.6,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-16 12:30",
@@ -48730,7 +48424,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-16 13:00",
@@ -48782,7 +48476,7 @@
       "price": 88.36,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
+      "engulfing": false,
       "star": false,
       "direction": "up"
     },
@@ -48793,16 +48487,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-16 14:45",
-      "price": 88.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-16 15:00",
@@ -48904,15 +48589,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-17 08:15",
-      "price": 89.13,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-17 08:30",
       "price": 89.21,
       "start": true,
@@ -48985,15 +48661,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-17 10:30",
-      "price": 88.65,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-17 10:45",
       "price": 88.73,
       "start": true,
@@ -49021,44 +48688,8 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-17 11:45",
-      "price": 88.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-17 12:00",
-      "price": 88.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-17 12:15",
       "price": 88.57,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-17 12:30",
-      "price": 88.43,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-17 12:45",
-      "price": 88.52,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49077,33 +48708,6 @@
     {
       "time": "2023-03-17 13:30",
       "price": 88.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-17 13:45",
-      "price": 88.32,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-17 14:00",
-      "price": 88.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-17 14:15",
-      "price": 88.28,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49300,24 +48904,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-19 23:00",
-      "price": 88.92,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-19 23:15",
-      "price": 89.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-19 23:30",
       "price": 89.1,
       "start": true,
@@ -49471,15 +49057,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-20 03:45",
-      "price": 88.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-20 04:00",
       "price": 88.14,
       "start": true,
@@ -49543,15 +49120,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-20 05:45",
-      "price": 87.48,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-20 06:00",
       "price": 87.54,
       "start": true,
@@ -49565,9 +49133,9 @@
       "price": 87.44,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
+      "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2023-03-20 06:30",
@@ -49577,15 +49145,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2023-03-20 06:45",
-      "price": 87.68,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2023-03-20 07:00",
@@ -49599,24 +49158,6 @@
     {
       "time": "2023-03-20 07:15",
       "price": 87.18,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-20 07:30",
-      "price": 87.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-20 07:45",
-      "price": 87.5,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49660,15 +49201,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-20 09:15",
-      "price": 87.67,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-20 09:30",
       "price": 87.88,
       "start": true,
@@ -49684,21 +49216,12 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-20 10:00",
-      "price": 87.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-20 10:15",
       "price": 87.76,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -49743,15 +49266,6 @@
     {
       "time": "2023-03-20 11:30",
       "price": 88.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-20 11:45",
-      "price": 88.13,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49804,15 +49318,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-20 13:30",
-      "price": 88.41,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-20 13:45",
       "price": 88.48,
       "start": true,
@@ -49824,7 +49329,7 @@
     {
       "time": "2023-03-20 14:00",
       "price": 88.37,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -49894,33 +49399,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-20 21:45",
-      "price": 88.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-20 22:00",
-      "price": 88.24,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-20 22:15",
-      "price": 88.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-20 22:30",
       "price": 88.11,
       "start": true,
@@ -49928,24 +49406,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2023-03-20 22:45",
-      "price": 88.22,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-20 23:00",
-      "price": 88.15,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2023-03-20 23:15",
@@ -50121,7 +49581,7 @@
     {
       "time": "2023-03-21 12:15",
       "price": 88.24,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": true,
@@ -50346,42 +49806,6 @@
     {
       "time": "2023-03-22 11:30",
       "price": 88.77,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-22 16:00",
-      "price": 88.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-22 16:15",
-      "price": 88.52,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-22 16:30",
-      "price": 88.48,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-22 16:45",
-      "price": 88.5,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50677,26 +50101,8 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-23 17:30",
-      "price": 87.25,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-23 17:45",
       "price": 87.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-23 18:00",
-      "price": 87.14,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50812,24 +50218,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-24 05:00",
-      "price": 87.06,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-24 05:15",
-      "price": 87.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-24 05:30",
       "price": 87.12,
       "start": true,
@@ -50902,15 +50290,6 @@
       "direction": "down"
     },
     {
-      "time": "2023-03-24 07:30",
-      "price": 86.59,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-24 07:45",
       "price": 86.7,
       "start": true,
@@ -50956,18 +50335,9 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-24 10:30",
-      "price": 86.22,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-03-24 10:45",
       "price": 86.23,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -50994,15 +50364,6 @@
     {
       "time": "2023-03-24 11:30",
       "price": 86.24,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-24 11:45",
-      "price": 86.45,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -51163,24 +50524,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-03-27 04:15",
-      "price": 87.28,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-27 04:30",
-      "price": 87.25,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2023-03-27 04:45",
       "price": 87.45,
       "start": true,
@@ -51320,15 +50663,6 @@
       "price": 87.33,
       "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-28 10:15",
-      "price": 87.29,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -51859,24 +51193,6 @@
       "time": "2023-03-31 03:45",
       "price": 89.24,
       "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-31 04:00",
-      "price": 89.14,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2023-03-31 04:15",
-      "price": 89.07,
-      "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
@@ -51916,25 +51232,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-31 05:30",
-      "price": 88.89,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-03-31 05:45",
-      "price": 88.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-03-31 06:00",

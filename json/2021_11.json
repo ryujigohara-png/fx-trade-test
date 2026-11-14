@@ -45496,24 +45496,6 @@
       "direction": "down"
     },
     {
-      "time": "2021-11-19 11:45",
-      "price": 82.39,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-11-19 12:15",
-      "price": 82.36,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2021-11-19 12:30",
       "price": 82.19,
       "start": true,
@@ -45997,16 +45979,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-11-26 08:00",
-      "price": 81.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2021-11-26 08:15",
@@ -46220,15 +46193,6 @@
       "price": 80.7,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-11-26 21:00",
-      "price": 80.74,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -46263,15 +46227,6 @@
     {
       "time": "2021-11-26 22:00",
       "price": 80.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-11-28 22:00",
-      "price": 80.84,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46367,15 +46322,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2021-11-29 05:45",
-      "price": 80.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2021-11-29 06:00",
@@ -46657,15 +46603,6 @@
       "direction": "up"
     },
     {
-      "time": "2021-11-30 14:00",
-      "price": 80.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2021-11-30 14:15",
       "price": 80.66,
       "start": true,
@@ -46677,7 +46614,7 @@
     {
       "time": "2021-11-30 14:30",
       "price": 80.59,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,

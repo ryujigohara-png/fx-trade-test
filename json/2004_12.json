@@ -44524,42 +44524,6 @@
       "direction": "down"
     },
     {
-      "time": "2004-12-08 22:30",
-      "price": 78.85,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2004-12-08 22:45",
-      "price": 78.8,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2004-12-08 23:00",
-      "price": 78.85,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2004-12-08 23:15",
-      "price": 78.79,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2004-12-08 23:30",
       "price": 78.75,
       "start": true,
@@ -45228,17 +45192,8 @@
     {
       "time": "2004-12-16 11:45",
       "price": 79.32,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2004-12-16 12:00",
-      "price": 79.32,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -45460,35 +45415,8 @@
       "direction": "up"
     },
     {
-      "time": "2004-12-17 08:00",
-      "price": 79.5,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2004-12-17 08:15",
       "price": 79.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2004-12-17 08:30",
-      "price": 79.39,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2004-12-17 08:45",
-      "price": 79.42,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -45539,15 +45467,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2004-12-17 15:15",
-      "price": 79.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2004-12-17 15:30",

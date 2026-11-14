@@ -40036,35 +40036,8 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-02 22:15",
-      "price": 95.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-02 22:45",
-      "price": 95.46,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2025-02-02 23:00",
       "price": 95.56,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-02 23:15",
-      "price": 95.37,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -40132,7 +40105,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 01:15",
@@ -40141,7 +40114,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 01:30",
@@ -40381,10 +40354,10 @@
       "time": "2025-02-03 12:15",
       "price": 95.31,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 12:30",
@@ -40402,7 +40375,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 13:00",
@@ -40411,7 +40384,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 13:15",
@@ -40429,7 +40402,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 13:45",
@@ -40438,7 +40411,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2025-02-03 14:00",
@@ -40965,7 +40938,7 @@
     {
       "time": "2025-02-05 12:00",
       "price": 96.01,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -41179,26 +41152,8 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-06 22:30",
-      "price": 95.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2025-02-06 22:45",
       "price": 94.95,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-06 23:00",
-      "price": 94.99,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -41287,15 +41242,6 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-07 12:45",
-      "price": 95.32,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2025-02-07 13:00",
       "price": 95.38,
       "start": true,
@@ -41325,24 +41271,6 @@
     {
       "time": "2025-02-07 13:45",
       "price": 95.37,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-07 14:00",
-      "price": 95.18,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-07 14:15",
-      "price": 95.18,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -41375,15 +41303,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2025-02-07 15:15",
-      "price": 94.7,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2025-02-07 15:30",
@@ -41728,18 +41647,9 @@
       "direction": "up"
     },
     {
-      "time": "2025-02-12 12:30",
-      "price": 96.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2025-02-12 12:45",
       "price": 96.38,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -42014,24 +41924,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2025-02-13 12:15",
-      "price": 96.26,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-13 12:30",
-      "price": 96.21,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2025-02-13 12:45",
@@ -42322,18 +42214,9 @@
       "direction": "up"
     },
     {
-      "time": "2025-02-18 01:30",
-      "price": 96.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2025-02-18 01:45",
       "price": 96.34,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -42342,15 +42225,6 @@
     {
       "time": "2025-02-18 02:00",
       "price": 96.31,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-18 02:15",
-      "price": 96.38,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -42585,15 +42459,6 @@
     {
       "time": "2025-02-19 23:00",
       "price": 95.79,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-19 23:15",
-      "price": 95.74,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -43240,26 +43105,8 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-24 13:30",
-      "price": 94.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2025-02-24 13:45",
       "price": 94.74,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-24 14:00",
-      "price": 94.88,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -43546,35 +43393,8 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-25 15:15",
-      "price": 94.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2025-02-25 15:30",
       "price": 94.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-25 15:45",
-      "price": 94.38,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2025-02-25 16:00",
-      "price": 94.35,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -43701,15 +43521,6 @@
     {
       "time": "2025-02-26 15:30",
       "price": 94.36,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-26 15:45",
-      "price": 94.24,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -44005,24 +43816,6 @@
       "direction": "down"
     },
     {
-      "time": "2025-02-27 12:45",
-      "price": 93.82,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-27 13:00",
-      "price": 93.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2025-02-27 13:15",
       "price": 93.96,
       "start": true,
@@ -44034,15 +43827,6 @@
     {
       "time": "2025-02-27 13:30",
       "price": 93.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-27 17:00",
-      "price": 93.71,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -44102,15 +43886,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2025-02-27 22:30",
-      "price": 93.37,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2025-02-27 22:45",
@@ -44329,28 +44104,10 @@
       "direction": "up"
     },
     {
-      "time": "2025-02-28 11:45",
-      "price": 93.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2025-02-28 12:00",
       "price": 93.67,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2025-02-28 12:15",
-      "price": 93.67,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -44399,15 +44156,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2025-02-28 14:00",
-      "price": 93.56,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2025-02-28 14:15",

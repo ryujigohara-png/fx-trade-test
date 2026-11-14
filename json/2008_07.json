@@ -45922,24 +45922,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-07-01 05:45",
-      "price": 101.03,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-01 06:00",
-      "price": 100.95,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-01 06:15",
       "price": 100.9,
       "start": true,
@@ -45960,24 +45942,6 @@
     {
       "time": "2008-07-01 07:15",
       "price": 101.14,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-07-01 07:30",
-      "price": 101.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-07-01 07:45",
-      "price": 101.04,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46016,15 +45980,6 @@
       "price": 100.89,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-07-01 11:15",
-      "price": 100.79,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -46090,7 +46045,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-07-01 13:15",
@@ -46120,15 +46075,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-01 14:00",
-      "price": 100.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-01 14:15",
       "price": 100.8,
       "start": true,
@@ -46145,15 +46091,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-07-01 14:45",
-      "price": 100.97,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-07-01 15:00",
@@ -46201,26 +46138,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-01 16:45",
-      "price": 100.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-01 17:00",
       "price": 100.77,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-01 17:15",
-      "price": 100.79,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46327,33 +46246,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-07-02 00:15",
-      "price": 101.24,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-02 00:30",
-      "price": 101.11,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-02 00:45",
-      "price": 101.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-02 01:00",
       "price": 101.0,
       "start": true,
@@ -46401,7 +46293,7 @@
     {
       "time": "2008-07-02 04:30",
       "price": 101.74,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46732,60 +46624,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-03 11:00",
-      "price": 102.2,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-03 11:15",
-      "price": 102.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-03 11:30",
-      "price": 102.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-03 11:45",
-      "price": 102.17,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-03 12:00",
-      "price": 102.11,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-03 12:15",
-      "price": 102.15,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-03 12:30",
       "price": 102.18,
       "start": true,
@@ -46793,15 +46631,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-07-03 13:00",
-      "price": 102.47,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-07-03 13:15",
@@ -46820,15 +46649,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-07-03 13:45",
-      "price": 102.31,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-07-03 14:00",
@@ -47547,15 +47367,6 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2008-07-09 17:00",
-      "price": 102.5,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
       "star": false,
       "direction": "down"
     },
@@ -47625,33 +47436,6 @@
     {
       "time": "2008-07-09 23:30",
       "price": 102.02,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-09 23:45",
-      "price": 102.12,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-10 00:00",
-      "price": 102.22,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-10 00:15",
-      "price": 102.16,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47744,15 +47528,6 @@
       "price": 103.01,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-07-11 11:00",
-      "price": 102.86,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -47794,35 +47569,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-11 12:15",
-      "price": 102.62,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-11 12:30",
-      "price": 102.62,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-11 12:45",
       "price": 102.58,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-11 13:00",
-      "price": 102.59,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48105,15 +47853,6 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-15 15:15",
-      "price": 102.6,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
       "star": false,
       "direction": "up"
     },
@@ -48388,15 +48127,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-16 05:30",
-      "price": 102.05,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-07-16 05:45",
       "price": 102.21,
       "start": true,
@@ -48442,44 +48172,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-07-16 11:15",
-      "price": 101.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-16 11:30",
-      "price": 101.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-16 11:45",
       "price": 101.57,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-16 12:00",
-      "price": 101.84,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-16 12:15",
-      "price": 101.78,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48732,7 +48426,7 @@
     {
       "time": "2008-07-17 16:15",
       "price": 103.19,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": true,
@@ -49576,35 +49270,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-07-25 08:15",
-      "price": 102.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-25 08:30",
-      "price": 102.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-07-25 08:45",
       "price": 102.3,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-07-25 09:00",
-      "price": 102.42,
       "start": true,
       "pinbar": false,
       "engulfing": false,

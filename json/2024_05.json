@@ -45250,10 +45250,10 @@
       "time": "2024-05-01 16:00",
       "price": 102.27,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2024-05-01 16:15",
@@ -45263,15 +45263,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2024-05-01 16:30",
-      "price": 102.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2024-05-01 16:45",
@@ -45319,15 +45310,6 @@
       "direction": "down"
     },
     {
-      "time": "2024-05-01 18:00",
-      "price": 101.73,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2024-05-01 18:15",
       "price": 101.18,
       "start": true,
@@ -45343,7 +45325,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2024-05-01 18:45",
@@ -45367,7 +45349,7 @@
       "time": "2024-05-01 19:15",
       "price": 100.97,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -45379,21 +45361,12 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2024-05-01 19:45",
-      "price": 100.89,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2024-05-01 20:00",
       "price": 101.35,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -45690,7 +45663,7 @@
     {
       "time": "2024-05-02 10:45",
       "price": 100.87,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": false,
       "star": true,
@@ -46365,24 +46338,6 @@
     {
       "time": "2024-05-15 21:00",
       "price": 103.49,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2024-05-15 21:15",
-      "price": 103.33,
-      "start": false,
-      "pinbar": false,
-      "engulfing": true,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2024-05-15 21:30",
-      "price": 103.3,
       "start": true,
       "pinbar": false,
       "engulfing": false,

@@ -44046,22 +44046,13 @@
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2023-10-03 10:45",
-      "price": 94.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
       "star": false,
       "direction": "down"
     },
     {
       "time": "2023-10-03 11:00",
       "price": 94.45,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -44367,24 +44358,6 @@
     {
       "time": "2023-10-06 10:45",
       "price": 94.5,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-10-06 11:00",
-      "price": 94.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-10-06 11:15",
-      "price": 94.7,
       "start": true,
       "pinbar": false,
       "engulfing": false,

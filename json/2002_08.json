@@ -43831,10 +43831,10 @@
       "time": "2002-08-06 02:45",
       "price": 63.22,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2002-08-06 03:00",
@@ -43844,15 +43844,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2002-08-06 03:15",
-      "price": 63.29,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2002-08-06 03:30",
@@ -44129,15 +44120,6 @@
       "price": 64.25,
       "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2002-08-07 11:30",
-      "price": 64.24,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -44926,15 +44908,6 @@
       "direction": "down"
     },
     {
-      "time": "2002-08-14 11:15",
-      "price": 62.87,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2002-08-14 11:30",
       "price": 62.94,
       "start": true,
@@ -45106,27 +45079,9 @@
       "direction": "up"
     },
     {
-      "time": "2002-08-15 14:30",
-      "price": 63.87,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2002-08-15 14:45",
-      "price": 63.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2002-08-15 15:00",
       "price": 63.8,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -45185,15 +45140,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2002-08-16 07:45",
-      "price": 64.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2002-08-16 08:00",
@@ -45617,15 +45563,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2002-08-22 11:45",
-      "price": 64.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2002-08-22 12:00",
@@ -46184,15 +46121,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2002-08-29 13:30",
-      "price": 64.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2002-08-29 13:45",

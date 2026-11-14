@@ -39943,33 +39943,6 @@
   ],
   "breakout_pa_events": [
     {
-      "time": "2006-04-02 22:15",
-      "price": 84.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2006-04-02 22:30",
-      "price": 84.11,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2006-04-02 22:45",
-      "price": 84.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2006-04-02 23:00",
       "price": 84.08,
       "start": true,
@@ -40809,15 +40782,6 @@
     {
       "time": "2006-04-07 12:00",
       "price": 86.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2006-04-07 12:15",
-      "price": 86.11,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -42033,7 +41997,7 @@
     {
       "time": "2006-04-26 10:45",
       "price": 85.92,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,

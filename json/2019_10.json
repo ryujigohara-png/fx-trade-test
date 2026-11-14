@@ -45787,10 +45787,10 @@
       "time": "2019-10-01 03:45",
       "price": 72.93,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2019-10-01 04:00",
@@ -45800,15 +45800,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2019-10-01 04:15",
-      "price": 73.05,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2019-10-01 04:30",
@@ -46182,15 +46173,6 @@
     {
       "time": "2019-10-09 23:45",
       "price": 72.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2019-10-10 00:00",
-      "price": 72.15,
       "start": true,
       "pinbar": false,
       "engulfing": false,

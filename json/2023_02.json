@@ -40618,33 +40618,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-02-01 16:00",
-      "price": 91.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-02-01 16:15",
-      "price": 91.42,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-02-01 16:30",
-      "price": 91.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-02-01 16:45",
       "price": 91.38,
       "start": true,
@@ -40942,15 +40915,6 @@
       "direction": "up"
     },
     {
-      "time": "2023-02-03 11:30",
-      "price": 90.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-02-03 11:45",
       "price": 90.59,
       "start": true,
@@ -40980,7 +40944,7 @@
     {
       "time": "2023-02-03 12:30",
       "price": 90.78,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -41214,15 +41178,6 @@
     {
       "time": "2023-02-06 06:30",
       "price": 91.26,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2023-02-06 06:45",
-      "price": 91.25,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -41779,31 +41734,13 @@
       "direction": "down"
     },
     {
-      "time": "2023-02-10 06:15",
-      "price": 90.66,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-02-10 06:30",
       "price": 90.74,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-02-10 06:45",
-      "price": 90.52,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2023-02-10 07:00",
@@ -42240,15 +42177,6 @@
     {
       "time": "2023-02-14 14:00",
       "price": 92.49,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2023-02-14 14:15",
-      "price": 92.6,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -43012,18 +42940,9 @@
       "direction": "down"
     },
     {
-      "time": "2023-02-23 23:00",
-      "price": 91.55,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2023-02-23 23:15",
       "price": 91.55,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,

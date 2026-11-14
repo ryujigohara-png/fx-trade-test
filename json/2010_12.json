@@ -46126,7 +46126,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2010-12-02 13:15",
@@ -46135,16 +46135,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2010-12-02 13:30",
-      "price": 81.32,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2010-12-02 13:45",
@@ -46246,42 +46237,6 @@
       "direction": "up"
     },
     {
-      "time": "2010-12-03 11:30",
-      "price": 82.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2010-12-03 11:45",
-      "price": 82.01,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2010-12-03 12:00",
-      "price": 82.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2010-12-03 12:15",
-      "price": 82.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2010-12-03 12:30",
       "price": 82.1,
       "start": true,
@@ -46291,18 +46246,9 @@
       "direction": "down"
     },
     {
-      "time": "2010-12-03 12:45",
-      "price": 82.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2010-12-03 13:00",
       "price": 82.05,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46313,18 +46259,9 @@
       "price": 82.17,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2010-12-03 13:30",
-      "price": 81.43,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2010-12-03 13:45",

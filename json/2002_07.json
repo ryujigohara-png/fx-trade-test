@@ -46531,15 +46531,15 @@
       "time": "2002-07-12 13:45",
       "price": 65.31,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2002-07-12 14:15",
       "price": 65.16,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -47140,15 +47140,6 @@
       "direction": "down"
     },
     {
-      "time": "2002-07-23 01:00",
-      "price": 63.54,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2002-07-23 01:15",
       "price": 63.63,
       "start": true,
@@ -47601,15 +47592,6 @@
     {
       "time": "2002-07-24 14:15",
       "price": 62.57,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2002-07-24 14:30",
-      "price": 62.69,
       "start": true,
       "pinbar": false,
       "engulfing": false,

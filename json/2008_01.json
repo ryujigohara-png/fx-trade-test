@@ -44137,24 +44137,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-02 06:00",
-      "price": 98.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-02 06:15",
-      "price": 98.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-02 06:30",
       "price": 98.0,
       "start": true,
@@ -44254,24 +44236,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-02 12:15",
-      "price": 98.22,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-02 12:30",
-      "price": 98.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-02 12:45",
       "price": 98.13,
       "start": true,
@@ -44281,27 +44245,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-02 13:00",
-      "price": 98.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-02 13:15",
-      "price": 98.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-02 13:30",
       "price": 98.27,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -44443,15 +44389,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-02 17:30",
-      "price": 96.36,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-02 17:45",
       "price": 96.26,
       "start": true,
@@ -44531,15 +44468,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-02 21:45",
-      "price": 96.87,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-02 22:00",
@@ -44791,7 +44719,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-03 11:00",
@@ -44965,15 +44893,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-03 17:00",
-      "price": 96.58,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-03 17:15",
       "price": 96.67,
       "start": true,
@@ -45118,44 +45037,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-03 22:15",
-      "price": 96.33,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-03 22:30",
-      "price": 96.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-03 22:45",
-      "price": 96.37,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-03 23:00",
       "price": 96.5,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-03 23:15",
-      "price": 96.47,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -45183,15 +45066,6 @@
     {
       "time": "2008-01-04 00:00",
       "price": 96.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-04 00:15",
-      "price": 96.19,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -45415,24 +45289,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-04 11:00",
-      "price": 96.35,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-04 11:30",
-      "price": 96.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-04 11:45",
       "price": 96.46,
       "start": true,
@@ -45498,7 +45354,7 @@
     {
       "time": "2008-01-04 13:30",
       "price": 95.66,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -45548,15 +45404,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-04 15:00",
-      "price": 94.68,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-04 15:15",
@@ -45667,40 +45514,13 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-04 19:45",
-      "price": 94.66,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-04 20:00",
-      "price": 94.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-04 20:15",
       "price": 94.68,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-04 20:30",
-      "price": 94.59,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-04 20:45",
@@ -45734,15 +45554,6 @@
       "price": 94.79,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-06 23:30",
-      "price": 94.95,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -45883,24 +45694,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-07 06:00",
-      "price": 95.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 06:15",
-      "price": 94.98,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-07 06:30",
       "price": 94.88,
       "start": true,
@@ -45948,24 +45741,6 @@
     {
       "time": "2008-01-07 07:45",
       "price": 95.17,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 08:15",
-      "price": 95.58,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 08:30",
-      "price": 95.5,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46018,15 +45793,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-07 10:00",
-      "price": 95.67,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-07 10:15",
       "price": 95.71,
       "start": true,
@@ -46074,15 +45840,6 @@
     {
       "time": "2008-01-07 11:30",
       "price": 95.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-07 11:45",
-      "price": 95.39,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46207,18 +45964,9 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-07 15:15",
-      "price": 94.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-07 15:30",
       "price": 94.68,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46270,15 +46018,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-07 17:00",
-      "price": 94.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-07 17:45",
       "price": 95.08,
       "start": true,
@@ -46322,33 +46061,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-07 19:00",
-      "price": 94.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 19:15",
-      "price": 94.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 19:30",
-      "price": 94.88,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-07 19:45",
@@ -46414,28 +46126,10 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-07 23:15",
-      "price": 95.23,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-07 23:30",
       "price": 95.22,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-07 23:45",
-      "price": 95.2,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -46630,15 +46324,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 07:00",
-      "price": 96.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-08 07:15",
       "price": 95.92,
       "start": true,
@@ -46666,18 +46351,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 12:00",
-      "price": 96.31,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-08 12:15",
       "price": 96.28,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -46717,25 +46393,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-08 13:30",
-      "price": 96.13,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-08 13:45",
-      "price": 96.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-08 14:00",
@@ -46756,15 +46414,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 14:30",
-      "price": 96.26,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-08 14:45",
       "price": 96.17,
       "start": true,
@@ -46774,18 +46423,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 15:00",
-      "price": 96.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-08 15:15",
       "price": 96.57,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46821,7 +46461,7 @@
     {
       "time": "2008-01-08 16:15",
       "price": 96.42,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46848,15 +46488,6 @@
     {
       "time": "2008-01-08 17:00",
       "price": 96.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-08 17:15",
-      "price": 96.47,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -46891,31 +46522,13 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 18:15",
-      "price": 96.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-08 18:30",
       "price": 96.59,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-08 18:45",
-      "price": 96.73,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-08 19:00",
@@ -46963,15 +46576,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-08 20:15",
-      "price": 95.92,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-08 20:30",
       "price": 95.99,
       "start": true,
@@ -46979,15 +46583,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-08 22:30",
-      "price": 95.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-08 22:45",
@@ -46999,35 +46594,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-08 23:00",
-      "price": 95.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-08 23:15",
-      "price": 95.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-08 23:30",
       "price": 95.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-08 23:45",
-      "price": 95.82,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47206,15 +46774,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-09 08:30",
-      "price": 96.54,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-09 08:45",
       "price": 96.44,
       "start": true,
@@ -47235,7 +46794,7 @@
     {
       "time": "2008-01-09 09:15",
       "price": 96.52,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -47377,15 +46936,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-09 14:45",
-      "price": 96.62,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-09 15:00",
       "price": 96.81,
       "start": true,
@@ -47469,7 +47019,7 @@
     {
       "time": "2008-01-09 17:45",
       "price": 96.31,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -47485,15 +47035,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-09 18:15",
-      "price": 96.28,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-09 18:30",
       "price": 96.16,
       "start": true,
@@ -47505,7 +47046,7 @@
     {
       "time": "2008-01-09 18:45",
       "price": 96.17,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -47622,15 +47163,6 @@
     {
       "time": "2008-01-10 00:30",
       "price": 97.26,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-10 00:45",
-      "price": 97.21,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47860,34 +47392,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-10 13:15",
-      "price": 96.91,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-10 13:30",
-      "price": 96.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-10 13:45",
-      "price": 96.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-10 14:00",
@@ -47944,18 +47449,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-10 15:30",
-      "price": 97.25,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-10 15:45",
       "price": 97.27,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -48022,16 +47518,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-10 18:00",
-      "price": 97.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-10 18:15",
@@ -48040,16 +47527,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-10 18:30",
-      "price": 97.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-10 18:45",
@@ -48086,24 +47564,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-10 19:45",
-      "price": 98.12,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-10 20:00",
-      "price": 98.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-10 20:15",
@@ -48190,33 +47650,6 @@
       "time": "2008-01-11 01:30",
       "price": 98.17,
       "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-11 01:45",
-      "price": 98.02,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-11 02:00",
-      "price": 98.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-11 02:15",
-      "price": 97.95,
-      "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
@@ -48261,15 +47694,6 @@
     {
       "time": "2008-01-11 03:30",
       "price": 97.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-11 03:45",
-      "price": 97.63,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48325,10 +47749,10 @@
       "time": "2008-01-11 05:15",
       "price": 97.7,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-11 05:30",
@@ -48340,22 +47764,13 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-11 05:45",
-      "price": 97.36,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-11 06:00",
       "price": 97.49,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-11 06:15",
@@ -48364,7 +47779,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-11 06:30",
@@ -48373,7 +47788,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-11 06:45",
@@ -48396,15 +47811,6 @@
     {
       "time": "2008-01-11 07:15",
       "price": 97.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-11 07:30",
-      "price": 97.59,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48667,33 +48073,6 @@
       "time": "2008-01-11 20:15",
       "price": 97.0,
       "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-11 20:30",
-      "price": 97.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-11 20:45",
-      "price": 97.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-11 21:00",
-      "price": 97.08,
-      "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
@@ -48844,15 +48223,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-14 10:30",
-      "price": 96.8,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-14 10:45",
       "price": 96.9,
       "start": true,
@@ -48882,15 +48252,6 @@
     {
       "time": "2008-01-14 11:30",
       "price": 96.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-14 11:45",
-      "price": 96.67,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -48950,24 +48311,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-14 15:45",
-      "price": 97.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-14 16:00",
-      "price": 97.18,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-14 16:15",
@@ -49132,15 +48475,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-15 06:00",
-      "price": 97.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-15 06:15",
       "price": 97.05,
       "start": true,
@@ -49179,15 +48513,6 @@
     {
       "time": "2008-01-15 07:15",
       "price": 96.93,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-15 07:30",
-      "price": 96.77,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49240,26 +48565,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-15 09:45",
-      "price": 96.74,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-15 10:00",
       "price": 96.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-15 10:15",
-      "price": 96.74,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49384,24 +48691,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-15 13:45",
-      "price": 95.93,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-15 14:00",
-      "price": 95.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-15 14:15",
       "price": 96.07,
       "start": true,
@@ -49447,15 +48736,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-15 15:30",
-      "price": 95.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-15 15:45",
       "price": 95.22,
       "start": true,
@@ -49472,15 +48752,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-15 16:30",
-      "price": 95.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-15 16:45",
@@ -49591,15 +48862,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-15 20:15",
-      "price": 94.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-15 20:30",
       "price": 94.75,
       "start": true,
@@ -49651,7 +48913,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-15 22:00",
@@ -49681,15 +48943,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-15 23:00",
-      "price": 94.14,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-15 23:15",
       "price": 94.03,
       "start": true,
@@ -49702,19 +48955,10 @@
       "time": "2008-01-15 23:30",
       "price": 94.04,
       "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-15 23:45",
-      "price": 94.3,
-      "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-16 00:30",
@@ -49726,26 +48970,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-16 00:45",
-      "price": 94.18,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-16 01:00",
       "price": 94.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 01:15",
-      "price": 94.15,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49809,15 +49035,6 @@
     {
       "time": "2008-01-16 03:15",
       "price": 94.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 03:30",
-      "price": 94.13,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49942,35 +49159,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-16 07:30",
-      "price": 93.47,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-16 07:45",
       "price": 93.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 08:00",
-      "price": 93.52,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 08:15",
-      "price": 93.56,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -49989,24 +49179,6 @@
     {
       "time": "2008-01-16 08:45",
       "price": 93.53,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 09:00",
-      "price": 93.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 09:15",
-      "price": 93.22,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50034,7 +49206,7 @@
     {
       "time": "2008-01-16 10:00",
       "price": 93.02,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": false,
       "star": true,
@@ -50047,16 +49219,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 10:30",
-      "price": 92.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 10:45",
@@ -50070,15 +49233,6 @@
     {
       "time": "2008-01-16 11:00",
       "price": 92.94,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 11:15",
-      "price": 93.09,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50122,31 +49276,13 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-16 12:30",
-      "price": 93.5,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-16 12:45",
       "price": 93.49,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-16 13:00",
-      "price": 93.56,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-16 13:15",
@@ -50155,7 +49291,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 13:30",
@@ -50174,15 +49310,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-16 14:00",
-      "price": 94.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-16 14:15",
@@ -50207,18 +49334,9 @@
       "price": 93.87,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 15:00",
-      "price": 93.69,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 15:15",
@@ -50227,7 +49345,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 15:30",
@@ -50241,24 +49359,6 @@
     {
       "time": "2008-01-16 15:45",
       "price": 93.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 16:00",
-      "price": 93.81,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 16:15",
-      "price": 94.19,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50284,31 +49384,13 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-16 17:00",
-      "price": 94.33,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 17:15",
-      "price": 94.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-16 17:30",
       "price": 94.49,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 17:45",
@@ -50317,25 +49399,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 18:00",
-      "price": 94.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-16 18:15",
-      "price": 94.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-16 18:30",
@@ -50383,24 +49447,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-16 19:45",
-      "price": 94.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 20:00",
-      "price": 94.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-16 20:15",
       "price": 94.99,
       "start": true,
@@ -50439,33 +49485,15 @@
     {
       "time": "2008-01-16 22:30",
       "price": 94.41,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
       "direction": "up"
     },
     {
-      "time": "2008-01-16 22:45",
-      "price": 94.44,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-16 23:00",
       "price": 94.33,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-16 23:15",
-      "price": 94.44,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50491,18 +49519,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-17 00:00",
-      "price": 94.6,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-17 00:15",
       "price": 94.61,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -50518,15 +49537,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-17 00:45",
-      "price": 94.24,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-17 01:15",
       "price": 94.11,
       "start": true,
@@ -50539,10 +49549,10 @@
       "time": "2008-01-17 01:30",
       "price": 94.09,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-17 01:45",
@@ -50554,18 +49564,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-17 02:00",
-      "price": 94.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-17 02:15",
       "price": 94.36,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -50619,15 +49620,6 @@
     {
       "time": "2008-01-17 04:00",
       "price": 94.13,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-17 04:15",
-      "price": 94.19,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50689,35 +49681,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-17 06:00",
-      "price": 94.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-17 06:15",
       "price": 94.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-17 06:30",
-      "price": 94.66,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-17 06:45",
-      "price": 94.65,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -50761,15 +49726,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-17 08:00",
-      "price": 94.99,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-17 08:15",
       "price": 94.82,
       "start": true,
@@ -50777,24 +49733,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-17 08:30",
-      "price": 94.98,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 08:45",
-      "price": 95.05,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-17 09:00",
@@ -50902,7 +49840,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-17 12:00",
@@ -50923,31 +49861,13 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-17 12:30",
-      "price": 94.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-17 12:45",
       "price": 94.52,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-17 13:00",
-      "price": 94.4,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-17 13:15",
@@ -50966,15 +49886,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-17 13:45",
-      "price": 95.15,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-17 14:00",
@@ -50997,7 +49908,7 @@
     {
       "time": "2008-01-17 14:30",
       "price": 95.24,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -51015,24 +49926,6 @@
     {
       "time": "2008-01-17 15:00",
       "price": 94.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 15:15",
-      "price": 94.8,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 15:30",
-      "price": 94.76,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -51067,15 +49960,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-17 16:30",
-      "price": 94.41,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-17 16:45",
       "price": 94.52,
       "start": true,
@@ -51097,10 +49981,10 @@
       "time": "2008-01-17 17:15",
       "price": 94.22,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-17 17:30",
@@ -51114,17 +49998,8 @@
     {
       "time": "2008-01-17 17:45",
       "price": 94.45,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 18:00",
-      "price": 94.58,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -51168,15 +50043,6 @@
     {
       "time": "2008-01-17 19:15",
       "price": 94.29,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 19:30",
-      "price": 94.07,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -51231,7 +50097,7 @@
     {
       "time": "2008-01-17 21:15",
       "price": 93.42,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -51240,33 +50106,6 @@
     {
       "time": "2008-01-17 21:30",
       "price": 93.61,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 21:45",
-      "price": 93.43,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 22:00",
-      "price": 93.49,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-17 22:15",
-      "price": 93.48,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -51301,24 +50140,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-17 23:15",
-      "price": 92.93,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-17 23:30",
-      "price": 93.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-17 23:45",
       "price": 92.91,
       "start": true,
@@ -51337,27 +50158,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 00:15",
-      "price": 93.21,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-18 00:30",
-      "price": 93.28,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 00:45",
       "price": 93.29,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -51483,7 +50286,7 @@
     {
       "time": "2008-01-18 04:30",
       "price": 93.76,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -51496,16 +50299,16 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 05:00",
       "price": 93.89,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 05:15",
@@ -51514,16 +50317,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-18 05:30",
-      "price": 93.75,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 05:45",
@@ -51562,15 +50356,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 06:45",
-      "price": 94.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 07:00",
       "price": 94.27,
       "start": true,
@@ -51607,15 +50392,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-18 08:00",
-      "price": 94.02,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 08:15",
       "price": 94.13,
       "start": true,
@@ -51640,7 +50416,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 09:00",
@@ -51715,24 +50491,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 11:30",
-      "price": 94.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-18 11:45",
-      "price": 94.28,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-18 12:00",
       "price": 94.13,
       "start": true,
@@ -51778,15 +50536,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 13:15",
-      "price": 94.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 13:30",
       "price": 94.86,
       "start": true,
@@ -51798,7 +50547,7 @@
     {
       "time": "2008-01-18 13:45",
       "price": 94.66,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -51871,10 +50620,10 @@
       "time": "2008-01-18 15:45",
       "price": 94.31,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 16:00",
@@ -51886,22 +50635,13 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-18 16:15",
-      "price": 93.87,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-18 16:30",
       "price": 93.86,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-18 16:45",
@@ -51922,27 +50662,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 17:15",
-      "price": 94.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-18 17:30",
-      "price": 93.93,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 17:45",
       "price": 93.87,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -51951,15 +50673,6 @@
     {
       "time": "2008-01-18 18:00",
       "price": 93.84,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-18 18:15",
-      "price": 93.77,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -51976,15 +50689,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-18 18:45",
-      "price": 93.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-18 19:00",
       "price": 93.85,
       "start": true,
@@ -51994,18 +50698,9 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-18 19:15",
-      "price": 93.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-18 19:30",
       "price": 93.64,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -52016,15 +50711,6 @@
       "price": 93.59,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-18 20:00",
-      "price": 93.77,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -52284,7 +50970,7 @@
     {
       "time": "2008-01-21 07:30",
       "price": 92.66,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -52316,15 +51002,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-21 08:45",
-      "price": 92.41,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-21 09:00",
@@ -52417,18 +51094,9 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-21 11:30",
-      "price": 91.57,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-21 11:45",
       "price": 91.58,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -52462,26 +51130,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-21 12:45",
-      "price": 91.79,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-21 13:00",
       "price": 91.91,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-21 13:15",
-      "price": 91.66,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -52518,15 +51168,6 @@
     {
       "time": "2008-01-21 14:15",
       "price": 91.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-21 14:30",
-      "price": 91.44,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -52606,15 +51247,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-21 20:15",
-      "price": 91.27,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-21 20:30",
       "price": 91.4,
       "start": true,
@@ -52626,7 +51258,7 @@
     {
       "time": "2008-01-21 20:45",
       "price": 91.27,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -52644,15 +51276,6 @@
     {
       "time": "2008-01-21 21:15",
       "price": 91.3,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-21 21:30",
-      "price": 91.15,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -52696,15 +51319,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-21 22:45",
-      "price": 90.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-21 23:15",
       "price": 90.8,
       "start": true,
@@ -52720,7 +51334,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-21 23:45",
@@ -52840,15 +51454,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-22 03:15",
-      "price": 91.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-22 03:30",
       "price": 91.55,
       "start": true,
@@ -52876,26 +51481,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-22 04:15",
-      "price": 90.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 04:30",
       "price": 90.85,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-22 04:45",
-      "price": 91.03,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -52907,9 +51494,9 @@
       "price": 90.86,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
+      "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-22 05:15",
@@ -52919,15 +51506,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-22 05:30",
-      "price": 91.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-22 05:45",
@@ -52990,7 +51568,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 07:30",
@@ -52999,12 +51577,12 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 07:45",
       "price": 90.34,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -53026,7 +51604,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 08:30",
@@ -53038,36 +51616,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-22 08:45",
-      "price": 91.35,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-22 09:00",
-      "price": 91.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-22 09:15",
-      "price": 91.11,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 09:30",
       "price": 91.09,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -53080,25 +51631,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-22 10:00",
-      "price": 91.15,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-22 10:15",
-      "price": 91.11,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 10:30",
@@ -53128,18 +51661,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-22 11:15",
-      "price": 91.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 11:30",
       "price": 91.44,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -53152,16 +51676,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-22 12:00",
-      "price": 91.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 12:15",
@@ -53204,9 +51719,9 @@
       "price": 92.33,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
+      "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 13:30",
@@ -53215,7 +51730,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-22 13:45",
@@ -53257,10 +51772,10 @@
       "time": "2008-01-22 14:45",
       "price": 92.2,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-22 15:00",
@@ -53270,15 +51785,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-22 15:15",
-      "price": 92.86,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-22 15:30",
@@ -53308,15 +51814,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-22 16:15",
-      "price": 92.73,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 16:30",
       "price": 92.67,
       "start": true,
@@ -53328,15 +51825,6 @@
     {
       "time": "2008-01-22 16:45",
       "price": 92.59,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-22 17:00",
-      "price": 92.7,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -53416,15 +51904,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-22 19:15",
-      "price": 92.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 19:30",
       "price": 92.41,
       "start": true,
@@ -53479,15 +51958,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-22 21:15",
-      "price": 92.48,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-22 21:30",
       "price": 92.43,
       "start": true,
@@ -53517,15 +51987,6 @@
     {
       "time": "2008-01-22 22:15",
       "price": 92.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-22 22:30",
-      "price": 92.9,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -53569,24 +52030,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-22 23:45",
-      "price": 93.38,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 00:00",
-      "price": 93.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-23 00:15",
       "price": 93.5,
       "start": true,
@@ -53607,15 +52050,6 @@
     {
       "time": "2008-01-23 00:45",
       "price": 93.26,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 01:15",
-      "price": 92.98,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -53713,15 +52147,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-23 04:00",
-      "price": 92.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-23 04:15",
       "price": 92.17,
       "start": true,
@@ -53758,27 +52183,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-23 05:15",
-      "price": 92.01,
-      "start": false,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-23 05:30",
-      "price": 92.08,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-23 05:45",
       "price": 92.08,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -53824,10 +52231,10 @@
       "time": "2008-01-23 07:00",
       "price": 92.13,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-23 07:15",
@@ -53902,24 +52309,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-23 09:15",
-      "price": 91.97,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 09:30",
-      "price": 92.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-23 09:45",
       "price": 92.17,
       "start": true,
@@ -53976,7 +52365,7 @@
     {
       "time": "2008-01-23 11:15",
       "price": 91.44,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -53985,15 +52374,6 @@
     {
       "time": "2008-01-23 11:30",
       "price": 91.51,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 11:45",
-      "price": 91.47,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -54043,7 +52423,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-23 13:15",
@@ -54052,7 +52432,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-23 13:30",
@@ -54066,15 +52446,6 @@
     {
       "time": "2008-01-23 13:45",
       "price": 90.7,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-23 14:00",
-      "price": 90.91,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -54109,40 +52480,13 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-23 15:00",
-      "price": 91.52,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 15:15",
-      "price": 91.49,
-      "start": true,
-      "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-23 15:30",
       "price": 91.31,
       "start": true,
       "pinbar": false,
       "engulfing": false,
-      "star": true,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-23 15:45",
-      "price": 91.47,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
       "star": false,
-      "direction": "down"
+      "direction": "up"
     },
     {
       "time": "2008-01-23 16:00",
@@ -54184,10 +52528,10 @@
       "time": "2008-01-23 17:00",
       "price": 91.26,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-23 17:15",
@@ -54196,16 +52540,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-23 17:30",
-      "price": 90.91,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-23 17:45",
@@ -54219,15 +52554,6 @@
     {
       "time": "2008-01-23 18:00",
       "price": 91.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-23 18:15",
-      "price": 91.25,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -54262,15 +52588,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-23 19:15",
-      "price": 91.99,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-23 19:30",
       "price": 91.79,
       "start": true,
@@ -54291,7 +52608,7 @@
     {
       "time": "2008-01-23 20:00",
       "price": 92.49,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": false,
       "star": true,
@@ -54370,15 +52687,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-23 23:15",
-      "price": 93.2,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-23 23:30",
       "price": 93.24,
       "start": true,
@@ -54390,7 +52698,7 @@
     {
       "time": "2008-01-23 23:45",
       "price": 93.1,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -54478,15 +52786,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-24 02:45",
-      "price": 92.82,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-24 03:00",
       "price": 92.72,
       "start": true,
@@ -54543,7 +52842,7 @@
     {
       "time": "2008-01-24 05:00",
       "price": 92.95,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -54595,15 +52894,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-24 06:30",
-      "price": 92.88,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-24 06:45",
       "price": 93.03,
       "start": true,
@@ -54646,21 +52936,12 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-24 08:00",
-      "price": 92.65,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 08:15",
       "price": 92.6,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -54709,7 +52990,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 09:45",
@@ -54718,7 +52999,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 10:00",
@@ -54727,16 +53008,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-24 10:15",
-      "price": 92.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 10:30",
@@ -54808,7 +53080,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 13:00",
@@ -54865,36 +53137,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-24 14:30",
-      "price": 93.68,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-24 14:45",
-      "price": 93.71,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-24 15:15",
-      "price": 93.48,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-24 15:30",
       "price": 93.53,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -54946,26 +53191,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-24 17:15",
-      "price": 93.61,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-24 17:30",
       "price": 93.53,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-24 17:45",
-      "price": 93.67,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -55018,22 +53245,13 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-24 19:15",
-      "price": 94.08,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-24 19:30",
       "price": 94.14,
       "start": true,
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-24 19:45",
@@ -55153,33 +53371,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-25 03:15",
-      "price": 94.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-25 03:45",
-      "price": 94.7,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-25 04:00",
-      "price": 94.7,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-25 04:15",
       "price": 94.69,
       "start": true,
@@ -55270,15 +53461,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-25 09:45",
-      "price": 95.06,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-25 10:00",
       "price": 94.9,
       "start": true,
@@ -55339,16 +53521,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-25 11:45",
-      "price": 94.73,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-25 12:00",
@@ -55380,15 +53553,6 @@
     {
       "time": "2008-01-25 13:30",
       "price": 95.21,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-25 13:45",
-      "price": 95.09,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -55486,15 +53650,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-25 16:30",
-      "price": 94.54,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-25 16:45",
       "price": 94.56,
       "start": true,
@@ -55531,15 +53686,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-25 17:45",
-      "price": 93.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-25 18:00",
       "price": 93.97,
       "start": true,
@@ -55547,15 +53693,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-25 18:15",
-      "price": 93.81,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-25 18:30",
@@ -55601,24 +53738,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-25 19:45",
-      "price": 94.14,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-25 20:00",
-      "price": 94.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-25 20:15",
@@ -55783,28 +53902,10 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-28 05:15",
-      "price": 93.19,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-28 05:30",
       "price": 93.23,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-28 05:45",
-      "price": 93.3,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -55909,15 +54010,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-28 08:45",
-      "price": 93.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-28 09:00",
       "price": 93.89,
       "start": true,
@@ -55999,15 +54091,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-28 11:15",
-      "price": 93.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-28 11:30",
       "price": 93.56,
       "start": true,
@@ -56080,33 +54163,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-28 13:30",
-      "price": 94.23,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-28 13:45",
-      "price": 94.17,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-28 14:00",
-      "price": 94.21,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-28 14:15",
       "price": 94.32,
       "start": true,
@@ -56118,7 +54174,7 @@
     {
       "time": "2008-01-28 14:30",
       "price": 94.06,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -56156,27 +54212,9 @@
       "price": 94.4,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-28 16:00",
-      "price": 94.37,
-      "start": true,
-      "pinbar": true,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-28 16:15",
-      "price": 94.28,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-28 16:30",
@@ -56377,15 +54415,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-29 01:15",
-      "price": 94.72,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-29 01:30",
       "price": 94.78,
       "start": true,
@@ -56566,35 +54595,8 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-29 11:30",
-      "price": 94.96,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-29 11:45",
-      "price": 94.92,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-29 12:00",
       "price": 94.84,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-29 12:30",
-      "price": 94.98,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -56638,15 +54640,6 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-29 13:45",
-      "price": 95.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-29 14:00",
       "price": 95.21,
       "start": true,
@@ -56672,15 +54665,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-29 14:45",
-      "price": 94.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-29 15:15",
@@ -56847,17 +54831,8 @@
     {
       "time": "2008-01-30 08:45",
       "price": 94.69,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-30 09:00",
-      "price": 94.68,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -57202,16 +55177,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-30 23:15",
-      "price": 93.89,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-30 23:30",
@@ -57232,28 +55198,10 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-31 00:00",
-      "price": 94.34,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-31 00:15",
       "price": 94.36,
-      "start": true,
+      "start": false,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-31 00:30",
-      "price": 94.3,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -57288,7 +55236,7 @@
     {
       "time": "2008-01-31 01:30",
       "price": 94.69,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -57316,25 +55264,16 @@
       "time": "2008-01-31 02:15",
       "price": 94.69,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-31 02:30",
       "price": 94.7,
       "start": true,
       "pinbar": true,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-31 02:45",
-      "price": 94.61,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "up"
@@ -57403,24 +55342,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-31 05:45",
-      "price": 94.86,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-31 06:00",
-      "price": 94.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-31 06:15",
       "price": 94.82,
       "start": true,
@@ -57457,26 +55378,8 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-31 07:15",
-      "price": 94.97,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-31 07:30",
       "price": 95.09,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-31 07:45",
-      "price": 95.06,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -57536,24 +55439,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-31 10:00",
-      "price": 94.91,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-31 10:15",
-      "price": 94.92,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-31 10:30",
@@ -57670,25 +55555,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-31 13:45",
-      "price": 94.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2008-01-31 14:00",
-      "price": 94.12,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2008-01-31 14:15",
@@ -57718,18 +55585,9 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-31 15:00",
-      "price": 94.69,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-31 15:15",
       "price": 94.76,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -57763,15 +55621,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-31 16:15",
-      "price": 95.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2008-01-31 16:30",
       "price": 95.3,
       "start": true,
@@ -57781,15 +55630,6 @@
       "direction": "up"
     },
     {
-      "time": "2008-01-31 16:45",
-      "price": 95.65,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-31 17:00",
       "price": 95.52,
       "start": true,
@@ -57797,15 +55637,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2008-01-31 17:15",
-      "price": 95.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2008-01-31 17:30",
@@ -57853,31 +55684,13 @@
       "direction": "down"
     },
     {
-      "time": "2008-01-31 18:45",
-      "price": 95.52,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2008-01-31 19:00",
       "price": 95.52,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2008-01-31 19:15",
-      "price": 95.45,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2008-01-31 19:30",
@@ -57909,15 +55722,6 @@
     {
       "time": "2008-01-31 20:30",
       "price": 95.64,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2008-01-31 23:00",
-      "price": 95.36,
       "start": true,
       "pinbar": false,
       "engulfing": false,

@@ -43423,15 +43423,6 @@
       "direction": "up"
     },
     {
-      "time": "2001-07-03 08:45",
-      "price": 63.6,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2001-07-03 09:00",
       "price": 63.51,
       "start": true,
@@ -44089,24 +44080,6 @@
       "direction": "up"
     },
     {
-      "time": "2001-07-11 06:15",
-      "price": 64.06,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2001-07-11 06:45",
-      "price": 64.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2001-07-11 07:00",
       "price": 64.26,
       "start": true,
@@ -44253,7 +44226,7 @@
     {
       "time": "2001-07-11 21:15",
       "price": 62.81,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
@@ -44449,15 +44422,6 @@
       "direction": "up"
     },
     {
-      "time": "2001-07-12 12:45",
-      "price": 62.83,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2001-07-12 13:00",
       "price": 62.98,
       "start": true,
@@ -44471,24 +44435,6 @@
       "price": 62.8,
       "start": true,
       "pinbar": false,
-      "engulfing": true,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2001-07-12 13:30",
-      "price": 62.76,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2001-07-12 13:45",
-      "price": 62.75,
-      "start": true,
-      "pinbar": false,
       "engulfing": false,
       "star": false,
       "direction": "down"
@@ -44496,7 +44442,7 @@
     {
       "time": "2001-07-12 14:00",
       "price": 62.74,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -45027,7 +44973,7 @@
     {
       "time": "2001-07-19 10:15",
       "price": 63.84,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -45720,7 +45666,7 @@
     {
       "time": "2001-07-31 13:30",
       "price": 63.23,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,

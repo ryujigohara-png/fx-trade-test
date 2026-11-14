@@ -39910,15 +39910,6 @@
       "direction": "down"
     },
     {
-      "time": "2007-02-04 23:45",
-      "price": 93.65,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2007-02-05 00:00",
       "price": 93.7,
       "start": true,
@@ -40029,15 +40020,6 @@
     {
       "time": "2007-02-07 04:45",
       "price": 93.34,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-02-08 00:15",
-      "price": 93.98,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -40711,35 +40693,8 @@
       "direction": "up"
     },
     {
-      "time": "2007-02-21 01:45",
-      "price": 94.63,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2007-02-21 02:00",
-      "price": 94.7,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2007-02-21 02:15",
       "price": 94.78,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
-      "time": "2007-02-21 02:30",
-      "price": 94.73,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -40759,10 +40714,10 @@
       "time": "2007-02-21 03:00",
       "price": 94.72,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2007-02-21 03:15",
@@ -40774,18 +40729,9 @@
       "direction": "down"
     },
     {
-      "time": "2007-02-21 03:30",
-      "price": 94.44,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2007-02-21 03:45",
       "price": 94.39,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -41386,15 +41332,6 @@
       "direction": "down"
     },
     {
-      "time": "2007-02-27 23:15",
-      "price": 92.9,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2007-02-27 23:30",
       "price": 92.85,
       "start": true,
@@ -41503,33 +41440,6 @@
       "direction": "down"
     },
     {
-      "time": "2007-02-28 05:30",
-      "price": 93.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-02-28 05:45",
-      "price": 93.07,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-02-28 06:00",
-      "price": 93.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2007-02-28 06:30",
       "price": 93.01,
       "start": true,
@@ -41620,36 +41530,9 @@
       "direction": "down"
     },
     {
-      "time": "2007-02-28 14:00",
-      "price": 93.12,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-02-28 14:15",
-      "price": 93.14,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2007-02-28 14:30",
-      "price": 93.16,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2007-02-28 14:45",
       "price": 93.13,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,

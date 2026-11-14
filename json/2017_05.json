@@ -46572,7 +46572,7 @@
     {
       "time": "2017-05-11 14:00",
       "price": 83.65,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46876,15 +46876,6 @@
       "direction": "down"
     },
     {
-      "time": "2017-05-17 05:30",
-      "price": 83.39,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
-    },
-    {
       "time": "2017-05-17 05:45",
       "price": 83.51,
       "start": true,
@@ -46987,10 +46978,10 @@
       "time": "2017-05-17 12:30",
       "price": 83.02,
       "start": true,
-      "pinbar": true,
+      "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2017-05-17 12:45",
@@ -47002,26 +46993,8 @@
       "direction": "down"
     },
     {
-      "time": "2017-05-17 13:00",
-      "price": 82.59,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2017-05-17 13:15",
       "price": 82.54,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-05-17 13:30",
-      "price": 82.64,
       "start": true,
       "pinbar": false,
       "engulfing": false,
@@ -47152,7 +47125,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2017-05-18 00:30",
@@ -47161,16 +47134,7 @@
       "pinbar": false,
       "engulfing": false,
       "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-05-18 00:45",
-      "price": 82.37,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
+      "direction": "down"
     },
     {
       "time": "2017-05-18 01:00",
@@ -47333,24 +47297,6 @@
       "engulfing": false,
       "star": false,
       "direction": "down"
-    },
-    {
-      "time": "2017-05-18 09:15",
-      "price": 82.02,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2017-05-18 09:30",
-      "price": 82.0,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
     },
     {
       "time": "2017-05-18 09:45",
@@ -47630,15 +47576,6 @@
       "engulfing": false,
       "star": false,
       "direction": "up"
-    },
-    {
-      "time": "2017-05-19 08:30",
-      "price": 83.1,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "down"
     },
     {
       "time": "2017-05-19 11:45",

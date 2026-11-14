@@ -46834,45 +46834,9 @@
       "direction": "down"
     },
     {
-      "time": "2021-03-05 11:15",
-      "price": 83.05,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-03-05 11:30",
-      "price": 83.03,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-03-05 11:45",
-      "price": 83.01,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
-      "time": "2021-03-05 12:00",
-      "price": 83.04,
-      "start": true,
-      "pinbar": false,
-      "engulfing": false,
-      "star": false,
-      "direction": "up"
-    },
-    {
       "time": "2021-03-05 12:15",
       "price": 83.03,
-      "start": true,
+      "start": false,
       "pinbar": true,
       "engulfing": false,
       "star": false,
@@ -46989,7 +46953,7 @@
     {
       "time": "2021-03-05 20:00",
       "price": 83.35,
-      "start": true,
+      "start": false,
       "pinbar": false,
       "engulfing": true,
       "star": false,
