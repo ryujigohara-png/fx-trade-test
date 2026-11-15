@@ -503,10 +503,13 @@
             const month = document.getElementById('monthSelect').value;
             if (!year || !month) return;
             
+            // 月のフォーマットを確実に 2桁（例: "01", "12"）に統一
+            const paddedMonth = String(parseInt(month, 10)).padStart(2, '0');
+            
             localStorage.setItem('fx_last_year', year);
-            localStorage.setItem('fx_last_month', month);
+            localStorage.setItem('fx_last_month', paddedMonth);
 
-            const monthKey = `${year}_${month}`;
+            const monthKey = `${year}_${paddedMonth}`;
             const jsonPath = `json/${monthKey}.json`;
             document.getElementById('loading').style.display = 'block';
 
@@ -516,10 +519,14 @@
                 let data = await response.json();
                 
                 fullData = data;
-                loadedMonths = [monthKey]; // 選択された当月のみ保持
+                loadedMonths = [monthKey]; // 選択された当月のみを保持の起点とする
 
-                currentBarCount = getInitialBarCount();
-                renderChart(`${year}年${month}月`, true);
+                // バーの本数（スパン）が未定義または無効な場合はデフォルト（例: 120本）を取得
+                currentBarCount = (typeof getInitialBarCount === 'function') ? getInitialBarCount() : 120;
+
+                // レンダリング実行（第2引数の true 等でリセットフラグを有効にする）
+                renderChart(`${year}年${parseInt(month, 10)}月`, true);
+
             } catch (error) {
                 console.warn(`データが見つかりません: ${jsonPath}`);
                 document.getElementById('chart').innerHTML = `<div style="text-align:center; padding:50px; color:#adb5bd;">${year}年${month}月のデータがありません</div>`;
@@ -529,53 +536,135 @@
             }
         }
 
+        // セレクトボックスの値を基準に、前月または次月のデータを安全にロード・結合する関数
         async function loadAdjacentMonthData(direction) {
-            if (isLoadingAdjacent || !fullData || !fullData.times || fullData.times.length === 0) return;
-            isLoadingAdjacent = true;
+            // 現在セレクトボックスで選択されている年月を取得
+            const yearSelect = document.getElementById('yearSelect');
+            const monthSelect = document.getElementById('monthSelect');
+            if (!yearSelect || !monthSelect) return;
 
-            // 現在保持している基準月（セレクトボックスの年月、またはloadedMonthsの主たる月）から計算する
-            // あるいは現在のfullDataの端のタイムスタンプから前月・次月を厳密に計算
-            let baseTimeStr = (direction === 'prev') ? fullData.times[0] : fullData.times[fullData.times.length - 1];
-            let d = new Date(baseTimeStr);
-            if (isNaN(d.getTime())) {
-                isLoadingAdjacent = false;
-                return;
+            let curYear = parseInt(yearSelect.value, 10);
+            let curMonth = parseInt(monthSelect.value, 10);
+
+            // 方向に応じて確実に ±1 ヶ月を計算
+            if (direction === 'prev') {
+                curMonth -= 1;
+                if (curMonth < 1) {
+                    curMonth = 12;
+                    curYear -= 1;
+                }
+            } else if (direction === 'next') {
+                curMonth += 1;
+                if (curMonth > 12) {
+                    curMonth = 1;
+                    curYear += 1;
+                }
             }
+
+            const targetMonthStr = `${curYear}-${String(curMonth).padStart(2, '0')}`;
+
+            // すでにロード済みの月リスト（loadedMonths）に含まれているかチェック
+            if (typeof loadedMonths !== 'undefined' && loadedMonths.includes(targetMonthStr)) {
+                return; // 読込済みなら何もしない
+            }
+
+            const fileName = `json/${curYear}_${String(curMonth).padStart(2, '0')}.json`;
+
+            try {
+                const response = await fetch(fileName);
+                if (!response.ok) {
+                    console.log(`Adjacent month data not found: ${fileName}`);
+                    return; // ファイルが存在しない場合は終了
+                }
+                const newData = await response.json();
+                if (!newData || !newData.times || newData.times.length === 0) return;
+
+                // データの結合処理（方向に応じて先頭または末尾に結合）
+                mergeAdjacentData(newData, direction, targetMonthStr);
+
+            } catch (error) {
+                console.error("Failed to load adjacent month data:", error);
+            }
+        }
+
+        // 取得した隣接月データを既存の fullData に結合するヘルパー関数
+        // 取得した隣接月データを既存の fullData に安全に結合する関数
+        function mergeAdjacentData(newData, direction, targetMonthStr) {
+            if (!fullData) return;
+
+            // 結合すべきすべての配列キー
+            const arrKeys = [
+                'times', 'opens', 'highs', 'lows', 'closes',
+                'sma9', 'sma36', 'sma144',
+                'bb1', 'bb2', 'bb_l1', 'bb_l2',
+                'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2',
+                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka',
+                'start_x', 'start_y', 'pin_x', 'pin_y', 'eng_x', 'eng_y', 'star_x', 'star_y'
+            ];
+
+            var gd = document.getElementById('chart');
+            let oldXRange = gd && gd._fullLayout && gd._fullLayout.xaxis ? gd._fullLayout.xaxis.range : null;
 
             if (direction === 'prev') {
-                d.setMonth(d.getMonth() - 1);
-            } else {
-                d.setMonth(d.getMonth() + 1);
-            }
-
-            let targetYear = d.getFullYear();
-            let targetMonth = String(d.getMonth() + 1).padStart(2, '0');
-            const targetMonthKey = `${targetYear}_${targetMonth}`;
-
-            // すでにその月がloadedMonthsに含まれている場合は重複ロードしない
-            if (loadedMonths.includes(targetMonthKey)) {
-                isLoadingAdjacent = false;
-                return;
-            }
-
-            const jsonPath = `json/${targetMonthKey}.json`;
-            try {
-                let res = await fetch(jsonPath);
-                if (!res.ok) {
-                    isLoadingAdjacent = false;
-                    return;
-                }
-                let addData = await res.json();
-                if (!addData.times || addData.times.length === 0) {
-                    isLoadingAdjacent = false;
-                    return;
+                // 前月（過去側）を先頭に結合
+                loadedMonths.unshift(targetMonthStr);
+                if (loadedMonths.length > 2) {
+                    loadedMonths.pop(); // 最大2ヶ月分を超える未来側を削除
                 }
 
-                mergeDatasetStrict(addData, direction, targetMonthKey);
-            } catch (err) {
-                console.warn("隣接月のロードに失敗:", jsonPath);
-            } finally {
-                isLoadingAdjacent = false;
+                arrKeys.forEach(k => {
+                    if (newData[k] && fullData[k]) {
+                        fullData[k] = newData[k].concat(fullData[k]);
+                    } else if (newData[k] && !fullData[k]) {
+                        fullData[k] = newData[k];
+                    }
+                });
+
+                if (newData.trades) {
+                    fullData.trades = (newData.trades || []).concat(fullData.trades || []);
+                }
+                if (newData.breakout_pa_events) {
+                    fullData.breakout_pa_events = (newData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
+                }
+
+                trimDataToLoadedMonths();
+
+                let shiftCount = newData.times.length;
+                renderChart(null, false);
+
+                if (oldXRange && gd) {
+                    let newRange = [oldXRange[0] + shiftCount, oldXRange[1] + shiftCount];
+                    Plotly.relayout(gd, { 'xaxis.range': newRange });
+                }
+
+            } else if (direction === 'next') {
+                // 次月（未来側）を末尾に結合
+                loadedMonths.push(targetMonthStr);
+                if (loadedMonths.length > 2) {
+                    loadedMonths.shift(); // 最大2ヶ月分を超える過去側を削除
+                }
+
+                arrKeys.forEach(k => {
+                    if (newData[k] && fullData[k]) {
+                        fullData[k] = fullData[k].concat(newData[k]);
+                    } else if (newData[k] && !fullData[k]) {
+                        fullData[k] = newData[k];
+                    }
+                });
+
+                if (newData.trades) {
+                    fullData.trades = (fullData.trades || []).concat(newData.trades || []);
+                }
+                if (newData.breakout_pa_events) {
+                    fullData.breakout_pa_events = (fullData.breakout_pa_events || []).concat(newData.breakout_pa_events || []);
+                }
+
+                trimDataToLoadedMonths();
+
+                renderChart(null, false);
+                if (oldXRange && gd) {
+                    Plotly.relayout(gd, { 'xaxis.range': oldXRange });
+                }
             }
         }
 
@@ -945,7 +1034,7 @@
                     // 仕様3・4の基準：セレクトボックスの月の末尾が右端、あるいは初期表示としての適切な範囲
                     let sIdx = mIndices[0];
                     let eIdx = mIndices[mIndices.length - 1];
-                    let span = Math.min(DEFAULT_BARS, eIdx - sIdx);
+                    let span = Math.min(currentBarCount, eIdx - sIdx);
                     initialRange = [Math.max(0, eIdx - span), eIdx];
                     currentBarCount = Math.round(initialRange[1] - initialRange[0]);
                 } else {
@@ -1405,7 +1494,14 @@
             let xMaxIdx = Math.min(fullData.times.length - 1, Math.ceil(xrange[1]));
 
             let yMin = Infinity, yMax = -Infinity;
-            let keys = ['highs', 'lows', 'sma9', 'sma36', 'sma144', 'bb1', 'bb2', 'bb_l1', 'bb_l2', 'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2', 'span_tenkan', 'span_kijun', 'span_aou', 'span_aka'];
+            // ローソク足、各種インジケータに加え、PAマークのY座標キーも確実に含める
+            let keys = [
+                'highs', 'lows', 'sma9', 'sma36', 'sma144', 
+                'bb1', 'bb2', 'bb_l1', 'bb_l2', 
+                'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2', 
+                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka',
+                'start_y', 'pin_y', 'eng_y', 'star_y'
+            ];
             
             keys.forEach(k => {
                 let arr = fullData[k];
@@ -1478,10 +1574,10 @@
 
         // 仕様3：▶▶ボタンを押したら、セレクトボックスの月の最終データが画面右端に来るようにする（縮尺維持）
         function resetView() {
-            if (!fullData) return;
+            if (!fullData || !fullData.times) return;
             const year = document.getElementById('yearSelect').value;
             const month = document.getElementById('monthSelect').value;
-            let targetPrefix = `${year}-${month}`;
+            let targetPrefix = `${year}-${month.padStart(2, '0')}`;
 
             let mIndices = [];
             fullData.times.forEach((t, i) => {
@@ -1491,8 +1587,8 @@
             });
 
             if (mIndices.length > 0) {
-                let endIdx = mIndices[mIndices.length - 1]; // 選択月の最終データインデックス
-                let span = currentBarCount; // 現在の縮尺（バーの本数）を維持
+                let endIdx = mIndices[mIndices.length - 1];
+                let span = typeof currentBarCount !== 'undefined' ? currentBarCount : 120;
                 let startIdx = Math.max(0, endIdx - span);
 
                 var gd = document.getElementById('chart');
@@ -1519,10 +1615,10 @@
 
         // 仕様4：◀◀ボタンを押したら、セレクトボックスの月の初日データが画面左端に来るようにする（縮尺維持）
         function jumpToOldest() {
-            if (!fullData) return;
+            if (!fullData || !fullData.times) return;
             const year = document.getElementById('yearSelect').value;
             const month = document.getElementById('monthSelect').value;
-            let targetPrefix = `${year}-${month}`;
+            let targetPrefix = `${year}-${month.padStart(2, '0')}`;
 
             let mIndices = [];
             fullData.times.forEach((t, i) => {
@@ -1532,8 +1628,8 @@
             });
 
             if (mIndices.length > 0) {
-                let startIdx = mIndices[0]; // 選択月の初日データインデックス
-                let span = currentBarCount; // 現在の縮尺（バーの本数）を維持
+                let startIdx = mIndices[0]; // セレクトボックスの月の最初の日時インデックス
+                let span = typeof currentBarCount !== 'undefined' ? currentBarCount : 120; // 現在のバーの本数を維持
                 let endIdx = Math.min(fullData.times.length - 1, startIdx + span);
 
                 var gd = document.getElementById('chart');
@@ -1556,6 +1652,22 @@
                     });
                 }
             }
+        }
+
+        // 現在のチェックボックスの状態をチャートのトレースに確実に再適用する共通関数
+        function applyPACheckboxStates(gd) {
+            if (!gd || !gd.data) return;
+            const chkStart = document.getElementById('chk-start') ? document.getElementById('chk-start').checked : true;
+            const chkPin = document.getElementById('chk-pin') ? document.getElementById('chk-pin').checked : false;
+            const chkEng = document.getElementById('chk-eng') ? document.getElementById('chk-eng').checked : false;
+            const chkStar = document.getElementById('chk-star') ? document.getElementById('chk-star').checked : false;
+
+            gd.data.forEach((trace, idx) => {
+                if (trace.name === '起点 (30pips)') Plotly.restyle(gd, { visible: chkStart }, [idx]);
+                if (trace.name === 'ピンバー') Plotly.restyle(gd, { visible: chkPin }, [idx]);
+                if (trace.name === '包み足 (◎)') Plotly.restyle(gd, { visible: chkEng }, [idx]);
+                if (trace.name === '明星') Plotly.restyle(gd, { visible: chkStar }, [idx]);
+            });
         }
 
         if ('serviceWorker' in navigator) {
