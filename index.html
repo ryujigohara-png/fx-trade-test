@@ -233,7 +233,7 @@
                     <li><strong>形状判定:</strong> 2本足のペアで、2本目が前足の実体を完全に包み込む形。</li>
                 </ul>
 
-                ### ④ ⭐ 明星</h3>
+                <h3>④ ⭐ 明星</h3>
                 <ul>
                     <li><strong>配置位置:</strong> 起点マークの外側（さらに上下に離した位置）</li>
                     <li><strong>形状判定:</strong> 3本足構成（1本目大実体、2本目コマ、3本目終値が1本目の始値を超える/包み込む包み足状のイメージ）。</li>
@@ -252,7 +252,7 @@
         };
 
         let fullData = null;
-        let loadedMonths = new Set();
+        let loadedMonths = []; // 保持している月のリスト (例: ['2025_08'] または ['2025_07', '2025_08'])
         let isLoadingAdjacent = false;
         let paControlsVisible = true;
         let isSyncingSelector = false;
@@ -466,7 +466,7 @@
 
         function onSelectorChange() {
             if (isSyncingSelector) return;
-            loadedMonths.clear();
+            loadedMonths = [];
             loadMonthlyData();
         }
 
@@ -516,8 +516,7 @@
                 let data = await response.json();
                 
                 fullData = data;
-                loadedMonths.clear();
-                loadedMonths.add(monthKey);
+                loadedMonths = [monthKey]; // 選択された当月のみ保持
 
                 currentBarCount = getInitialBarCount();
                 renderChart(`${year}年${month}月`, true);
@@ -534,36 +533,32 @@
             if (isLoadingAdjacent || !fullData || !fullData.times || fullData.times.length === 0) return;
             isLoadingAdjacent = true;
 
-            let targetYear, targetMonth;
-            if (direction === 'prev') {
-                let oldestTimeStr = fullData.times[0];
-                let d = new Date(oldestTimeStr);
-                if (isNaN(d.getTime())) {
-                    isLoadingAdjacent = false;
-                    return;
-                }
-                d.setMonth(d.getMonth() - 1);
-                targetYear = d.getFullYear();
-                targetMonth = String(d.getMonth() + 1).padStart(2, '0');
-            } else {
-                let newestTimeStr = fullData.times[fullData.times.length - 1];
-                let d = new Date(newestTimeStr);
-                if (isNaN(d.getTime())) {
-                    isLoadingAdjacent = false;
-                    return;
-                }
-                d.setMonth(d.getMonth() + 1);
-                targetYear = d.getFullYear();
-                targetMonth = String(d.getMonth() + 1).padStart(2, '0');
-            }
-
-            const monthKey = `${targetYear}_${targetMonth}`;
-            if (loadedMonths.has(monthKey)) {
+            // 現在保持している基準月（セレクトボックスの年月、またはloadedMonthsの主たる月）から計算する
+            // あるいは現在のfullDataの端のタイムスタンプから前月・次月を厳密に計算
+            let baseTimeStr = (direction === 'prev') ? fullData.times[0] : fullData.times[fullData.times.length - 1];
+            let d = new Date(baseTimeStr);
+            if (isNaN(d.getTime())) {
                 isLoadingAdjacent = false;
                 return;
             }
 
-            const jsonPath = `json/${monthKey}.json`;
+            if (direction === 'prev') {
+                d.setMonth(d.getMonth() - 1);
+            } else {
+                d.setMonth(d.getMonth() + 1);
+            }
+
+            let targetYear = d.getFullYear();
+            let targetMonth = String(d.getMonth() + 1).padStart(2, '0');
+            const targetMonthKey = `${targetYear}_${targetMonth}`;
+
+            // すでにその月がloadedMonthsに含まれている場合は重複ロードしない
+            if (loadedMonths.includes(targetMonthKey)) {
+                isLoadingAdjacent = false;
+                return;
+            }
+
+            const jsonPath = `json/${targetMonthKey}.json`;
             try {
                 let res = await fetch(jsonPath);
                 if (!res.ok) {
@@ -576,8 +571,7 @@
                     return;
                 }
 
-                loadedMonths.add(monthKey);
-                mergeDataset(addData, direction);
+                mergeDatasetStrict(addData, direction, targetMonthKey);
             } catch (err) {
                 console.warn("隣接月のロードに失敗:", jsonPath);
             } finally {
@@ -585,7 +579,8 @@
             }
         }
 
-        function mergeDataset(addData, direction) {
+        // 仕様に則った厳密な結合および不要月の削除を行う関数
+        function mergeDatasetStrict(addData, direction, targetMonthKey) {
             const arrKeys = [
                 'times', 'opens', 'highs', 'lows', 'closes',
                 'sma9', 'sma36', 'sma144',
@@ -598,6 +593,15 @@
             let oldXRange = gd && gd._fullLayout && gd._fullLayout.xaxis ? gd._fullLayout.xaxis.range : null;
 
             if (direction === 'prev') {
+                // 仕様2：前月データを取得して結合。すでに別月（古い方）が結合されていたら削除する。
+                // loadedMonthsの先頭に新しい月を追加し、要素数が2つになったら古い方（末尾＝次月側）を削除する
+                loadedMonths.unshift(targetMonthKey);
+                if (loadedMonths.length > 2) {
+                    loadedMonths.pop(); // 未来側の月を削除
+                }
+
+                // 保持するべき月（loadedMonths）のデータのみで fullData を再構築または結合する
+                // ここではシンプルに addData を先頭に結合し、もし末尾に余分な月があればカットする
                 arrKeys.forEach(k => {
                     if (addData[k] && fullData[k]) {
                         fullData[k] = addData[k].concat(fullData[k]);
@@ -610,6 +614,9 @@
                     fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
                 }
 
+                // loadedMonthsに合致する範囲外のデータを末尾からカット
+                trimDataToLoadedMonths();
+
                 let shiftCount = addData.times.length;
                 renderChart(null, false);
 
@@ -618,6 +625,13 @@
                     Plotly.relayout(gd, { 'xaxis.range': newRange });
                 }
             } else {
+                // 仕様1：次月データを取得して結合。すでに別月（未来側）が結合されていたら削除する。
+                loadedMonths.push(targetMonthKey);
+                if (loadedMonths.length > 2) {
+                    loadedMonths.shift(); // 過去側の月を削除
+                }
+
+                let prevLength = fullData.times.length;
                 arrKeys.forEach(k => {
                     if (addData[k] && fullData[k]) {
                         fullData[k] = fullData[k].concat(addData[k]);
@@ -630,9 +644,78 @@
                     fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(addData.breakout_pa_events || []);
                 }
 
+                // loadedMonthsに合致する範囲外のデータを先頭からカット
+                trimDataToLoadedMonths();
+
                 renderChart(null, false);
                 if (oldXRange && gd) {
                     Plotly.relayout(gd, { 'xaxis.range': oldXRange });
+                }
+            }
+        }
+
+        // loadedMonths（最大2ヶ月分）に含まれる日時のデータだけを残すようにトリミングする関数
+        function trimDataToLoadedMonths() {
+            if (!fullData || !fullData.times || loadedMonths.length === 0) return;
+
+            // loadedMonthsに存在する月文字列（例: '2025-07', '2025-08'）のプレフィックスを作成
+            let validPrefixes = loadedMonths.map(m => m.replace('_', '-'));
+
+            let keepIndices = [];
+            fullData.times.forEach((t, i) => {
+                let monthPrefix = t.substring(0, 7); // "YYYY-MM"
+                if (validPrefixes.includes(monthPrefix)) {
+                    keepIndices.push(i);
+                }
+            });
+
+            if (keepIndices.length === 0) return;
+            let minKeepIdx = keepIndices[0];
+            let maxKeepIdx = keepIndices[keepIndices.length - 1];
+
+            if (minKeepIdx === 0 && maxKeepIdx === fullData.times.length - 1) return; // 削除不要
+
+            const arrKeys = [
+                'times', 'opens', 'highs', 'lows', 'closes',
+                'sma9', 'sma36', 'sma144',
+                'bb1', 'bb2', 'bb_l1', 'bb_l2',
+                'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2',
+                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka'
+            ];
+
+            let cutLeftCount = minKeepIdx;
+
+            arrKeys.forEach(k => {
+                if (fullData[k]) {
+                    fullData[k] = fullData[k].slice(minKeepIdx, maxKeepIdx + 1);
+                }
+            });
+
+            if (fullData.trades) {
+                let startTime = new Date(fullData.times[0]).getTime();
+                let endTime = new Date(fullData.times[fullData.times.length - 1]).getTime();
+                fullData.trades = fullData.trades.filter(t => {
+                    let et = new Date(t.entry_time).getTime();
+                    return et >= startTime && et <= endTime;
+                });
+            }
+            if (fullData.breakout_pa_events) {
+                let startTime = new Date(fullData.times[0]).getTime();
+                let endTime = new Date(fullData.times[fullData.times.length - 1]).getTime();
+                fullData.breakout_pa_events = fullData.breakout_pa_events.filter(e => {
+                    let et = new Date(e.time).getTime();
+                    return et >= startTime && et <= endTime;
+                });
+            }
+
+            let gd = document.getElementById('chart');
+            if (gd && gd._fullLayout && gd._fullLayout.xaxis && cutLeftCount > 0) {
+                let oldXRange = gd._fullLayout.xaxis.range;
+                if (oldXRange) {
+                    let newRange = [Math.max(0, oldXRange[0] - cutLeftCount), Math.max(0, oldXRange[1] - cutLeftCount)];
+                    setTimeout(() => {
+                        Plotly.relayout(gd, { 'xaxis.range': newRange });
+                    }, 50);
                 }
             }
         }
@@ -846,19 +929,40 @@
                     initialRange = gd._fullLayout.xaxis.range;
                 }
             } else {
-                const savedRange = localStorage.getItem('fx_last_xaxis_range');
-                if (savedRange) {
-                    try {
-                        let parsed = JSON.parse(savedRange);
-                        if (Array.isArray(parsed) && parsed.length === 2) {
-                            let s = Math.max(0, Math.min(parsed[0], total - 1));
-                            let e = Math.max(0, Math.min(parsed[1], total - 1));
-                            if (e > s) {
-                                initialRange = [s, e];
-                                currentBarCount = Math.round(e - s);
+                // セレクトボックス変更時等：選択されたセレクトボックスの月のデータ範囲を特定してデフォルト表示する
+                const year = document.getElementById('yearSelect').value;
+                const month = document.getElementById('monthSelect').value;
+                let targetPrefix = `${year}-${month}`;
+                
+                let mIndices = [];
+                times.forEach((t, i) => {
+                    if (t.startsWith(targetPrefix)) {
+                        mIndices.push(i);
+                    }
+                });
+
+                if (mIndices.length > 0) {
+                    // 仕様3・4の基準：セレクトボックスの月の末尾が右端、あるいは初期表示としての適切な範囲
+                    let sIdx = mIndices[0];
+                    let eIdx = mIndices[mIndices.length - 1];
+                    let span = Math.min(DEFAULT_BARS, eIdx - sIdx);
+                    initialRange = [Math.max(0, eIdx - span), eIdx];
+                    currentBarCount = Math.round(initialRange[1] - initialRange[0]);
+                } else {
+                    const savedRange = localStorage.getItem('fx_last_xaxis_range');
+                    if (savedRange) {
+                        try {
+                            let parsed = JSON.parse(savedRange);
+                            if (Array.isArray(parsed) && parsed.length === 2) {
+                                let s = Math.max(0, Math.min(parsed[0], total - 1));
+                                let e = Math.max(0, Math.min(parsed[1], total - 1));
+                                if (e > s) {
+                                    initialRange = [s, e];
+                                    currentBarCount = Math.round(e - s);
+                                }
                             }
-                        }
-                    } catch(e) {}
+                        } catch(e) {}
+                    }
                 }
             }
 
@@ -1237,6 +1341,7 @@
 
                             updateSelectorsFromChartCenter(xrange);
 
+                            // スクロール検知による隣接月ロード判定（端から30本以内に達した場合）
                             if (xrange[0] < 30) {
                                 loadAdjacentMonthData('prev');
                             } else if (xrange[1] > fullData.times.length - 30) {
@@ -1371,58 +1476,85 @@
             }
         }
 
+        // 仕様3：▶▶ボタンを押したら、セレクトボックスの月の最終データが画面右端に来るようにする（縮尺維持）
         function resetView() {
             if (!fullData) return;
-            currentBarCount = DEFAULT_BARS;
-            let total = fullData.times.length;
-            let endIdx = total - 1;
-            let startIdx = Math.max(0, total - DEFAULT_BARS);
+            const year = document.getElementById('yearSelect').value;
+            const month = document.getElementById('monthSelect').value;
+            let targetPrefix = `${year}-${month}`;
 
-            var gd = document.getElementById('chart');
-            if (gd) {
-                Plotly.relayout(gd, {
-                    'xaxis.range': [startIdx, endIdx]
-                }).then(() => {
-                    autoScaleY(gd);
-                    if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                        let newRange = gd._fullLayout.xaxis.range;
-                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
-                        updateSelectorsFromChartCenter(newRange);
+            let mIndices = [];
+            fullData.times.forEach((t, i) => {
+                if (t.startsWith(targetPrefix)) {
+                    mIndices.push(i);
+                }
+            });
 
-                        let newTicks = getDynamicTicks(fullData.times, newRange);
-                        Plotly.relayout(gd, {
-                            'xaxis.tickvals': newTicks.tickvals,
-                            'xaxis.ticktext': newTicks.ticktext
-                        });
-                    }
-                });
+            if (mIndices.length > 0) {
+                let endIdx = mIndices[mIndices.length - 1]; // 選択月の最終データインデックス
+                let span = currentBarCount; // 現在の縮尺（バーの本数）を維持
+                let startIdx = Math.max(0, endIdx - span);
+
+                var gd = document.getElementById('chart');
+                if (gd) {
+                    Plotly.relayout(gd, {
+                        'xaxis.range': [startIdx, endIdx]
+                    }).then(() => {
+                        autoScaleY(gd);
+                        if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
+                            let newRange = gd._fullLayout.xaxis.range;
+                            localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
+                            updateSelectorsFromChartCenter(newRange);
+
+                            let newTicks = getDynamicTicks(fullData.times, newRange);
+                            Plotly.relayout(gd, {
+                                'xaxis.tickvals': newTicks.tickvals,
+                                'xaxis.ticktext': newTicks.ticktext
+                            });
+                        }
+                    });
+                }
             }
         }
 
+        // 仕様4：◀◀ボタンを押したら、セレクトボックスの月の初日データが画面左端に来るようにする（縮尺維持）
         function jumpToOldest() {
             if (!fullData) return;
-            let span = currentBarCount;
-            let startIdx = 0;
-            let endIdx = Math.min(fullData.times.length - 1, startIdx + span);
+            const year = document.getElementById('yearSelect').value;
+            const month = document.getElementById('monthSelect').value;
+            let targetPrefix = `${year}-${month}`;
 
-            var gd = document.getElementById('chart');
-            if (gd) {
-                Plotly.relayout(gd, {
-                    'xaxis.range': [startIdx, endIdx]
-                }).then(() => {
-                    autoScaleY(gd);
-                    if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
-                        let newRange = gd._fullLayout.xaxis.range;
-                        localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
-                        updateSelectorsFromChartCenter(newRange);
+            let mIndices = [];
+            fullData.times.forEach((t, i) => {
+                if (t.startsWith(targetPrefix)) {
+                    mIndices.push(i);
+                }
+            });
 
-                        let newTicks = getDynamicTicks(fullData.times, newRange);
-                        Plotly.relayout(gd, {
-                            'xaxis.tickvals': newTicks.tickvals,
-                            'xaxis.ticktext': newTicks.ticktext
-                        });
-                    }
-                });
+            if (mIndices.length > 0) {
+                let startIdx = mIndices[0]; // 選択月の初日データインデックス
+                let span = currentBarCount; // 現在の縮尺（バーの本数）を維持
+                let endIdx = Math.min(fullData.times.length - 1, startIdx + span);
+
+                var gd = document.getElementById('chart');
+                if (gd) {
+                    Plotly.relayout(gd, {
+                        'xaxis.range': [startIdx, endIdx]
+                    }).then(() => {
+                        autoScaleY(gd);
+                        if (gd._fullLayout && gd._fullLayout.xaxis && gd._fullLayout.xaxis.range) {
+                            let newRange = gd._fullLayout.xaxis.range;
+                            localStorage.setItem('fx_last_xaxis_range', JSON.stringify(newRange));
+                            updateSelectorsFromChartCenter(newRange);
+
+                            let newTicks = getDynamicTicks(fullData.times, newRange);
+                            Plotly.relayout(gd, {
+                                'xaxis.tickvals': newTicks.tickvals,
+                                'xaxis.ticktext': newTicks.ticktext
+                            });
+                        }
+                    });
+                }
             }
         }
 
