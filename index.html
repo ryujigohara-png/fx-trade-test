@@ -704,7 +704,7 @@
         function mergeAdjacentData(newData, direction, targetMonthStr) {
             if (!fullData) return;
 
-            // 結合すべきすべての配列キー
+            // 結合すべきすべての配列キー（PAマークのX/Y座標も含む）
             const arrKeys = [
                 'times', 'opens', 'highs', 'lows', 'closes',
                 'sma9', 'sma36', 'sma144',
