@@ -736,7 +736,14 @@
                     fullData.trades = (newData.trades || []).concat(fullData.trades || []);
                 }
                 if (newData.breakout_pa_events) {
-                    fullData.breakout_pa_events = (newData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
+                    // 既存と新規の breakout_pa_events を結合し、日時(time)の重複を排除して時系列順に並べ替える
+                    let combinedEvents = (fullData.breakout_pa_events || []).concat(newData.breakout_pa_events || []);
+                    let seenTimes = new Set();
+                    fullData.breakout_pa_events = combinedEvents.filter(ev => {
+                        if (seenTimes.has(ev.time)) return false;
+                        seenTimes.add(ev.time);
+                        return true;
+                    }).sort((a, b) => new Date(a.time) - new Date(b.time));
                 }
 
                 trimDataToLoadedMonths();
@@ -768,7 +775,14 @@
                     fullData.trades = (fullData.trades || []).concat(fullData.trades || []);
                 }
                 if (newData.breakout_pa_events) {
-                    fullData.breakout_pa_events = (fullData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
+                    // 既存と新規の breakout_pa_events を結合し、日時(time)の重複を排除して時系列順に並べ替える
+                    let combinedEvents = (fullData.breakout_pa_events || []).concat(newData.breakout_pa_events || []);
+                    let seenTimes = new Set();
+                    fullData.breakout_pa_events = combinedEvents.filter(ev => {
+                        if (seenTimes.has(ev.time)) return false;
+                        seenTimes.add(ev.time);
+                        return true;
+                    }).sort((a, b) => new Date(a.time) - new Date(b.time));
                 }
 
                 trimDataToLoadedMonths();
@@ -856,7 +870,6 @@
         function trimDataToLoadedMonths() {
             if (!fullData || !fullData.times || loadedMonths.length === 0) return;
 
-            // loadedMonthsに存在する月文字列（例: '2025-07', '2025-08'）のプレフィックスを作成
             let validPrefixes = loadedMonths.map(m => m.replace('_', '-'));
 
             let keepIndices = [];
@@ -878,7 +891,8 @@
                 'sma9', 'sma36', 'sma144',
                 'bb1', 'bb2', 'bb_l1', 'bb_l2',
                 'bb144_mid', 'bb144_u1', 'bb144_l1', 'bb144_u2', 'bb144_l2',
-                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka'
+                'span_tenkan', 'span_kijun', 'span_aou', 'span_aka',
+                'start_x', 'start_y', 'pin_x', 'pin_y', 'eng_x', 'eng_y', 'star_x', 'star_y'
             ];
 
             let cutLeftCount = minKeepIdx;
@@ -897,12 +911,14 @@
                     return et >= startTime && et <= endTime;
                 });
             }
-            if (fullData.breakout_pa_events) {
-                let startTime = new Date(fullData.times[0]).getTime();
-                let endTime = new Date(fullData.times[fullData.times.length - 1]).getTime();
+
+            // breakout_pa_events を保持する範囲（現在保持している times の全期間）に厳密に絞り込む
+            if (fullData.breakout_pa_events && fullData.times.length > 0) {
+                let firstTimeStr = fullData.times[0];
+                let lastTimeStr = fullData.times[fullData.times.length - 1];
+                
                 fullData.breakout_pa_events = fullData.breakout_pa_events.filter(e => {
-                    let et = new Date(e.time).getTime();
-                    return et >= startTime && et <= endTime;
+                    return e.time >= firstTimeStr && e.time <= lastTimeStr;
                 });
             }
 
