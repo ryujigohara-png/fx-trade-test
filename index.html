@@ -159,6 +159,32 @@
         .tip-sec { color: #aaa; font-weight: bold; margin-top: 3px; font-size: 9.5px; border-top: 1px dashed #444; padding-top: 2px; }
         .tip-row { display: flex; justify-content: space-between; }
         .tip-val { color: #fff; font-family: monospace; }
+        /* ツールチップ文字サイズ「大」用スタイル */
+        #custom-tooltip.tip-large {
+            font-size: 13px;
+            width: 165px;
+            padding: 8px 12px;
+            line-height: 1.45;
+        }
+        #custom-tooltip.tip-large .tip-title {
+            font-size: 13.5px;
+            margin-bottom: 4px;
+            padding-bottom: 3px;
+        }
+        #custom-tooltip.tip-large .tip-sec {
+            font-size: 12px;
+            margin-top: 4px;
+            padding-top: 3px;
+        }
+        .pa-controls select {
+            padding: 2px 6px;
+            font-size: 12px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #2d2d2d;
+            color: #e0e0e0;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -197,6 +223,11 @@
         <label><input type="checkbox" id="chk-span" checked onchange="handleSpanCheckboxChange(this.checked)"> ☁ スパンモデル</label>
         <label><input type="checkbox" id="chk-bb36" checked onchange="handleBBCheckboxChange('bb36', this.checked)"> 36BB</label>
         <label><input type="checkbox" id="chk-bb144" checked onchange="handleBBCheckboxChange('bb144', this.checked)"> 144BB</label>
+        <span style="margin-left: 10px; font-weight: bold; color: #aaa;">ツールチップ:</span>
+        <select id="tooltipFontSizeSelect" onchange="handleTooltipFontSizeChange(this.value)">
+            <option value="normal">標準</option>
+            <option value="large">大</option>
+        </select>
     </div>
 
     <!-- 仕様書モーダルウィンドウ -->
@@ -309,6 +340,64 @@
             return { tickvals, ticktext };
         }
 
+        // 実トレード時間帯（17:00〜24:00）の背景網掛けシェープを生成するサブルーチン
+        function generateTradeSessionShapes(times) {
+            if (!times || times.length === 0) return [];
+            const shapes = [];
+            let inSession = false;
+            let startIdx = -1;
+
+            for (let i = 0; i < times.length; i++) {
+                let t = times[i];
+                let timePart = t.split(' ')[1];
+                let isTargetHour = false;
+
+                if (timePart) {
+                    let hour = parseInt(timePart.split(':')[0], 10);
+                    if (hour >= 17 && hour <= 23) {
+                        isTargetHour = true;
+                    }
+                }
+
+                if (isTargetHour && !inSession) {
+                    inSession = true;
+                    startIdx = i;
+                } else if (!isTargetHour && inSession) {
+                    inSession = false;
+                    shapes.push({
+                        type: 'rect',
+                        xref: 'x',
+                        yref: 'paper',
+                        x0: Math.max(0, startIdx - 0.5),
+                        x1: i - 0.5,
+                        y0: 0,
+                        y1: 1,
+                        fillcolor: 'rgba(77, 171, 247, 0.18)', // 視認性を高めるため少し濃く調整
+                        line: { width: 0 },
+                        layer: 'below'
+                    });
+                }
+            }
+
+            // データの最後まで17:00〜24:00の区間が続いていた場合の処理
+            if (inSession && startIdx !== -1) {
+                shapes.push({
+                    type: 'rect',
+                    xref: 'x',
+                    yref: 'paper',
+                    x0: Math.max(0, startIdx - 0.5),
+                    x1: times.length - 0.5,
+                    y0: 0,
+                    y1: 1,
+                    fillcolor: 'rgba(77, 171, 247, 0.18)', // 視認性を高めるため少し濃く調整
+                    line: { width: 0 },
+                    layer: 'below'
+                });
+            }
+
+            return shapes;
+        }
+
         function initPACheckboxes() {
             const checkboxes = {
                 'start': document.getElementById('chk-start'),
@@ -363,6 +452,9 @@
                 paControlsVisible = true;
             }
             applyPAControlsVisibility(false);
+
+            const savedTipSize = localStorage.getItem('fx_tooltip_fontsize') || 'normal';
+            applyTooltipFontSize(savedTipSize);
         }
 
         function togglePAControls() {
@@ -407,6 +499,25 @@
         function handleBBCheckboxChange(type, isChecked) {
             localStorage.setItem(`fx_${type}_chk`, isChecked);
             toggleBBTraces(type, isChecked);
+        }
+        function handleTooltipFontSizeChange(size) {
+            localStorage.setItem('fx_tooltip_fontsize', size);
+            applyTooltipFontSize(size);
+        }
+
+        function applyTooltipFontSize(size) {
+            const tip = document.getElementById('custom-tooltip');
+            const sel = document.getElementById('tooltipFontSizeSelect');
+            if (sel) {
+                sel.value = size;
+            }
+            if (tip) {
+                if (size === 'large') {
+                    tip.classList.add('tip-large');
+                } else {
+                    tip.classList.remove('tip-large');
+                }
+            }
         }
 
         function getInitialBarCount() {
@@ -467,6 +578,8 @@
         function onSelectorChange() {
             if (isSyncingSelector) return;
             loadedMonths = [];
+            // 手動で年月を変更した場合は前回の表示位置記憶をリセットする
+            localStorage.removeItem('fx_last_xaxis_range');
             loadMonthlyData();
         }
 
@@ -521,10 +634,10 @@
                 fullData = data;
                 loadedMonths = [monthKey]; // 選択された当月のみを保持の起点とする
 
-                // バーの本数（スパン）が未定義または無効な場合はデフォルト（例: 120本）を取得
+                // バーの本数（スパン）が未定義または無効な場合はデフォルトを取得
                 currentBarCount = (typeof getInitialBarCount === 'function') ? getInitialBarCount() : 120;
 
-                // レンダリング実行（第2引数の true 等でリセットフラグを有効にする）
+                // レンダリング実行（保存済みのxaxis_rangeがあればrenderChart内で完全復元される）
                 renderChart(`${year}年${parseInt(month, 10)}月`, true);
 
             } catch (error) {
@@ -561,7 +674,7 @@
                 }
             }
 
-            const targetMonthStr = `${curYear}-${String(curMonth).padStart(2, '0')}`;
+            const targetMonthStr = `${curYear}_${String(curMonth).padStart(2, '0')}`;
 
             // すでにロード済みの月リスト（loadedMonths）に含まれているかチェック
             if (typeof loadedMonths !== 'undefined' && loadedMonths.includes(targetMonthStr)) {
@@ -587,7 +700,6 @@
             }
         }
 
-        // 取得した隣接月データを既存の fullData に結合するヘルパー関数
         // 取得した隣接月データを既存の fullData に安全に結合する関数
         function mergeAdjacentData(newData, direction, targetMonthStr) {
             if (!fullData) return;
@@ -653,10 +765,10 @@
                 });
 
                 if (newData.trades) {
-                    fullData.trades = (fullData.trades || []).concat(newData.trades || []);
+                    fullData.trades = (fullData.trades || []).concat(fullData.trades || []);
                 }
                 if (newData.breakout_pa_events) {
-                    fullData.breakout_pa_events = (fullData.breakout_pa_events || []).concat(newData.breakout_pa_events || []);
+                    fullData.breakout_pa_events = (fullData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
                 }
 
                 trimDataToLoadedMonths();
@@ -683,14 +795,11 @@
 
             if (direction === 'prev') {
                 // 仕様2：前月データを取得して結合。すでに別月（古い方）が結合されていたら削除する。
-                // loadedMonthsの先頭に新しい月を追加し、要素数が2つになったら古い方（末尾＝次月側）を削除する
                 loadedMonths.unshift(targetMonthKey);
                 if (loadedMonths.length > 2) {
                     loadedMonths.pop(); // 未来側の月を削除
                 }
 
-                // 保持するべき月（loadedMonths）のデータのみで fullData を再構築または結合する
-                // ここではシンプルに addData を先頭に結合し、もし末尾に余分な月があればカットする
                 arrKeys.forEach(k => {
                     if (addData[k] && fullData[k]) {
                         fullData[k] = addData[k].concat(fullData[k]);
@@ -727,10 +836,10 @@
                     }
                 });
                 if (addData.trades) {
-                    fullData.trades = (addData.trades || []).concat(addData.trades || []);
+                    fullData.trades = (fullData.trades || []).concat(fullData.trades || []);
                 }
                 if (addData.breakout_pa_events) {
-                    fullData.breakout_pa_events = (addData.breakout_pa_events || []).concat(addData.breakout_pa_events || []);
+                    fullData.breakout_pa_events = (fullData.breakout_pa_events || []).concat(fullData.breakout_pa_events || []);
                 }
 
                 // loadedMonthsに合致する範囲外のデータを先頭からカット
@@ -978,9 +1087,10 @@
                 let x = clientX + 10;
                 let y = clientY + 10;
                 
-                let tipWidth = tip.offsetWidth || 155;
-                let tipHeight = tip.offsetHeight || 380;
-                
+                let isLarge = tip.classList.contains('tip-large');
+                let tipWidth = tip.offsetWidth || (isLarge ? 175 : 155);
+                let tipHeight = tip.offsetHeight || (isLarge ? 460 : 380);
+
                 if (x + tipWidth > window.innerWidth - 5) {
                     x = clientX - tipWidth - 10;
                 }
@@ -1018,45 +1128,50 @@
                     initialRange = gd._fullLayout.xaxis.range;
                 }
             } else {
-                // セレクトボックス変更時等：選択されたセレクトボックスの月のデータ範囲を特定してデフォルト表示する
-                const year = document.getElementById('yearSelect').value;
-                const month = document.getElementById('monthSelect').value;
-                let targetPrefix = `${year}-${month}`;
-                
-                let mIndices = [];
-                times.forEach((t, i) => {
-                    if (t.startsWith(targetPrefix)) {
-                        mIndices.push(i);
-                    }
-                });
+                // 1. PWA再オープン時の完全な状態復元（日時文字列ベース）をチェック
+                let restored = false;
+                const savedStartTime = localStorage.getItem('fx_last_start_time');
+                const savedEndTime = localStorage.getItem('fx_last_end_time');
 
-                if (mIndices.length > 0) {
-                    // 仕様3・4の基準：セレクトボックスの月の末尾が右端、あるいは初期表示としての適切な範囲
-                    let sIdx = mIndices[0];
-                    let eIdx = mIndices[mIndices.length - 1];
-                    let span = Math.min(currentBarCount, eIdx - sIdx);
-                    initialRange = [Math.max(0, eIdx - span), eIdx];
-                    currentBarCount = Math.round(initialRange[1] - initialRange[0]);
-                } else {
-                    const savedRange = localStorage.getItem('fx_last_xaxis_range');
-                    if (savedRange) {
-                        try {
-                            let parsed = JSON.parse(savedRange);
-                            if (Array.isArray(parsed) && parsed.length === 2) {
-                                let s = Math.max(0, Math.min(parsed[0], total - 1));
-                                let e = Math.max(0, Math.min(parsed[1], total - 1));
-                                if (e > s) {
-                                    initialRange = [s, e];
-                                    currentBarCount = Math.round(e - s);
-                                }
-                            }
-                        } catch(e) {}
+                if (savedStartTime && savedEndTime) {
+                    let sIdx = timeToIdx[savedStartTime] !== undefined ? timeToIdx[savedStartTime] : findClosestTimeIdx(times, savedStartTime);
+                    let eIdx = timeToIdx[savedEndTime] !== undefined ? timeToIdx[savedEndTime] : findClosestTimeIdx(times, savedEndTime);
+
+                    if (eIdx > sIdx) {
+                        initialRange = [sIdx, eIdx];
+                        currentBarCount = Math.round(eIdx - sIdx);
+                        restored = true;
+                    }
+                }
+
+                // 2. 保存された日時がない場合（初回起動時や年月手動変更時）：選択月の末尾を右端に表示
+                if (!restored) {
+                    const year = document.getElementById('yearSelect').value;
+                    const month = document.getElementById('monthSelect').value;
+                    let targetPrefix = `${year}-${month}`;
+                    
+                    let mIndices = [];
+                    times.forEach((t, i) => {
+                        if (t.startsWith(targetPrefix)) {
+                            mIndices.push(i);
+                        }
+                    });
+
+                    if (mIndices.length > 0) {
+                        let sIdx = mIndices[0];
+                        let eIdx = mIndices[mIndices.length - 1];
+                        let span = Math.min(currentBarCount, eIdx - sIdx);
+                        initialRange = [Math.max(0, eIdx - span), eIdx];
+                        currentBarCount = Math.round(initialRange[1] - initialRange[0]);
                     }
                 }
             }
 
             // 初期表示範囲に基づいた動的目盛りを計算
             let initialTicks = getDynamicTicks(times, initialRange);
+
+            // 17:00〜24:00（実トレード時間帯）の背景網掛けシェープを生成
+            let sessionShapes = generateTradeSessionShapes(times);
 
             let win_x = [], win_y = [];
             let lose_x = [], lose_y = [];
@@ -1329,6 +1444,7 @@
                 hovermode: 'x',
                 plot_bgcolor: '#000000',
                 paper_bgcolor: '#121212',
+                shapes: sessionShapes,
                 xaxis: { 
                     type: 'category', 
                     range: initialRange, 
@@ -1426,7 +1542,14 @@
                         let xrange = gd._fullLayout.xaxis.range;
                         if (xrange) {
                             currentBarCount = Math.max(10, Math.round(xrange[1] - xrange[0]));
-                            localStorage.setItem('fx_last_xaxis_range', JSON.stringify(xrange));
+                            
+                            // 表示中の両端の日時文字列を正確に保存する
+                            let sIdxInt = Math.max(0, Math.min(Math.round(xrange[0]), fullData.times.length - 1));
+                            let eIdxInt = Math.max(0, Math.min(Math.round(xrange[1]), fullData.times.length - 1));
+                            if (fullData.times[sIdxInt] && fullData.times[eIdxInt]) {
+                                localStorage.setItem('fx_last_start_time', fullData.times[sIdxInt]);
+                                localStorage.setItem('fx_last_end_time', fullData.times[eIdxInt]);
+                            }
 
                             updateSelectorsFromChartCenter(xrange);
 
